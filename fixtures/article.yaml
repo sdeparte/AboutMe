@@ -1,0 +1,12 @@
+App\Entity\Article:
+  article_1:
+    title: "symfony c'est cool"
+    description: "super cool !"
+    created_at: "<time()>"
+    user: "@user_1"
+
+  article_{2..5}:
+    title: "<title()>"
+    description: "<sentence()>"
+    created_at: "<time()>"
+    user: "@user_<current()>"
