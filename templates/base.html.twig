@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fr">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('bootstrap') }}
+            {{ encore_entry_link_tags('fontawesome') }}
+            {{ encore_entry_link_tags('homepage') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('bootstrap') }}
+            {{ encore_entry_script_tags('homepage') }}
+            {{ encore_entry_script_tags('computer') }}
+            {{ encore_entry_script_tags('smartphone') }}
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% include 'menu.html.twig' %}
+
+        {% block content %}{% endblock %}
     </body>
 </html>

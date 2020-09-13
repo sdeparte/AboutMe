@@ -5,9 +5,90 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="JxbR5yp" resname="app.articles.title">
-        <source>app.articles.title</source>
-        <target>Last articles</target>
+      <trans-unit id="title_accueil">
+        <source>title.accueil</source>
+        <target>Home</target>
+      </trans-unit>
+
+      <trans-unit id="title_technologies">
+        <source>title.technologies</source>
+        <target>Technologies</target>
+      </trans-unit>
+      <trans-unit id="title_languages_de_developpements">
+        <source>title.languages.de.developpements</source>
+        <target>Development languages</target>
+      </trans-unit>
+      <trans-unit id="title_environnements_systemes_expoitations">
+        <source>title.environnements.systemes.expoitations</source>
+        <target>Environments / Operating systems</target>
+      </trans-unit>
+
+      <trans-unit id="title_realisations">
+        <source>title.realisations</source>
+        <target>Creations</target>
+      </trans-unit>
+      <trans-unit id="title_applications_bureautiques">
+        <source>title.applications.bureautiques</source>
+        <target>Office applications</target>
+      </trans-unit>
+      <trans-unit id="title_applications_mobiles">
+        <source>title.applications.mobiles</source>
+        <target>Mobile applications</target>
+      </trans-unit>
+      <trans-unit id="title_applications_sites_web">
+        <source>title.applications.sites.web</source>
+        <target>Applications / Websites</target>
+      </trans-unit>
+      <trans-unit id="title_creations_graphiques">
+        <source>title.creations.graphiques</source>
+        <target>Graphic creations</target>
+      </trans-unit>
+      <trans-unit id="txt_x_realisations">
+        <source>txt.x.realisation</source>
+        <target>%count% creations</target>
+      </trans-unit>
+
+      <trans-unit id="title_presentation">
+        <source>title.presentation</source>
+        <target>Presentation</target>
+      </trans-unit>
+
+      <trans-unit id="home_developpeur">
+        <source>home.developpeur</source>
+        <target>Developer</target>
+      </trans-unit>
+      <trans-unit id="home_de_vos">
+        <source>home.de.vos</source>
+        <target>of your</target>
+      </trans-unit>
+      <trans-unit id="home_idees">
+        <source>home.idees</source>
+        <target>ideas</target>
+      </trans-unit>
+      <trans-unit id="home_envies">
+        <source>home.envies</source>
+        <target>desires</target>
+      </trans-unit>
+      <trans-unit id="home_reves">
+        <source>home.reves</source>
+        <target>dreams</target>
+      </trans-unit>
+      <trans-unit id="home_besoins">
+        <source>home.besoins</source>
+        <target>needs</target>
+      </trans-unit>
+      <trans-unit id="home_projets">
+        <source>home.projets</source>
+        <target>projects</target>
+      </trans-unit>
+
+      <trans-unit id="btn_en_savoir_plus">
+        <source>btn.en.savoir.plus</source>
+        <target>See more</target>
+      </trans-unit>
+      <trans-unit id="btn_voir_les_realisations">
+        <source>btn.voir.les.realisations</source>
+        <target>See the creations</target>
       </trans-unit>
     </body>
   </file>

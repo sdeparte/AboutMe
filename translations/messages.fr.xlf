@@ -5,9 +5,90 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="JxbR5yp" resname="app.articles.title">
-        <source>app.articles.title</source>
-        <target>Les derniers articles</target>
+      <trans-unit id="title_accueil">
+        <source>title.accueil</source>
+        <target>Accueil</target>
+      </trans-unit>
+
+      <trans-unit id="title_technologies">
+        <source>title.technologies</source>
+        <target>Technologies</target>
+      </trans-unit>
+      <trans-unit id="title_languages_de_developpements">
+        <source>title.languages.de.developpements</source>
+        <target>Languages de développements</target>
+      </trans-unit>
+      <trans-unit id="title_environnements_systemes_expoitations">
+        <source>title.environnements.systemes.expoitations</source>
+        <target>Environnements / Systèmes d'exploitations</target>
+      </trans-unit>
+
+      <trans-unit id="title_realisations">
+        <source>title.realisations</source>
+        <target>Réalisations</target>
+      </trans-unit>
+      <trans-unit id="title_applications_bureautiques">
+        <source>title.applications.bureautiques</source>
+        <target>Applications bureautiques</target>
+      </trans-unit>
+      <trans-unit id="title_applications_mobiles">
+        <source>title.applications.mobiles</source>
+        <target>Applications mobiles</target>
+      </trans-unit>
+      <trans-unit id="title_applications_sites_web">
+        <source>title.applications.sites.web</source>
+        <target>Applications / sites web</target>
+      </trans-unit>
+      <trans-unit id="title_creations_graphiques">
+        <source>title.creations.graphiques</source>
+        <target>Créations graphiques</target>
+      </trans-unit>
+      <trans-unit id="txt_x_realisations">
+        <source>txt.x.realisation</source>
+        <target>%count% réalisations</target>
+      </trans-unit>
+
+      <trans-unit id="title_presentation">
+        <source>title.presentation</source>
+        <target>Présentation</target>
+      </trans-unit>
+
+      <trans-unit id="home_developpeur">
+        <source>home.developpeur</source>
+        <target>Développeur</target>
+      </trans-unit>
+      <trans-unit id="home_de_vos">
+        <source>home.de.vos</source>
+        <target>de vos</target>
+      </trans-unit>
+      <trans-unit id="home_idees">
+        <source>home.idees</source>
+        <target>idées</target>
+      </trans-unit>
+      <trans-unit id="home_envies">
+        <source>home.envies</source>
+        <target>envies</target>
+      </trans-unit>
+      <trans-unit id="home_reves">
+        <source>home.reves</source>
+        <target>rêves</target>
+      </trans-unit>
+      <trans-unit id="home_besoins">
+        <source>home.besoins</source>
+        <target>besoins</target>
+      </trans-unit>
+      <trans-unit id="home_projets">
+        <source>home.projets</source>
+        <target>projets</target>
+      </trans-unit>
+
+      <trans-unit id="btn_en_savoir_plus">
+        <source>btn.en.savoir.plus</source>
+        <target>En savoir plus</target>
+      </trans-unit>
+      <trans-unit id="btn_voir_les_realisations">
+        <source>btn.voir.les.realisations</source>
+        <target>Voir les réalisations</target>
       </trans-unit>
     </body>
   </file>

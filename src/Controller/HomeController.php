@@ -10,26 +10,28 @@ use Symfony\Component\Routing\Annotation\Route;
 class HomeController extends AbstractController
 {
     /**
-     * @Route("/home", name="home")
+     * @Route(
+     *     "/{_locale}",
+     *     name="homepage",
+     *     defaults={"_locale": "fr"},
+     *     requirements={"_locale": "en|fr"}
+     * )
      */
     public function index()
     {
-        return $this->render('home/index.html.twig', [
-            'controller_name' => 'HomeController',
-        ]);
+        return $this->render('index.html.twig');
     }
 
     /**
-     * @Route("/{_locale}/articles", name="articles", requirements={"_locale":".{2}"})
+     * @Route(
+     *     "/{_locale}/technologies",
+     *     name="technologies",
+     *     defaults={"_locale": "fr"},
+     *     requirements={"_locale": "en|fr"}
+     * )
      */
-    public function articles(ArticleManager $articleManager)
+    public function technologies()
     {
-        $articles = $articleManager->getLast10Articles();
-        $env = $articleManager->getEnv();
-
-        return $this->render('articles.html.twig', [
-            'articles' => $articles,
-            'env' => $env,
-        ]);
+        return $this->render('technologies.html.twig');
     }
 }
