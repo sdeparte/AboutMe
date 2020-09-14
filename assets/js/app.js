@@ -1,66 +1,11 @@
+import './menu';
+
 import '../css/app.css';
 
 import $ from 'jquery';
 
 $( document ).ready(function() {
-    var shadow = $('#full-shadow');
-    var items = $('.navbar .navbar-nav>.nav-item>.nav-link');
-
-    items.click(function(){
-        var element = $(this).parent('.nav-item')
-        var wasActive = element.hasClass('active');
-
-        $.each(items, function(){
-            var element = $(this).parent('.nav-item')
-
-            element.removeClass('active');
-        });
-
-        if (!wasActive) {
-            element.addClass('active');
-        }
-
-        if (element.hasClass('has-children')) {
-            if (element.hasClass('active') && !shadow.hasClass('shown')) {
-                shadow.addClass('shown');
-            } else if (!element.hasClass('active') && shadow.hasClass('shown')) {
-                shadow.removeClass('shown');
-            }
-        } else {
-            shadow.removeClass('shown');
-        }
-    });
-
-    shadow.click(function(){
-        $.each(items, function(){
-            var element = $(this).parent('.nav-item')
-
-            element.removeClass('active');
-        });
-
-        $(this).removeClass('shown');
-    });
-
-    var arianeItems = $('#ariane>.ariane-bar');
-
-    arianeItems.click(function(){
-        $(this).toggleClass('active');
-    });
-
-    $(window).scroll(function(){
-        var a = $(".js-plugin-block");
-        var l = $(".js-plugin-blocks-container");
-
-        l.scrollTop();
-
-        $.each(a, function(){
-            var e = $(window).scrollTop()-l.offset().top;
-            var n = $(this).attr("data-intensity");
-            var i = e / n - e + "px";
-
-            $(this).css("transform","translateY(" + i + ")")
-        });
-
+    $(window).scroll(function() {
         showWhenInView();
     });
 

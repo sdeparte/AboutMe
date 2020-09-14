@@ -14,6 +14,7 @@ Encore
     .setPublicPath('/about-me/build')
     .setManifestKeyPrefix('build')
     .addEntry('homepage', './assets/js/homepage.js')
+    .addEntry('technologies', './assets/js/technologies.js')
     .addEntry('computer', './assets/js/computer.js')
     .addEntry('smartphone', './assets/js/smartphone.js')
     .addEntry('fontawesome', './assets/css/fontawesome/fontawesome.css')

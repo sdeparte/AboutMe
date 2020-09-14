@@ -2,8 +2,25 @@
 
 {% block title %}Hello HomeController!{% endblock %}
 
+{% block stylesheets %}
+    {{ parent() }}
+
+    {{ encore_entry_link_tags('technologies') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+    {{ encore_entry_script_tags('technologies') }}
+
+    <script type="text/javascript">
+        var variables = ['{{ 'home.idees'|trans }}', '{{ 'home.envies'|trans }}', '{{ 'home.reves'|trans }}', '{{ 'home.besoins'|trans }}', '{{ 'home.projets'|trans }}'];
+        var current = '{{ 'home.idees'|trans }}';
+    </script>
+{% endblock %}
+
 {% block content %}
-    {% include 'ariane.html.twig' %}
+    {% include 'ariane.html.twig' with {'titles': {'languages': 'title.languages.de.developpements'|trans, 'environnements': 'title.environnements.systemes.expoitations'|trans }} %}
 
     <div class="padding-navbar"></div>
 

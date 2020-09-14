@@ -1,4 +1,7 @@
 import './app';
+import './bubbles';
+
+import '../css/homepage.css';
 
 import $ from 'jquery';
 
@@ -6,7 +9,7 @@ var sens = -1;
 var wait = 20;
 
 $( document ).ready(function() {
-    setInterval(function(){
+    setInterval(function() {
         if (wait > 0) {
             wait--;
         } else {

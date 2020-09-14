@@ -2,8 +2,18 @@
 
 {% block title %}Hello HomeController!{% endblock %}
 
+{% block stylesheets %}
+    {{ parent() }}
+
+    {{ encore_entry_link_tags('homepage') }}
+{% endblock %}
+
 {% block javascripts %}
     {{ parent() }}
+
+    {{ encore_entry_script_tags('homepage') }}
+    {{ encore_entry_script_tags('computer') }}
+    {{ encore_entry_script_tags('smartphone') }}
 
     <script type="text/javascript">
         var variables = ['{{ 'home.idees'|trans }}', '{{ 'home.envies'|trans }}', '{{ 'home.reves'|trans }}', '{{ 'home.besoins'|trans }}', '{{ 'home.projets'|trans }}'];
