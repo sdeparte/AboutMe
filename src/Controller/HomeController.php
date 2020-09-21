@@ -34,4 +34,24 @@ class HomeController extends AbstractController
     {
         return $this->render('technologies.html.twig');
     }
+
+    /**
+     * @Route(
+     *     "/{_locale}/realisations",
+     *     name="realisations",
+     *     defaults={"_locale": "fr"},
+     *     requirements={"_locale": "en|fr"}
+     * )
+     */
+    public function realisations()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $repository = $em->getRepository('App:Creation');
+        $listCreations = $repository->findAll();
+
+        return $this->render(
+            'realisations.html.twig',
+            ['listCreations' => $listCreations]
+        );
+    }
 }

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+.list-realisations {
+    margin: 0px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: -moz-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.list-realisations > .one-realisation {
+    width: 25%;
+}
+
+.list-realisations > .one-realisation > a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+
+    overflow: hidden;
+    /*border-radius: 5px;
+    margin: 15px;*/
+
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .05);
+    box-shadow:0 0 10px rgba(0, 0, 0, .05);
+
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.list-realisations > .one-realisation > a:hover {
+    -webkit-box-shadow:0 0 20px rgba(0, 0, 0, .1);
+    box-shadow:0 0 20px rgba(0, 0, 0, .1);
+}
+
+.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-name,
+.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-intro,
+.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-type {
+    color: white !important;
+}
+
+.list-realisations > .one-realisation > a:before {
+    content: '';
+    display: block;
+    padding-bottom: 75%;
+}
+
+.list-realisations > .one-realisation > a > .inner {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    z-index: 3;
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: -moz-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations > .one-realisation:hover > a > .inner {
+    transform: matrix(1, 0, 0, 1, 0, -60);
+}
+
+.list-realisations .one-realisation > a > .inner > .realisation-type {
+    display: block;
+    font-family: "Libre Baskerville", serif;
+    font-size: 100%;
+    margin-bottom: 10px;
+
+    -webkit-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations .one-realisation > a > .inner > .realisation-name,
+.list-realisations .one-realisation > a > .inner > .realisation-intro {
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Gilroy", sans-serif;
+    margin: 0px;
+    max-width: 80%;
+
+    -webkit-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations .one-realisation > a > .inner > .realisation-name {
+    font-size: 200%;
+}
+
+.list-realisations .one-realisation > a > .inner > .realisation-intro {
+    font-size: 175%;
+}
+
+.list-realisations .one-realisation > a > .inner > .realisation-intro {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+
+    -webkit-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), -webkit-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), -moz-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations .one-realisation > a:hover > .inner > .realisation-intro {
+    opacity: 1;
+
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    -moz-transition: -moz-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    transition: transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+}
+
+.list-realisations > .one-realisation > a > .realisation-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    -webkit-transform: translateY(135%) skewY(25deg);
+    -moz-transform: translateY(135%) skewY(25deg);
+    -ms-transform: translateY(135%) skewY(25deg);
+    -o-transform: translateY(135%) skewY(25deg);
+    transform: translateY(135%) skewY(25deg);
+
+    -webkit-transition: -webkit-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    -moz-transition: -moz-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    transition: transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+}
+
+.list-realisations > .one-realisation > a:hover > .realisation-color {
+    transform: translateY(0%) skewY(0deg);
+    -webkit-transform: translateY(0%) skewY(0deg);
+    -moz-transform: translateY(0%) skewY(0deg);
+    -ms-transform: translateY(0%) skewY(0deg);
+    -o-transform: translateY(0%) skewY(0deg);
+    transform: translateY(0%) skewY(0deg);
+
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: -moz-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.list-realisations > .one-realisation > a > .realisation-visuel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*opacity: 0;*/
+
+    -webkit-transition: -webkit-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
+    -moz-transition: -moz-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
+    transition: transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@media (max-width: 1199.98px) {
+    .list-realisations > .one-realisation {
+        width: 33.3333%;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .list-realisations > .one-realisation {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .list-realisations > .one-realisation {
+        width: 100%;
+    }
+}

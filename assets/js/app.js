@@ -35,7 +35,7 @@ function showWhenInView() {
 
     $.each(arianeItems, function () {
         if (isShowInView(window, this)) {
-            $('#ariane>.ariane-bar>.sd-ariane-title>.sd-text').html($('h5', $(this)).html());
+            $('#ariane>.ariane-bar>.sd-ariane-title>.sd-text').html($('.sd-section-title>.html-content', $(this)).html());
         }
     });
 }

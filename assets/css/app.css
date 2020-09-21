@@ -82,14 +82,19 @@ img{
 .sd-ciel-outer{
     position: relative;
     z-index: 3;
-    background-image:url('../imgs/bas-blanc.png');
-    background-position:center bottom;
+    background-image: url('../imgs/bas-blanc.png');
+    background-position: center bottom;
 }
 
 .sd-section-title{
-    margin-bottom:40px;
-    font-size:50px;
-    color:#bc3838;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #bc3838;
+}
+
+.sd-section-title.full{
+    font-size: 40px;
+    border-bottom: 1px solid #bc3838;
 }
 
 .sprite{
@@ -104,12 +109,17 @@ img{
     transform: skewY(-5deg);
 }
 
-.sprite.shadow{
+.shadow{
     -webkit-box-shadow:0 0 20px rgba(0, 0, 0, .1);
     box-shadow:0 0 20px rgba(0, 0, 0, .1);
 }
 
-.sprite.shadow-top{
+.shadow-top{
+    -webkit-box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
+    box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
+}
+
+.shadow-bottom{
     -webkit-box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
     box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
 }
@@ -143,14 +153,6 @@ img{
     margin-right: 10px;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
     box-shadow: 0 0 5px rgba(0, 0, 0, .05);
-}
-
-.dev-plugin.float-left{
-    margin-left: -21px;
-}
-
-.dev-plugin.float-right{
-    margin-right: -21px;
 }
 
 .dev-plugin.big-circle{
@@ -345,7 +347,7 @@ img{
 }
 
 .bg-gray{
-    background-color: #ecf0f1;
+    background-color: #fefefe;
 }
 
 .bg-flat{

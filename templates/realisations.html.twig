@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+    {{ encore_entry_link_tags('realisations') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+    {{ encore_entry_script_tags('technologies') }}
+
+    <script type="text/javascript">
+        var variables = ['{{ 'home.idees'|trans }}', '{{ 'home.envies'|trans }}', '{{ 'home.reves'|trans }}', '{{ 'home.besoins'|trans }}', '{{ 'home.projets'|trans }}'];
+        var current = '{{ 'home.idees'|trans }}';
+    </script>
+{% endblock %}
+
+{% block content %}
+    {% include 'ariane.html.twig' with {'titles': {'languages': 'title.languages.de.developpements'|trans, 'environnements': 'title.environnements.systemes.expoitations'|trans }} %}
+
+    <div class="padding-navbar"></div>
+
+    <div class="100-vh bg-white clearfix">
+        <ul class="list-realisations">
+            {% for creation in listCreations %}
+                <li class="one-realisation" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <a href="#" data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
+                        <div class="inner">
+                            <span class="realisation-type" style="color:{{ creation.typeColor }}">
+                                {{ creation.type }}
+                            </span>
+                            <h3 class="realisation-name" style="color:{{ creation.color }}">
+                                {{ creation.titleFrench }}
+                            </h3>
+                            <p class="realisation-intro" style="color:{{ creation.hoverColor }}">
+                                {{ creation.subTitleFrench }}
+                            </p>
+                        </div>
+                        <div class="realisation-color" style="background-color:{{ creation.backgroundColor }}"></div>
+                        <div class="realisation-visuel lazyloaded" style="background-image: url({{ asset("realisations/" ~ creation.vignette.linkFrench) }});"></div>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
