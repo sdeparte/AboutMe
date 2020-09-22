@@ -29,19 +29,19 @@
             {% for creation in listCreations %}
                 <li class="one-realisation" style="transform: matrix(1, 0, 0, 1, 0, 0);">
                     <a href="#" data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
-                        <div class="inner">
-                            <span class="realisation-type" style="color:{{ creation.typeColor }}">
-                                {{ creation.type }}
+                        <div class="inner {{ creation.hoverColor }}">
+                            <span class="realisation-type" style="color:{{ creation.color }}">
+                                {{ creation.typeKey }}
                             </span>
                             <h3 class="realisation-name" style="color:{{ creation.color }}">
-                                {{ creation.titleFrench }}
+                                {{ creation.titleKey }}
                             </h3>
-                            <p class="realisation-intro" style="color:{{ creation.hoverColor }}">
-                                {{ creation.subTitleFrench }}
+                            <p class="realisation-intro" style="color:{{ creation.color }}">
+                                {{ creation.subTitleKey }}
                             </p>
                         </div>
                         <div class="realisation-color" style="background-color:{{ creation.backgroundColor }}"></div>
-                        <div class="realisation-visuel lazyloaded" style="background-image: url({{ asset("realisations/" ~ creation.vignette.linkFrench) }});"></div>
+                        <div class="realisation-visuel lazyloaded" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, .5)), url({{ asset("realisations/" ~ creation.vignette.url) }});"></div>
                     </a>
                 </li>
             {% endfor %}

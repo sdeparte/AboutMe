@@ -53,10 +53,16 @@
     box-shadow:0 0 20px rgba(0, 0, 0, .1);
 }
 
-.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-name,
-.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-intro,
-.list-realisations > .one-realisation > a:not(:hover) > .inner > .realisation-type {
+.list-realisations > .one-realisation > a:hover > .inner.white > .realisation-name,
+.list-realisations > .one-realisation > a:hover > .inner.white > .realisation-intro,
+.list-realisations > .one-realisation > a:hover > .inner.white > .realisation-type {
     color: white !important;
+}
+
+.list-realisations > .one-realisation > a:hover > .inner.black > .realisation-name,
+.list-realisations > .one-realisation > a:hover > .inner.black > .realisation-intro,
+.list-realisations > .one-realisation > a:hover > .inner.black > .realisation-type {
+    color: black !important;
 }
 
 .list-realisations > .one-realisation > a:before {
@@ -68,8 +74,9 @@
 .list-realisations > .one-realisation > a > .inner {
     position: absolute;
     bottom: 40px;
-    left: 40px;
-    right: 40px;
+    left: 0px;
+    right: 0px;
+    padding: 0 40px;
     z-index: 3;
 
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -85,7 +92,6 @@
 
 .list-realisations .one-realisation > a > .inner > .realisation-type {
     display: block;
-    font-family: "Libre Baskerville", serif;
     font-size: 100%;
     margin-bottom: 10px;
 
@@ -113,11 +119,9 @@
 
 .list-realisations .one-realisation > a > .inner > .realisation-intro {
     font-size: 175%;
-}
-
-.list-realisations .one-realisation > a > .inner > .realisation-intro {
     position: absolute;
-    left: 0;
+    left: 40px;
+
     top: 100%;
     opacity: 0;
 
@@ -185,9 +189,9 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
     /*opacity: 0;*/
 
     -webkit-transition: -webkit-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
