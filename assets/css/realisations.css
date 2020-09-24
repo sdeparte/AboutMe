@@ -118,11 +118,10 @@
 }
 
 .list-realisations .one-realisation > a > .inner > .realisation-intro {
-    font-size: 175%;
     position: absolute;
     left: 40px;
 
-    top: 100%;
+    top: calc(100% + 10px);
     opacity: 0;
 
     -webkit-transform: translateY(30%);
@@ -137,7 +136,7 @@
 }
 
 .list-realisations .one-realisation > a:hover > .inner > .realisation-intro {
-    opacity: 1;
+    opacity: 0.8;
 
     -webkit-transform: translateY(0%);
     -moz-transform: translateY(0%);

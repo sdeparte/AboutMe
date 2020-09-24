@@ -31,13 +31,13 @@
                     <a href="#" data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
                         <div class="inner {{ creation.hoverColor }}">
                             <span class="realisation-type" style="color:{{ creation.color }}">
-                                {{ creation.typeKey }}
+                                {{ creation.typeKey|trans }}
                             </span>
                             <h3 class="realisation-name" style="color:{{ creation.color }}">
-                                {{ creation.titleKey }}
+                                {{ creation.titleKey|trans }}
                             </h3>
                             <p class="realisation-intro" style="color:{{ creation.color }}">
-                                {{ creation.subTitleKey }}
+                                {{ creation.subTitleKey|trans }}
                             </p>
                         </div>
                         <div class="realisation-color" style="background-color:{{ creation.backgroundColor }}"></div>

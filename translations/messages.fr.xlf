@@ -90,6 +90,231 @@
         <source>btn.voir.les.realisations</source>
         <target>Voir les réalisations</target>
       </trans-unit>
+
+      <trans-unit id="title_pixDrive">
+        <source>title.pixDrive</source>
+        <target>PixDrive</target>
+      </trans-unit>
+      <trans-unit id="subtitle_pixDrive">
+        <source>subtitle.pixDrive</source>
+        <target>Drive permettant de stocker / partager vos photos.</target>
+      </trans-unit>
+
+      <trans-unit id="title_maCollec">
+        <source>title.maCollec</source>
+        <target>Ma Collec'</target>
+      </trans-unit>
+      <trans-unit id="subtitle_maCollec">
+        <source>subtitle.maCollec</source>
+        <target>Application communautaire de gestion de collections.</target>
+      </trans-unit>
+
+      <trans-unit id="title_workoutManager">
+        <source>title.workoutManager</source>
+        <target>Workout Manager</target>
+      </trans-unit>
+      <trans-unit id="subtitle_workoutManager">
+        <source>subtitle.workoutManager</source>
+        <target>Application de gestion d'entraînements (musculation / course / vélo).</target>
+      </trans-unit>
+
+      <trans-unit id="title_casteCrashers">
+        <source>title.casteCrashers</source>
+        <target>Castle Crashers</target>
+      </trans-unit>
+      <trans-unit id="subtitle_casteCrashers">
+        <source>subtitle.casteCrashers</source>
+        <target>Petit jeu d'Action-RPG en ligne.</target>
+      </trans-unit>
+
+      <trans-unit id="title_curriculumVitae">
+        <source>title.curriculumVitae</source>
+        <target>CV - Sylvain DEPARTE</target>
+      </trans-unit>
+      <trans-unit id="subtitle_curriculumVitae">
+        <source>subtitle.curriculumVitae</source>
+        <target>Site vitrine de mes projets informatiques et graphiques.</target>
+      </trans-unit>
+
+      <trans-unit id="title_libertySocial">
+        <source>title.libertySocial</source>
+        <target>Liberty Social</target>
+      </trans-unit>
+      <trans-unit id="subtitle_libertySocial">
+        <source>subtitle.libertySocial</source>
+        <target>Agrégateur de réseaux sociaux (Facebook, Instagram, Twitter, Tumblr, Google+).</target>
+      </trans-unit>
+
+      <trans-unit id="title_japanCulture">
+        <source>title.japanCulture</source>
+        <target>Japan'Culture</target>
+      </trans-unit>
+      <trans-unit id="subtitle_japanCulture">
+        <source>subtitle.japanCulture</source>
+        <target>Organition de l'évenement / Création des éléments de communications (Logo, Flyers et Site web).</target>
+      </trans-unit>
+
+      <trans-unit id="title_prescribMe">
+        <source>title.prescribMe</source>
+        <target>Prescrib'Me</target>
+      </trans-unit>
+      <trans-unit id="subtitle_prescribMe">
+        <source>subtitle.prescribMe</source>
+        <target>Application permettant aux kinésithérapeutes de générer des PDF de prescriptions d'exercices.</target>
+      </trans-unit>
+
+      <trans-unit id="title_erp">
+        <source>title.erp</source>
+        <target>ERP</target>
+      </trans-unit>
+      <trans-unit id="subtitle_erp">
+        <source>subtitle.erp</source>
+        <target>Application web de gestion d'entreprise.</target>
+      </trans-unit>
+
+      <trans-unit id="title_currentView">
+        <source>title.currentView</source>
+        <target>Current View</target>
+      </trans-unit>
+      <trans-unit id="subtitle_currentView">
+        <source>subtitle.currentView</source>
+        <target>Application bureautique et mobile de visualisation de consomation énergetique.</target>
+      </trans-unit>
+
+      <trans-unit id="title_ausyUniversity">
+        <source>title.ausyUniversity</source>
+        <target>Ausy University</target>
+      </trans-unit>
+      <trans-unit id="subtitle_ausyUniversity">
+        <source>subtitle.ausyUniversity</source>
+        <target>Site permettant à l'entreprise la création de questionnaires pour tester les compétences des collaborateurs.</target>
+      </trans-unit>
+
+      <trans-unit id="title_myWish">
+        <source>title.myWish</source>
+        <target>My Wish</target>
+      </trans-unit>
+      <trans-unit id="subtitle_myWish">
+        <source>subtitle.myWish</source>
+        <target>Site web permettant le partage de vos liste de souhait avec vos proches.</target>
+      </trans-unit>
+
+      <trans-unit id="title_nxtProject">
+        <source>title.nxtProject</source>
+        <target>NXT Project</target>
+      </trans-unit>
+      <trans-unit id="subtitle_nxtProject">
+        <source>subtitle.nxtProject</source>
+        <target>Application de pilotage de robot NXT avec le gyroscope du smartphone.</target>
+      </trans-unit>
+
+      <trans-unit id="title_mangaNews">
+        <source>title.mangaNews</source>
+        <target>Manga News Mobile</target>
+      </trans-unit>
+      <trans-unit id="subtitle_mangaNews">
+        <source>subtitle.mangaNews</source>
+        <target>A rédiger</target>
+      </trans-unit>
+
+      <trans-unit id="title_milleniumServer">
+        <source>title.milleniumServer</source>
+        <target>Millenium Server Tools</target>
+      </trans-unit>
+      <trans-unit id="subtitle_milleniumServer">
+        <source>subtitle.milleniumServer</source>
+        <target>A rédiger</target>
+      </trans-unit>
+
+      <trans-unit id="title_ticketLib">
+        <source>title.ticketLib</source>
+        <target>TicketLib</target>
+      </trans-unit>
+      <trans-unit id="subtitle_ticketLib">
+        <source>subtitle.ticketLib</source>
+        <target>Application de vérification de tickets.</target>
+      </trans-unit>
+
+      <trans-unit id="title_universalRemote">
+        <source>title.universalRemote</source>
+        <target>Universal Remote</target>
+      </trans-unit>
+      <trans-unit id="subtitle_universalRemote">
+        <source>subtitle.universalRemote</source>
+        <target>Application (accompagnée d'un module Arduino) permettant de remplacer toutes vos télécommandes infra-rouges.</target>
+      </trans-unit>
+
+      <trans-unit id="title_beautifulSmile">
+        <source>title.beautifulSmile</source>
+        <target>Beautiful Smile</target>
+      </trans-unit>
+      <trans-unit id="subtitle_beautifulSmile">
+        <source>subtitle.beautifulSmile</source>
+        <target>Flyer de communication.</target>
+      </trans-unit>
+
+      <trans-unit id="title_dreamLand">
+        <source>title.dreamLand</source>
+        <target>Illustration - DreamLand</target>
+      </trans-unit>
+      <trans-unit id="subtitle_dreamLand">
+        <source>subtitle.dreamLand</source>
+        <target>Flyer de communication.</target>
+      </trans-unit>
+
+      <trans-unit id="title_elpmis">
+        <source>title.elpmis</source>
+        <target>Elpmis</target>
+      </trans-unit>
+      <trans-unit id="subtitle_elpmis">
+        <source>subtitle.elpmis</source>
+        <target>CMS permettant de créer un site web rapidement et simplement.</target>
+      </trans-unit>
+
+      <trans-unit id="title_cRouvidant">
+        <source>title.cRouvidant</source>
+        <target>Christian ROUVIDANT</target>
+      </trans-unit>
+      <trans-unit id="subtitle_cRouvidant">
+        <source>subtitle.cRouvidant</source>
+        <target>A rédiger</target>
+      </trans-unit>
+
+      <trans-unit id="title_laLogeDeLilly">
+        <source>title.laLogeDeLilly</source>
+        <target>Christian ROUVIDANT</target>
+      </trans-unit>
+      <trans-unit id="subtitle_laLogeDeLilly">
+        <source>subtitle.laLogeDeLilly</source>
+        <target>Flyers de communication.</target>
+      </trans-unit>
+
+      <trans-unit id="title_sRouvidant">
+        <source>title.sRouvidant</source>
+        <target>Stephane ROUVIDANT</target>
+      </trans-unit>
+      <trans-unit id="subtitle_sRouvidant">
+        <source>subtitle.sRouvidant</source>
+        <target>A rédiger</target>
+      </trans-unit>
+
+      <trans-unit id="title_sdCreative">
+        <source>title.sdCreative</source>
+        <target>SD - Créative</target>
+      </trans-unit>
+      <trans-unit id="subtitle_sdCreative">
+        <source>subtitle.sdCreative</source>
+        <target>A rédiger</target>
+      </trans-unit>
+
+      <trans-unit id="title_taxeConsultant">
+        <source>title.taxeConsultant</source>
+        <target>Taxe Consultant</target>
+      </trans-unit>
+      <trans-unit id="subtitle_taxeConsultant">
+        <source>subtitle.taxeConsultant</source>
+        <target>A rédiger</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
