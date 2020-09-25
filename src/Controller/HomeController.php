@@ -2,8 +2,6 @@
 
 namespace App\Controller;
 
-use App\Entity\Article;
-use App\Manager\ArticleManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
