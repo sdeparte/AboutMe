@@ -11,7 +11,7 @@
 {% block javascripts %}
     {{ parent() }}
 
-    {{ encore_entry_script_tags('technologies') }}
+    {{ encore_entry_script_tags('realisations') }}
 
     <script type="text/javascript">
         var variables = ['{{ 'home.idees'|trans }}', '{{ 'home.envies'|trans }}', '{{ 'home.reves'|trans }}', '{{ 'home.besoins'|trans }}', '{{ 'home.projets'|trans }}'];
@@ -25,10 +25,10 @@
     <div class="padding-navbar"></div>
 
     <div class="100-vh bg-white clearfix">
-        <ul class="list-realisations">
+        <div class="list-realisations">
             {% for creation in listCreations %}
-                <li class="one-realisation" style="transform: matrix(1, 0, 0, 1, 0, 0);">
-                    <a href="#" data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
+                <div class="one-realisation" data-target="{{ creation.id }}" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <span data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
                         <div class="inner {{ creation.hoverColor }}">
                             <span class="realisation-type" style="color:{{ creation.color }}">
                                 {% for svg in creation.type.svgs %}
@@ -45,9 +45,17 @@
                         </div>
                         <div class="realisation-color" style="background-color:{{ creation.backgroundColor }}"></div>
                         <div class="realisation-visuel lazyloaded" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, .5)), url({{ asset("realisations/" ~ creation.vignette.url) }});"></div>
-                    </a>
-                </li>
+                        <span class="indicator"></span>
+                    </span>
+                </div>
             {% endfor %}
-        </ul>
+            {% for creation in listCreations %}
+                <div class="one-realisation-description" data-target="{{ creation.id }}">
+                    <div class="p-3">
+                        {{ creation.descriptionKey|trans }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
