@@ -29,7 +29,7 @@ class Type
     private $bigTypes;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\svg", inversedBy="types")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Svg", inversedBy="types")
      */
     private $svgs;
 

@@ -24,7 +24,7 @@ class BigType
     private $titleKey;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\type", inversedBy="bigTypes")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Type", inversedBy="bigTypes")
      */
     private $types;
 

@@ -70,7 +70,7 @@ class Creation
     private $vignette;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\type", inversedBy="creations")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Type", inversedBy="creations")
      * @ORM\JoinColumn(nullable=false)
      */
     private $type;

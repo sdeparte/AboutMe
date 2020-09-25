@@ -357,3 +357,7 @@ img{
 .gray-border-bottom{
     border-bottom: 1px solid #ccc;
 }
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
