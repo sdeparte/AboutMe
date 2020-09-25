@@ -31,7 +31,10 @@
                     <a href="#" data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
                         <div class="inner {{ creation.hoverColor }}">
                             <span class="realisation-type" style="color:{{ creation.color }}">
-                                {{ creation.typeKey|trans }}
+                                {% for svg in creation.type.svgs %}
+                                    {{ svg.svgHtml|raw }}
+                                {% endfor %}
+                                {{ creation.type.titleKey|trans }}
                             </span>
                             <h3 class="realisation-name" style="color:{{ creation.color }}">
                                 {{ creation.titleKey|trans }}

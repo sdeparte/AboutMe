@@ -49,11 +49,6 @@ class Creation
     private $hoverColor;
 
     /**
-     * @ORM\Column(type="string", length=127)
-     */
-    private $typeKey;
-
-    /**
      * @ORM\OneToMany(targetEntity="App\Entity\Image", mappedBy="creation")
      */
     private $images;
@@ -73,6 +68,12 @@ class Creation
      * @ORM\JoinColumn(nullable=false)
      */
     private $vignette;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\type", inversedBy="creations")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $type;
 
     public function __construct()
     {
@@ -154,18 +155,6 @@ class Creation
     public function setHoverColor(string $hoverColor): self
     {
         $this->hoverColor = $hoverColor;
-
-        return $this;
-    }
-
-    public function getTypeKey(): ?string
-    {
-        return $this->typeKey;
-    }
-
-    public function setTypeKey(string $typeKey): self
-    {
-        $this->typeKey = $typeKey;
 
         return $this;
     }
@@ -261,6 +250,18 @@ class Creation
     public function setVignette(Vignette $vignette): self
     {
         $this->vignette = $vignette;
+
+        return $this;
+    }
+
+    public function getType(): ?type
+    {
+        return $this->type;
+    }
+
+    public function setType(?type $type): self
+    {
+        $this->type = $type;
 
         return $this;
     }

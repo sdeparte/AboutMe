@@ -91,6 +91,57 @@
         <target>See the creations</target>
       </trans-unit>
 
+
+      <trans-unit id="text_type_siteWeb">
+        <source>text.type.siteWeb</source>
+        <target>Site web</target>
+      </trans-unit>
+      <trans-unit id="text_type_appWeb">
+        <source>text.type.appWeb</source>
+        <target>Application web</target>
+      </trans-unit>
+      <trans-unit id="text_type_jeuWeb">
+        <source>text.type.jeuWeb</source>
+        <target>Jeu web</target>
+      </trans-unit>
+      <trans-unit id="text_type_siteVitrine">
+        <source>text.type.siteVitrine</source>
+        <target>Site vitrine</target>
+      </trans-unit>
+      <trans-unit id="text_type_appAndroid">
+        <source>text.type.appAndroid</source>
+        <target>Application Android</target>
+      </trans-unit>
+      <trans-unit id="text_type_appMobileMulti_android_ios">
+        <source>text.type.appMobileMulti.android.ios</source>
+        <target>App. Mobile Android / iOS</target>
+      </trans-unit>
+      <trans-unit id="text_type_appMobileMulti_windows_android">
+        <source>text.type.appMulti.windows.android</source>
+        <target>App. Windows / Android</target>
+      </trans-unit>
+      <trans-unit id="text_type_flyer">
+        <source>text.type.flyer</source>
+        <target>Flyer</target>
+      </trans-unit>
+      <trans-unit id="text_type_illustration">
+        <source>text.type.illustration</source>
+        <target>Illustration</target>
+      </trans-unit>
+      <trans-unit id="text_type_logo">
+        <source>text.type.logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="text_type_cms">
+        <source>text.type.cms</source>
+        <target>CMS</target>
+      </trans-unit>
+      <trans-unit id="text_type_siteFlash">
+        <source>text.type.siteFlash</source>
+        <target>Site Flash</target>
+      </trans-unit>
+
+
       <trans-unit id="title_pixDrive">
         <source>title.pixDrive</source>
         <target>PixDrive</target>
