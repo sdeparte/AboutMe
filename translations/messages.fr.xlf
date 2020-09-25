@@ -372,8 +372,17 @@
         <target>Domo'Fit</target>
       </trans-unit>
       <trans-unit id="subtitle_domoFit">
-        <source>subtitle.taxedomoFit</source>
+        <source>subtitle.domoFit</source>
         <target>Application permettant de controller, via le bluetooth du smartphone, l'éclairage et le home cinéma de ma salle de sport.</target>
+      </trans-unit>
+
+      <trans-unit id="title_onigamiT">
+        <source>title.onigamiT</source>
+        <target>Onigami Team</target>
+      </trans-unit>
+      <trans-unit id="subtitle_onigamiT">
+        <source>subtitle.onigamiT</source>
+        <target>Site de partage de Scan-Trad de chapitres de mangas.</target>
       </trans-unit>
     </body>
   </file>

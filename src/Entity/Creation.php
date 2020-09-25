@@ -75,6 +75,11 @@ class Creation
      */
     private $type;
 
+    /**
+     * @ORM\Column(type="date", nullable=true)
+     */
+    private $date;
+
     public function __construct()
     {
         $this->images = new ArrayCollection();
@@ -262,6 +267,18 @@ class Creation
     public function setType(?type $type): self
     {
         $this->type = $type;
+
+        return $this;
+    }
+
+    public function getDate(): ?\DateTimeInterface
+    {
+        return $this->date;
+    }
+
+    public function setDate(\DateTimeInterface $date): self
+    {
+        $this->date = $date;
 
         return $this;
     }

@@ -366,6 +366,15 @@
         <source>subtitle.taxeConsultant</source>
         <target>A rédiger</target>
       </trans-unit>
+
+      <trans-unit id="title_onigamiT">
+        <source>title.onigamiT</source>
+        <target>Onigami Team</target>
+      </trans-unit>
+      <trans-unit id="subtitle_onigamiT">
+        <source>subtitle.onigamiT</source>
+        <target>Site de partage de Scan-Trad de chapitres de mangas.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
