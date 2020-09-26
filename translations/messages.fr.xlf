@@ -92,6 +92,63 @@
       </trans-unit>
 
 
+      <trans-unit id="text_realisation_description">
+        <source>text.realisation.description</source>
+        <target>Description :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_contact_analyse">
+        <source>text.realisation.contact.analyse</source>
+        <target>Contacts et analyses :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_analyse">
+        <source>text.realisation.analyse</source>
+        <target>Analyses :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_analyse_redaction">
+        <source>text.realisation.analyse.redaction</source>
+        <target>Analyses et rédactions :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_recherche_cablage">
+        <source>text.realisation.recherche.cablage</source>
+        <target>Recherches et câblage :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_dataBase">
+        <source>text.realisation.dataBase</source>
+        <target>Base de données :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_design">
+        <source>text.realisation.design</source>
+        <target>Design :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_creation">
+        <source>text.realisation.creation</source>
+        <target>Créations :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_conceptions_graphiques">
+        <source>text.realisation.conceptions.graphiques</source>
+        <target>Conception graphiques :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_developpement">
+        <source>text.realisation.developpement</source>
+        <target>Développements :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_tests">
+        <source>text.realisation.tests</source>
+        <target>Tests :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_documentation">
+        <source>text.realisation.documentation</source>
+        <target>Documentation :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_version_param">
+        <source>text.realisation.version.param</source>
+        <target>Version %param% :</target>
+      </trans-unit>
+      <trans-unit id="text_realisation_application_param">
+        <source>text.realisation.application.param</source>
+        <target>Application %param% :</target>
+      </trans-unit>
+
       <trans-unit id="text_type_siteWeb">
         <source>text.type.siteWeb</source>
         <target>Site web</target>
@@ -119,6 +176,10 @@
       <trans-unit id="text_type_appMobileMulti_windows_android">
         <source>text.type.appMulti.windows.android</source>
         <target>App. Windows / Android</target>
+      </trans-unit>
+      <trans-unit id="text_type_fairePart">
+        <source>text.type.fairePart</source>
+        <target>Faire part de mariage</target>
       </trans-unit>
       <trans-unit id="text_type_flyer">
         <source>text.type.flyer</source>
@@ -159,6 +220,43 @@
         <source>subtitle.maCollec</source>
         <target>Application communautaire de gestion de collections.</target>
       </trans-unit>
+      <trans-unit id="description_maCollec">
+        <source>description.maCollec</source>
+        <target>
+            Le projet consiste à développer une application permettant de gérer une collection de livres. En scannant le code-barres d’un ouvrage, l’application affiche à l’utilisateur s’il fait déjà partie de sa collection ou non. L’utilisateur peut ensuite l’ajouter ou le supprimer de celle-ci et/ou définir les informations de ce livre. Elle fournit aussi une liste de tous les livres présent dans la collection de l’utilisateur, ainsi qu’un graphique de suivit des achats de livres, par mois.<![CDATA[<br /><br />]]>
+            L’application utilise une base de données présente localement sur le Smartphone de l’utilisateur et se synchronise régulièrement avec une base de données externe.
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_maCollec_v1">
+        <source>developpement.maCollec.v1</source>
+        <target>
+            • Intégration du système de scanneur de code-barres (API Barcode Scanner)<![CDATA[<br />]]>
+            • Développement d’une interface de connexion<![CDATA[<br />]]>
+            • Développement du système de gestion de collection (vérifier si le code-barres est déjà présent dans la collection de l’utilisateur, de l’ajouter ou de le supprimer de celle-ci)<![CDATA[<br />]]>
+            • Développement du système de définition des d’informations d’un livre (titre, numéro de tome, auteur, etc.)<![CDATA[<br />]]>
+            • Développement du système de synchronisation entre la base de données local et la base de données externe<![CDATA[<br />]]>
+            • Développement du système de suivit des achats mensuel
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_maCollec_v1">
+        <source>tests.maCollec.v1</source>
+        <target>
+            • Test unitaires<![CDATA[<br />]]>
+            • Tests d’utilisations
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_maCollec_v2">
+        <source>developpement.maCollec.v2</source>
+        <target>
+
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_maCollec_v2">
+        <source>tests.maCollec.v2</source>
+        <target>
+
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_workoutManager">
         <source>title.workoutManager</source>
@@ -167,6 +265,72 @@
       <trans-unit id="subtitle_workoutManager">
         <source>subtitle.workoutManager</source>
         <target>Application de gestion d'entraînements (musculation / course / vélo).</target>
+      </trans-unit>
+      <trans-unit id="description_workoutManager">
+        <source>description.workoutManager</source>
+        <target>Le projet consiste à créer un traceur d’activité physique (marche / course à pied et vélo). L’application permet d’enregistrer son parcours, ainsi que diverses données de performances réalisés tout le long de celui-ci (tel que la vitesse, de dénivelé positif et négatif, la durée et la distance du parcours, etc.). Toutes ces informations peuvent ensuite être enregistrées sur une base de données (en local sur le smartphone), permettant à l’utilisateur de visualiser son évolution.</target>
+      </trans-unit>
+      <trans-unit id="developpement_workoutManager_v1">
+        <source>developpement.workoutManager.v1</source>
+        <target>
+            • Développement du système permettant de récupérer les données GPS<![CDATA[<br />]]>
+            • Développement du système de tracé du parcours sur une carte (via l’API Google Maps)<![CDATA[<br />]]>
+            • Développement du système de calcul de distance entre deux coordonnées GPS et déduction de la vitesse de l’utilisateur<![CDATA[<br />]]>
+            • Développement du système permettant de récupérer les informations du baromètre du smartphone (plus précis que l’altitude fournis par le GPS)<![CDATA[<br />]]>
+            • Développement du système permettant l’affichage des données en temps réel (durée et distance du parcours, vitesse actuelle et maximale, dénivelé positif et négatif, etc.)<![CDATA[<br />]]>
+            • Développement du système du système de graphiques d’évolutions de la vitesse et du dénivelé durant un parcours
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_workoutManager_v1">
+        <source>tests.workoutManager.v1</source>
+        <target>
+            • Tests unitaires<![CDATA[<br />]]>
+            • Tests d’utilisations
+        </target>
+      </trans-unit>
+      <trans-unit id="description_workoutManager_v2">
+        <source>description.workoutManager.v2</source>
+        <target>
+            Le projet consiste à développer une application permettant d’accompagner un sportif dans son entrainement de musculation ou même de vélo (d’appartement ou d’extérieur).<![CDATA[<br /><br />]]>
+            En ce qui concerne la partie entrainement de musculation, l’application permet de sauvegarder une séance pour la pratiquer de manière quasi-automatique : les exercices en durée et les temps de repos s’enchainent automatiquement ; les exercices définis en nombre de répétitions peuvent être terminées à la voie ou même via une seconde application sur une SmartWatch via un simple appui. De plus, l’application communique au pratiquant les temps restants d’exercices et/ou de temps de repos.<![CDATA[<br /><br />]]>
+            En ce qui concerne la partie vélo, elle permet de visualiser sa cadence de pédalage ainsi que sa vitesse effective en temps réel, ainsi que leur évolution dans le temps (à condition de connecter un capteur de cadence et de vitesse).<![CDATA[<br /><br />]]>
+            Les deux modes permettent de visualiser sa fréquence cardiaque en temps réel, ainsi que son évolution dans le temps (à condition de connecter un capteur de fréquence cardiaque).
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_workoutManager_v2">
+        <source>developpement.workoutManager.v2</source>
+        <target>
+            • Développement du système de connexion et récupération des données des différents capteurs (Bluetooth Smart 4.0)<![CDATA[<br />]]>
+            • Développement du système de communication avec le pratiquant (l’application parle et écoute)<![CDATA[<br />]]>
+            • Développement du système de création et de sauvegarde de séances de musculations<![CDATA[<br />]]>
+            • Développement du système d’ordonnancement automatique des exercices d’une séance<![CDATA[<br />]]>
+            • Développement d’une application annexe pour SmartWatch permettant aussi de contrôler la séance<![CDATA[<br />]]>
+            • Développement de la connexion et de la synchronisation avec l’application tournant sur la SmartWatch<![CDATA[<br />]]>
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_workoutManager_v2">
+        <source>tests.workoutManager.v2</source>
+        <target>
+            • Tests d’utilisations
+        </target>
+      </trans-unit>
+      <trans-unit id="description_workoutManager_v3">
+        <source>description.workoutManager.v3</source>
+        <target>
+
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_workoutManager_v3">
+        <source>developpement.workoutManager.v3</source>
+        <target>
+
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_workoutManager_v3">
+        <source>tests.workoutManager.v3</source>
+        <target>
+
+        </target>
       </trans-unit>
 
       <trans-unit id="title_casteCrashers">
@@ -177,6 +341,44 @@
         <source>subtitle.casteCrashers</source>
         <target>Petit jeu d'Action-RPG en ligne.</target>
       </trans-unit>
+      <trans-unit id="description_casteCrashers">
+        <source>description.casteCrashers</source>
+        <target>
+            Le projet consiste à créer un petit jeu en ligne. Le but du jeu est d’augmenter la puissance d’un personnage pour qu’il devienne le meilleur du serveur. Pour cela, il peut :<![CDATA[<br />]]>
+            • combattre des monstres en se déplaçant sur une carte<![CDATA[<br />]]>
+            • combattre le personnage d’autre joueurs<![CDATA[<br />]]>
+            <![CDATA[<i>PS : Le jeu ce base (et reprend le nom) sur l’univers « Castle Crashers ».</i>]]>
+        </target>
+      </trans-unit>
+      <trans-unit id="dataBase_casteCrashers.v1">
+        <source>dataBase.casteCrashers.v1</source>
+        <target>
+            • Création de la base de données du jeu
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_casteCrashers.v1">
+        <source>developpement.casteCrashers.v1</source>
+        <target>
+            • Conception de l’interface de gestion du personnage<![CDATA[<br />]]>
+            • Conception des cartes du monde (permettant au personnage de se déplacer)<![CDATA[<br />]]>
+            • Conception du système de combat (sous la forme d’un compte-rendu de combat)<![CDATA[<br />]]>
+            • Conception du système de récompenses (résultant d’un combat)<![CDATA[<br />]]>
+            • Conception d’un magasin d’objets et d’armes
+        </target>
+      </trans-unit>
+      <trans-unit id="description_casteCrashers.v2">
+        <source>description.casteCrashers.v2</source>
+        <target>La deuxieme version du jeu est une refonte total du sytème de combats. En effet, il est désormais possible de voir son personnage se battre contre un ou plusieurs monstre(s) via une « animation » Flash.</target>
+      </trans-unit>
+      <trans-unit id="developpement_casteCrashers.v2">
+        <source>developpement.casteCrashers.v2</source>
+        <target>
+            • Refonte du site en Flash<![CDATA[<br />]]>
+            • Système d’utilisation des points de compétences améliorés<![CDATA[<br />]]>
+            • Conception d’un nouveau système de combat (sous la forme combat animé en Flash)<![CDATA[<br />]]>
+            • Ajout de nouveaux objets et de nouvelles armes
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_curriculumVitae">
         <source>title.curriculumVitae</source>
@@ -185,6 +387,36 @@
       <trans-unit id="subtitle_curriculumVitae">
         <source>subtitle.curriculumVitae</source>
         <target>Site vitrine de mes projets informatiques et graphiques.</target>
+      </trans-unit>
+      <trans-unit id="description_curriculumVitae">
+        <source>description.curriculumVitae</source>
+        <target>Ce site internet n’est autre que mon Curriculum Vitae en ligne. Il me permet de mettre en avant mes compétences, mes différentes réalisations, ainsi que les articles de presse dans lesquels mon travail apparait. </target>
+      </trans-unit>
+      <trans-unit id="design_curriculumVitaes.v1">
+        <source>design.curriculumVitae.v1</source>
+        <target>
+            • Création des croquis du design du site
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_curriculumVitae.v1">
+        <source>developpement.curriculumVitae.v1</source>
+        <target>
+            • Développement du site<![CDATA[<br />]]>
+            • Développement d’un système de téléchargement de fichier avec aperçu du contenu
+        </target>
+      </trans-unit>
+      <trans-unit id="design_curriculumVitae.v2">
+        <source>design.curriculumVitae.v2</source>
+        <target>
+            • Création des croquis du nouveau design du site
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_curriculumVitae.v2">
+        <source>developpement.curriculumVitae.v2</source>
+        <target>
+            • Mise à jour du site avec le nouveau design<![CDATA[<br />]]>
+            • Mise en place de diverses animations rendant le site visuellement plus dynamique
+        </target>
       </trans-unit>
 
       <trans-unit id="title_libertySocial">
@@ -195,6 +427,30 @@
         <source>subtitle.libertySocial</source>
         <target>Agrégateur de réseaux sociaux (Facebook, Instagram, Twitter, Tumblr, Google+).</target>
       </trans-unit>
+      <trans-unit id="description_libertySocial">
+        <source>description.libertySocial</source>
+        <target>Le principe du projet est de permettre aux utilisateurs de réunir leurs réseaux sociaux (Facebook, Twitter, Google+, Tumblr et Instagram) en un seul et même site. Pour l’utiliser, il suffit d’autoriser l’application sur les différents réseaux qu’ils veulent intégrer.</target>
+      </trans-unit>
+      <trans-unit id="developpement_analyse">
+        <source>analyse.libertySocial</source>
+        <target>
+            • Récupération des documentations des API des différents réseaux sociaux<![CDATA[<br />]]>
+            • Créations d’un module par réseau social permettant d’apprendre à utiliser leurs API
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_libertySocial">
+        <source>developpement.libertySocial</source>
+        <target>
+            • Développement de la page de gestion de comptes (connexion aux différents réseaux, changement de mot de passe, changement du fond d’écran du site et bug tracker)<![CDATA[<br />]]>
+            • Développement du système permettant l’affichage des différents fils d’actualités (deux affichages possibles : un bloc par réseau ou un bloc unique pour tous les réseaux sociaux trié par date de publication des éléments)<![CDATA[<br />]]>
+            • Développement des vues permettant l’affichage des profils, des albums photos et des amis / folowers de l’utilisateur<![CDATA[<br />]]>
+            • Développement du système permettant de visiter un mur (ou un profil) d’un ami / folower sans quitter le site<![CDATA[<br />]]>
+            • Développement du système de publication multi-réseaux (publier un statut ou une photo sur plusieurs réseaux en même temps)<![CDATA[<br />]]>
+            • Développement des systèmes permettant de « liker », commenter, « re-tweeter », etc. des publications ou des photos<![CDATA[<br />]]>
+            • Développement d’un système permettant d’afficher / masquer un réseau social<![CDATA[<br />]]>
+            • Intégration des « pages » Facebook dont l’utilisateur possède le droit d’administration
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_japanCulture">
         <source>title.japanCulture</source>
@@ -203,6 +459,32 @@
       <trans-unit id="subtitle_japanCulture">
         <source>subtitle.japanCulture</source>
         <target>Organition de l'évenement / Création des éléments de communications (Logo, Flyers et Site web).</target>
+      </trans-unit>
+      <trans-unit id="description_japanCulture">
+        <source>description.japanCulture</source>
+        <target>Le festival Japan’Culture est un salon consacré à la culture japonaise. Il a eu lieu les 25 et 26 mai 2013 dans la ville de Vizille. En tant que bénévole avec l’association « Leucémie Espoir 38 », mon rôle consiste à organiser le festival (gérer les exposants, les animations, etc.), créer le logo, les affiches publicitaires, le site internet.</target>
+      </trans-unit>
+      <trans-unit id="analyse_japanCulture">
+        <source>analyse.japanCulture</source>
+        <target>
+            • Définition des budgets, des coûts (salle, matériel, etc.) et des tarifs (billet d’entrée, stands exposants, etc.)<![CDATA[<br />]]>
+            • Rédaction du Cahier des Charges de l’évènement (nécessaire à certaines démarches administratives)
+        </target>
+      </trans-unit>
+      <trans-unit id="conception_graphiques_japanCulture">
+        <source>conceptions.graphiques.japanCulture</source>
+        <target>
+            • Création d’une charte graphique<![CDATA[<br />]]>
+            • Création du logo<![CDATA[<br />]]>
+            • Création des affiches publicitaires
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_japanCulture">
+        <source>developpement.japanCulture</source>
+        <target>
+            • Développement du site web<![CDATA[<br />]]>
+            • Développement d’un planning interactif (pour mettre en avant les animations du salon)
+        </target>
       </trans-unit>
 
       <trans-unit id="title_prescribMe">
@@ -216,11 +498,51 @@
 
       <trans-unit id="title_erp">
         <source>title.erp</source>
-        <target>ERP</target>
+        <target>Progiciel de Gestion Intégrée (PGI)</target>
       </trans-unit>
       <trans-unit id="subtitle_erp">
         <source>subtitle.erp</source>
-        <target>Application web de gestion d'entreprise.</target>
+        <target>Application web de gestion d'entreprise (comptabilité, factures clients, commandes fournisseurs, colaborateurs, etc.).</target>
+      </trans-unit>
+      <trans-unit id="description_erp">
+        <source>description.erp</source>
+        <target>Cette application web est un Progiciel de gestion Intégrée (PMI) à destination des PME. Il permet à ces dernières de gérer leur comptabilité, leurs clients, leurs fournisseurs, ainsi que leurs colaborateurs.</target>
+      </trans-unit>
+      <trans-unit id="dataBase_erp">
+        <source>dataBase.erp</source>
+        <target>
+            • Création de la base de données
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_erp">
+        <source>developpement.erp</source>
+        <target>
+            • Développement du système de droit d’accès<![CDATA[<br />]]>
+            • Développement d’un système de récupération des taux de changes<![CDATA[<br />]]>
+            • Développement des différentes vues (banques, commandes, factures, trésorerie, etc.)<![CDATA[<br />]]>
+            • Développement d’une vue permettant d’effectuer un prévisionnelle des dépenses et des recettes<![CDATA[<br />]]>
+            • Développement d’une vue permettant la gestion des projets (budgets, dépenses, livraisons, etc.)<![CDATA[<br />]]>
+            • Développement d’un système de filtre multicritères pour chacune des vues<![CDATA[<br />]]>
+            • Développement des différents exports (commandes, bons de livraisons, factures, etc.)<![CDATA[<br />]]>
+            • Développement des exports d’interfaçages avec le comptable (pour les paies mensuelles)<![CDATA[<br />]]>
+            • Développement du système d’importation des opérations de banques (pour chacune des banques qu’utilise la société)<![CDATA[<br />]]>
+            • Développement du système de lettrage (association des mouvements de débits / crédits avec les opérations de banques importées)<![CDATA[<br />]]>
+            • Développement du système permettant aux employés d’imputer leurs heures, d’entrer leurs notes de frais, d’effectuer des demandes de congés, etc.<![CDATA[<br />]]>
+            • Développement du système d’administration de demandes des colaborateurs<![CDATA[<br />]]>
+            • Développement du système de messagerie interne
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_erp">
+        <source>tests.erp</source>
+        <target>
+            • Tests unitaires
+        </target>
+      </trans-unit>
+      <trans-unit id="documentation_erp">
+        <source>documentation.erp</source>
+        <target>
+            • Rédaction d’une notice utilisateur
+        </target>
       </trans-unit>
 
       <trans-unit id="title_currentView">
@@ -230,6 +552,71 @@
       <trans-unit id="subtitle_currentView">
         <source>subtitle.currentView</source>
         <target>Application bureautique et mobile de visualisation de consomation énergetique.</target>
+      </trans-unit>
+      <trans-unit id="description_currentView">
+        <source>description.currentView</source>
+        <target>Le projet consiste à récupérer les informations de consommation électrique d’une habitation. Pour cela, l’application utilise un appareil (vendu dans le commerce) nommé « Current-Cost » qui permet de lire une consommation électrique via des sondes ampérométriques.</target>
+      </trans-unit>
+      <trans-unit id="description_currentView_standAlone">
+        <source>description.currentView.standAlone</source>
+        <target>Cette application était initialement le projet à réaliser en fin de dernière année de BTS, que je poursuivi par la suite. Elle permet de récupérer la consommation en temps réel de l’habitation, mais aussi de récuppérer l’historique de commation électrique depuis l’installation de l’appareil.</target>
+      </trans-unit>
+      <trans-unit id="analyse_currentView_standAlone">
+        <source>analyse.currentView.standAlone</source>
+        <target>
+            • Analyse des besoins<![CDATA[<br />]]>
+            • Rédaction du Cahier des Charges du projet
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_currentView_standAlone">
+        <source>developpement.currentView.standAlone</source>
+        <target>
+            • Développement du système d’acquisition des données en temps réel<![CDATA[<br />]]>
+            • Développement du système d’acquisition des données d’historiques de consommation (sauvegardés sur l’appareil)<![CDATA[<br />]]>
+            • Développement du système de créations de graphiques (graphiques de consommation en temps réel / graphique d’historique de consommation)
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_currentView_standAlone">
+        <source>tests.currentView.standAlone</source>
+        <target>
+            • Tests unitaires
+        </target>
+      </trans-unit>
+      <trans-unit id="documentation_currentView_standAlone">
+        <source>documentation.currentView.standAlone</source>
+        <target>
+            • Création d’un Wiki d’installation et d’utilisation
+        </target>
+      </trans-unit>
+      <trans-unit id="description_currentView_mobile">
+        <source>description.currentView.mobile</source>
+        <target>
+            Ce projet consiste à reprendre l’application precédante pour la séparrer en deux.<![CDATA[<br /><br />]]>
+            La première partie est un service qui tourne sur mon serveur personnel (qui est relier à l’appareil « Current Cost ») et enregistre toutes les valeurs de consommation des différents capteurs.<![CDATA[<br /><br />]]>
+            La deuxième est une application Android qui permet de récupérer les valeurs enrégistrés en temps réel, pour les afficher dans différents graphiques. Il est aussi possible de lui poser deux questions :<![CDATA[<br />]]>
+            • « Quel est ma consommation ? »<![CDATA[<br />]]>
+            • « Quel température fait-il ? »
+        </target>
+      </trans-unit>
+      <trans-unit id="analyse_currentView_mobile">
+        <source>analyse.currentView.mobile</source>
+        <target>
+            • Analyse des différentes pages web (pour cibler les données utiles)
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_currentView_mobile">
+        <source>developpement.currentView.mobile</source>
+        <target>
+            • Développement du système de connexion sur le site (permet de créer une SESSION sur le serveur du site)<![CDATA[<br />]]>
+            • Développement du système de scanneur de code-barres (API Barcode Scanner)<![CDATA[<br />]]>
+            • Développement du système de recherche du livre sur le site
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_currentView_mobile">
+        <source>tests.currentView.mobile</source>
+        <target>
+            • Tests unitaires
+        </target>
       </trans-unit>
 
       <trans-unit id="title_ausyUniversity">
@@ -258,6 +645,28 @@
         <source>subtitle.nxtProject</source>
         <target>Application de pilotage de robot NXT avec le gyroscope du smartphone.</target>
       </trans-unit>
+      <trans-unit id="description_nxtProject">
+        <source>description.nxtProject</source>
+        <target>Cette application n’est autre que le projet à réaliser en fin d’année de Licence Profesionnel. Elle permet de controler un robot « Lego Mindstorm » avec un smartphone Android, à l’instar d’une voiture téléguidé.</target>
+      </trans-unit>
+      <trans-unit id="analyse_nxtProject">
+        <source>analyse.nxtProject</source>
+        <target>
+            • Analyse des besoins<![CDATA[<br />]]>
+            • Rédaction du Cahier des Charges du projet
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_nxtProject">
+        <source>developpement.nxtProject</source>
+        <target>
+            •	Développement du système de connexion Bluetooth<![CDATA[<br />]]>
+            •	Développement du code permettant de récupérer les données du Gyroscope du téléphone en temps réel<![CDATA[<br />]]>
+            •	Développement du code permettant de gérer la vitesse à envoyer au robot<![CDATA[<br />]]>
+            •	Développement du système permettant de contrôler les moteurs des roues du robot (en se basant sur les données récupérées du Gyroscope du téléphone, ainsi que la vitesse pour permettre au robot d’avancer, de tourner sur lui-même et d’effectuer faire des virages)<![CDATA[<br />]]>
+            •	Développement du système permettant l’ouverture et la fermeture de la pince du robot<![CDATA[<br />]]>
+            •	Développement d’un système de « script » permettant d’effectuer des actions de manière séquentiel
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_mangaNews">
         <source>title.mangaNews</source>
@@ -265,7 +674,30 @@
       </trans-unit>
       <trans-unit id="subtitle_mangaNews">
         <source>subtitle.mangaNews</source>
-        <target>A rédiger</target>
+        <target>Application mobile permettant de gérer une collection de mangas (bandes dessinés japonaises) en utilisant le site "manganews.com".</target>
+      </trans-unit>
+      <trans-unit id="description_mangaNews">
+        <source>description.mangaNews</source>
+        <target>
+            Le projet consiste à développer une application permettant de gérer une collection de mangas (bandes dessinés japonaises) en utilisant le site « manganew.com ». Il est possible de scanner le code-barres d’un livre pour récupérer des informations sur ce dernier, mais aussi d’être informé si vous possédez ou non ce dernier.<![CDATA[<br /><br />]]>
+            L’application lie directement dans le code source de différentes pages web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
+        </target>
+      </trans-unit>
+      <trans-unit id="analyse_mangaNews">
+        <source>analyse.mangaNews</source>
+        <target>
+            • Analyse des différentes pages web (pour cibler les données utiles)
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_mangaNews">
+        <source>developpement.mangaNews</source>
+        <target>
+            • Développement du système de connexion sur le site (permet de créer une SESSION sur le serveur du site)<![CDATA[<br />]]>
+            • Développement du système de scanneur de code-barres (API Barcode Scanner)<![CDATA[<br />]]>
+            • Développement du système de recherche du livre sur le site<![CDATA[<br />]]>
+            • Développement du système d’extraction des données du livre<![CDATA[<br />]]>
+            • Développement du système d’ajout / suppression d’un livre de la collection de l’utilisateur
+        </target>
       </trans-unit>
 
       <trans-unit id="title_milleniumServer">
@@ -274,7 +706,54 @@
       </trans-unit>
       <trans-unit id="subtitle_milleniumServer">
         <source>subtitle.milleniumServer</source>
-        <target>A rédiger</target>
+        <target>Deux applications mobile permettant de récupérer des informations diverses d’un serveur privée du jeu "World Of Warcraft".</target>
+      </trans-unit>
+      <trans-unit id="description_milleniumServer">
+        <source>description.milleniumServer</source>
+        <target>
+            Ce projet consiste à créer deux outils permettant de récupérer des informations diverses d’un serveur privée (intitulé « Millenum Server ») du jeu « World Of Warcraft ».
+        </target>
+      </trans-unit>
+      <trans-unit id="description_milleniumServer.v1">
+        <source>description.milleniumServer.v1</source>
+        <target>
+            La première application permet de récupérer l’état des différents royaumes du serveurs, ainsi que leurs population. Pour ensuite calculer la charge totale d’utilisation du serveur.<![CDATA[<br /><br />]]>
+            L’application lie directement dans le code source d’une page web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
+        </target>
+      </trans-unit>
+      <trans-unit id="analyse_milleniumServer.v1">
+        <source>analyse.milleniumServer.v1</source>
+        <target>
+            • Analyse de la page web en question (pour cibler les données utiles)
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_milleniumServer.v1">
+        <source>developpement.milleniumServer.v1</source>
+        <target>
+            • Développement du système de récupération de la page web<![CDATA[<br />]]>
+            • Développement du système d’extraction des données<![CDATA[<br />]]>
+            • Calcule de la charge totale du serveur
+        </target>
+      </trans-unit>
+      <trans-unit id="description_milleniumServer.v2">
+        <source>description.milleniumServer.v2</source>
+        <target>
+            La seconde application permet de récupérer la plupart des informations sur un personnage rencontré en jeu.<![CDATA[<br />]]>
+            L’application lie directement dans le code source de différentes pages web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
+        </target>
+      </trans-unit>
+      <trans-unit id="analyse_milleniumServer.v2">
+        <source>analyse.milleniumServer.v2</source>
+        <target>
+            • Analyse des différentes pages web (pour cibler les données utiles)
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_milleniumServer.v2">
+        <source>developpement.milleniumServer.v2</source>
+        <target>
+            • Développement du système de recherche de personnages (sur chacun des royaumes du serveur)<![CDATA[<br />]]>
+            • Développement du système d’extraction des données du personnage recherché
+        </target>
       </trans-unit>
 
       <trans-unit id="title_ticketLib">
@@ -285,6 +764,26 @@
         <source>subtitle.ticketLib</source>
         <target>Application de vérification de tickets.</target>
       </trans-unit>
+      <trans-unit id="description_ticketLib">
+        <source>description.ticketLib</source>
+        <target>Cette application mobile est un système de vérification de validité de e-billets (notamment pour entrer au salon « Japan'Culture »). En association avec la billetterie en ligne « TicketLib », j’ai développé cette application Android permettant de scanner le QR-Code d'un e-billet, vérifier si celui-ci est valide, pour ensuite la sauvegarder dans une base de données (la sauvegarde permet de gérer les potentielles copies de e-billets).</target>
+      </trans-unit>
+      <trans-unit id="contact_analyse_ticketLib">
+        <source>contact.analyse.ticketLib</source>
+        <target>
+            • Prise de contact avec la société TicketLib<![CDATA[<br />]]>
+            • Récupération de leur API et de sa documentation
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_ticketLib">
+        <source>developpement.ticketLib</source>
+        <target>
+            • Création d’une base de données sur mon serveur personnel<![CDATA[<br />]]>
+            • Développement du système de validation des entrées<![CDATA[<br />]]>
+            • Développement d’un système de création / administration d’évènements<![CDATA[<br />]]>
+            • Développement d’un système de génération de billets (pour un évènement)
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_universalRemote">
         <source>title.universalRemote</source>
@@ -294,6 +793,36 @@
         <source>subtitle.universalRemote</source>
         <target>Application (accompagnée d'un module Arduino) permettant de remplacer toutes vos télécommandes infra-rouges.</target>
       </trans-unit>
+      <trans-unit id="description_universalRemote">
+        <source>description.universalRemote</source>
+        <target>
+            Ce projet consiste à créer un système de « télécommande universelle ». Pour se faire, ce dernier est composé d’une plateforme Arduino (embarquant un module Bluetooth, un récepteur et un émetteur Infrorouge) et d’une application Android permettant le contrôle de la plateforme.<![CDATA[<br /><br />]]>
+            Pour être utilisé, il suffit à l’utilisateur d’apprendre ses différentes télécommandes au système (les données sont sauvegardées sur une base de données localement sur le smartphone), pour que ce dernier reproduise l’envoi des données Infrarouge à vos appareils.
+        </target>
+      </trans-unit>
+      <trans-unit id="recherche_cablage_universalRemote">
+        <source>recherche.cablage.universalRemote</source>
+        <target>
+            • Recherche et câblage des différents éléments sur la plateforme Arduino
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_universalRemote">
+        <source>developpement.universalRemote</source>
+        <target>
+            • Développement de l’application Arduino<![CDATA[<br />]]>
+            • Intégration du système de connexion Bluetooth (projet NXT)<![CDATA[<br />]]>
+            • Développement du système de réception des données Infrarouge (via la connexion Bluetooth)<![CDATA[<br />]]>
+            • Développement du système d’émission des données Infrarouge (via la connexion Bluetooth)<![CDATA[<br />]]>
+            • Développement du système complet d’apprentissage d’une télécommande<![CDATA[<br />]]>
+            • Création de plusieurs modèles de télécommandes (avec certains boutons pouvant être renommé)<![CDATA[<br />]]>
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_universalRemote">
+        <source>tests.universalRemote</source>
+        <target>
+            • Tests unitaires
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_beautifulSmile">
         <source>title.beautifulSmile</source>
@@ -301,7 +830,7 @@
       </trans-unit>
       <trans-unit id="subtitle_beautifulSmile">
         <source>subtitle.beautifulSmile</source>
-        <target>Flyer de communication.</target>
+        <target>Création d'un flyer de communication pour la société "BEAUTIFUL SMILE".</target>
       </trans-unit>
 
       <trans-unit id="title_dreamLand">
@@ -310,7 +839,7 @@
       </trans-unit>
       <trans-unit id="subtitle_dreamLand">
         <source>subtitle.dreamLand</source>
-        <target>Flyer de communication.</target>
+        <target>Illustrations vectorielles (amateur) des personnages principaux du manga "DREAMLAND".</target>
       </trans-unit>
 
       <trans-unit id="title_elpmis">
@@ -321,6 +850,34 @@
         <source>subtitle.elpmis</source>
         <target>CMS permettant de créer un site web rapidement et simplement.</target>
       </trans-unit>
+      <trans-unit id="description_elpmis">
+        <source>description.elpmis</source>
+        <target>Ce projet consiste à créer un CMS<![CDATA[<sup>(1)</sup>]]> très simple d’utilisation. Basé sur le design de la première version de mon Curriculum Vitae, celui-ci permet créer et gérer un petit site internet. Il est possible de gérer les couleurs des différents éléments, les différents contenus à afficher, etc. via un système d’administration complet, mais qui reste très simple d’utilisation.</target>
+      </trans-unit>
+      <trans-unit id="dataBase_elpmis">
+        <source>dataBase.elpmis</source>
+        <target>
+            • Création de la base de données du CMS
+        </target>
+      </trans-unit>
+      <trans-unit id="creation_elpmis">
+        <source>creation.elpmis</source>
+        <target>
+            • Création de plusieurs thèmes<![CDATA[<br />]]>
+            • Création de feuilles de styles dynamiques (intégration de codes PHP dans une feuille de style CSS)<![CDATA[<br />]]>
+            • Création d’aides permettant la compréhension de l’effet  de chaque élément du système d’administration sur le site
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_elpmis">
+        <source>developpement.elpmis</source>
+        <target>
+            • Développement du système d’administration complet
+        </target>
+      </trans-unit>
+      <trans-unit id="legende_elpmis">
+        <source>legende.elpmis</source>
+        <target><![CDATA[<i><sup>(1)</sup> : CMS signifie Content Management system. Ce qui, transcrit en français, signifie « Système de gestion de contenu ». Ils sont destinés concevoir et à mettre à jour dynamiquement des sites Web ou des applications multimédia.</i>]]></target>
+      </trans-unit>
 
       <trans-unit id="title_cRouvidant">
         <source>title.cRouvidant</source>
@@ -328,7 +885,21 @@
       </trans-unit>
       <trans-unit id="subtitle_cRouvidant">
         <source>subtitle.cRouvidant</source>
-        <target>A rédiger</target>
+        <target>Site vitrine permettant au peintre Christian ROUVIDANT de mettre en avant ces toiles.</target>
+      </trans-unit>
+      <trans-unit id="description_cRouvidant">
+        <source>description.cRouvidant</source>
+        <target>Le site internet du peintre Christian ROUVIDANT consistait à le présenter lui, ainsi que ces œuvres. Il désirait aussi afficher les articles de presse dans lequel il apparaissait et mettre un livre d’or à disposition des utilisateurs du site.</target>
+      </trans-unit>
+      <trans-unit id="developpement_cRouvidant">
+        <source>developpement.cRouvidant</source>
+        <target>
+            • Conception du site web<![CDATA[<br />]]>
+            • Conception d’une galerie (pour présenter les œuvres du peintre)<![CDATA[<br />]]>
+            • Conception d’un système de diaporama<![CDATA[<br />]]>
+            • Conception d’un « press book » (pour afficher des articles de presse)<![CDATA[<br />]]>
+            • Conception d’un « livre d’or »
+        </target>
       </trans-unit>
 
       <trans-unit id="title_laLogeDeLilly">
@@ -337,7 +908,7 @@
       </trans-unit>
       <trans-unit id="subtitle_laLogeDeLilly">
         <source>subtitle.laLogeDeLilly</source>
-        <target>Flyers de communication.</target>
+        <target>Création d'un flyer de communication pour l'atelier de couture "La Loge de Lilly".</target>
       </trans-unit>
 
       <trans-unit id="title_sRouvidant">
@@ -346,7 +917,7 @@
       </trans-unit>
       <trans-unit id="subtitle_sRouvidant">
         <source>subtitle.sRouvidant</source>
-        <target>A rédiger</target>
+        <target>Création du logo de la société de l'EURL "ROUVIDANT STEPHANE".</target>
       </trans-unit>
 
       <trans-unit id="title_sdCreative">
@@ -355,7 +926,7 @@
       </trans-unit>
       <trans-unit id="subtitle_sdCreative">
         <source>subtitle.sdCreative</source>
-        <target>A rédiger</target>
+        <target>Site en flash montrant mes différentes réalisations et mettant à disposition un accès FTP web.</target>
       </trans-unit>
 
       <trans-unit id="title_taxeConsultant">
@@ -364,7 +935,19 @@
       </trans-unit>
       <trans-unit id="subtitle_taxeConsultant">
         <source>subtitle.taxeConsultant</source>
-        <target>A rédiger</target>
+        <target>Site vitrine pour une société d’audit de taxes internationales</target>
+      </trans-unit>
+      <trans-unit id="description_taxeConsultant">
+        <source>description.taxeConsultant</source>
+        <target>Ce projet consiste à concevoir un site « vitrine » pour une société d’audit de taxes internationales. Ce dernier doit permettre à la société de montrer son travail et aux utilisateurs du site de prendre contact avec la société.</target>
+      </trans-unit>
+      <trans-unit id="developpement_taxeConsultant">
+        <source>developpement.taxeConsultant</source>
+        <target>
+            • Création d’un menu en Flash<![CDATA[<br />]]>
+            • Conception du site web<![CDATA[<br />]]>
+            • Conception d’un système d’administration des tableaux de taxes (pour permettre à la société d’actualiser les montants)
+        </target>
       </trans-unit>
 
       <trans-unit id="title_domoFit">
@@ -375,6 +958,31 @@
         <source>subtitle.domoFit</source>
         <target>Application permettant de controller, via le bluetooth du smartphone, l'éclairage et le home cinéma de ma salle de sport.</target>
       </trans-unit>
+      <trans-unit id="description_domoFit">
+        <source>description.domoFit</source>
+        <target>Ce projet consiste à développer un système de domotique pour ma salle de sport personnel. Le système permet de gérer l’éclairage (détection de mouvement, forcer l’éclairage pendant un durée voulue et gérer l’intensité lumineuse de LED), mais aussi de gérer le home cinéma Bluetooth via l’envoi de données Infrarouges (intégration d’une partie du code du projet Universal Remote).</target>
+      </trans-unit>
+      <trans-unit id="recherche_cablage_domoFit">
+        <source>recherche.cablage.domoFit</source>
+        <target>
+            • Recherche et câblage des différents éléments sur la plateforme Arduino
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_domoFit">
+        <source>developpement.domoFit</source>
+        <target>
+            • Développement de l’application Arduino<![CDATA[<br />]]>
+            • Intégration du système de connexion Bluetooth (projet NXT)<![CDATA[<br />]]>
+            • Développement du système de gestion de l’éclairage<![CDATA[<br />]]>
+            • Intégration du code permettant de contrôler un appareil via Infrarouge (projet Universal Remote)
+        </target>
+      </trans-unit>
+      <trans-unit id="tests_domoFit">
+        <source>tests.domoFit</source>
+        <target>
+            • Tests unitaires
+        </target>
+      </trans-unit>
 
       <trans-unit id="title_onigamiT">
         <source>title.onigamiT</source>
@@ -383,6 +991,25 @@
       <trans-unit id="subtitle_onigamiT">
         <source>subtitle.onigamiT</source>
         <target>Site de partage de Scan-Trad de chapitres de mangas.</target>
+      </trans-unit>
+      <trans-unit id="description_onigamiT">
+        <source>description.onigamiT</source>
+        <target>Pour une équipe de traduction de chapitres (scannés) de mangas, dont je faisais partie, j’ai créé le site internet permettant le téléchargement de notre travail, ainsi que la présentation des membres de l’équipe.</target>
+      </trans-unit>
+      <trans-unit id="developpement_onigamiT">
+        <source>developpement.onigamiT</source>
+        <target>
+            • Conception du site web
+        </target>
+      </trans-unit>
+
+      <trans-unit id="title_mariageSylMel">
+        <source>title.mariageSylMel</source>
+        <target>Mariage Sylvain et Mélanie</target>
+      </trans-unit>
+      <trans-unit id="subtitle_mariageSylMel">
+        <source>subtitle.mariageSylMel</source>
+        <target>Création du faire part de mon mariage avec ma femme.</target>
       </trans-unit>
     </body>
   </file>

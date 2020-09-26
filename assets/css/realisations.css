@@ -197,7 +197,6 @@
 .list-realisations > .one-realisation-description {
     display: none;
     width: 100%;
-    height: 100px;
     background: linear-gradient(#fff, #ecf0f1);
 }
 

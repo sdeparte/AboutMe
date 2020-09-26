@@ -44,6 +44,8 @@ $( document ).ready(function() {
 
             $triggered.addClass('active');
             $triggeredElement.slideDown();
+
+            $('html, body').animate({scrollTop: $('#creation-'+ target).offset().top - 125}, 0)
         } else {
             $('.list-realisations > .one-realisation').removeClass('active');
             $('.list-realisations > .one-realisation-description').slideUp();
