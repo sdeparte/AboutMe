@@ -69,7 +69,7 @@ class AppExtension extends AbstractExtension
                         $subSlited = explode(':', $split);
 
                         if (2 === count($subSlited)) {
-                            $params['%'.$subSlited[0].'%'] = $subSlited[1];
+                            $params['%'.$subSlited[0].'%'] = $this->translator->trans($subSlited[1]);
                         }
                     }
                 }

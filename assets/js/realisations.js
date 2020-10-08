@@ -26,7 +26,6 @@ $( document ).ready(function() {
 
     var containerWidth = $('.list-realisations').outerWidth();
     var itemWidth = $('.list-realisations > .one-realisation').outerWidth();
-    console.log(itemsPerRow);
 
     itemsPerRow = Math.floor(containerWidth / itemWidth);
 
@@ -61,7 +60,6 @@ $(window).resize(function(){
 
     if (itemsPerRow != newItemsPerRow) {
         itemsPerRow = newItemsPerRow;
-        console.log(itemsPerRow);
 
         var $triggered = $('.list-realisations > .one-realisation.active');
         var target = $triggered.attr('data-target');

@@ -270,6 +270,10 @@
         <source>description.workoutManager</source>
         <target>Le projet consiste à créer un traceur d’activité physique (marche / course à pied et vélo). L’application permet d’enregistrer son parcours, ainsi que diverses données de performances réalisés tout le long de celui-ci (tel que la vitesse, de dénivelé positif et négatif, la durée et la distance du parcours, etc.). Toutes ces informations peuvent ensuite être enregistrées sur une base de données (en local sur le smartphone), permettant à l’utilisateur de visualiser son évolution.</target>
       </trans-unit>
+      <trans-unit id="app_workoutManager_v1">
+        <source>app.workoutManager.v1</source>
+        <target>(vélo / course à pied)</target>
+      </trans-unit>
       <trans-unit id="developpement_workoutManager_v1">
         <source>developpement.workoutManager.v1</source>
         <target>
@@ -287,6 +291,10 @@
             • Tests unitaires<![CDATA[<br />]]>
             • Tests d’utilisations
         </target>
+      </trans-unit>
+      <trans-unit id="app_workoutManager_v2">
+        <source>app.workoutManager.v2</source>
+        <target>(musculation)</target>
       </trans-unit>
       <trans-unit id="description_workoutManager_v2">
         <source>description.workoutManager.v2</source>
@@ -313,6 +321,10 @@
         <target>
             • Tests d’utilisations
         </target>
+      </trans-unit>
+      <trans-unit id="app_workoutManager_v3">
+        <source>app.workoutManager.v3</source>
+        <target>(musculation / vélo / course à pied)</target>
       </trans-unit>
       <trans-unit id="description_workoutManager_v3">
         <source>description.workoutManager.v3</source>
@@ -626,6 +638,31 @@
       <trans-unit id="subtitle_ausyUniversity">
         <source>subtitle.ausyUniversity</source>
         <target>Site permettant à l'entreprise la création de questionnaires pour tester les compétences des collaborateurs.</target>
+      </trans-unit>
+      <trans-unit id="description_ausyUniversity">
+        <source>description.ausyUniversity</source>
+        <target>
+            Ce site permet à la société de vérifier les compétences d’un futur collaborateur (candidat) via la création de questionnaires. Ce dernier peut ensuite répondre aux différentes questions (qui peuvent être aussi bien des QCM que des réponses libres) pendant un temps impartie.<![CDATA[<br /><br />]]>
+            Une fois terminé, un mail est envoyé aux manager ayant assigné le questionnaire au candidat, ainsi qu’au différents créateurs du questionnaire. Ces derniers pourront ensuite vérifier si les réponses sont correctes ou non (dans le cas des questions à choix multiples, l’exactitude de la réponse est faite de manière automatique).
+        </target>
+      </trans-unit>
+      <trans-unit id="analyse_ausyUniversity">
+        <source>analyse.ausyUniversity</source>
+        <target>
+            • Analyse du cahier des charges<![CDATA[<br />]]>
+            • Analyse des interconnections entre les différentes entités du projet<![CDATA[<br />]]>
+            • Conception d’un diagramme des entités du projet
+        </target>
+      </trans-unit>
+      <trans-unit id="developpement_ausyUniversity">
+        <source>developpement.ausyUniversity</source>
+        <target>
+            • Développement du système de création de candidats<![CDATA[<br />]]>
+            • Développement du système de création de questionnaires<![CDATA[<br />]]>
+            • Développement de l’interface permettant à un candidat de modifier son profile<![CDATA[<br />]]>
+            • Développement du système permettant au candidat de répondre à un questionnaire<![CDATA[<br />]]>
+            • Développement du l’interface permettant la correction des réponses d’un candidat
+        </target>
       </trans-unit>
 
       <trans-unit id="title_myWish">
