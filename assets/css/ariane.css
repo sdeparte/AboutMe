@@ -71,3 +71,7 @@
 #ariane>.ariane-bar>ul>li:last-child{
     border-bottom: 0px;
 }
+
+.padding-ariane{
+    padding: 25px;
+}

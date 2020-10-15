@@ -181,14 +181,25 @@ a {
     #timeline > .timeline-item > .timeline-content {
         width: 90%;
         float: right;
+        border-right: 0;
+        border-left: 4px solid #bc3838;
     }
 
-    #timeline > .timeline-item > .timeline-content:before,
-    #timeline > .timeline-item > .timeline-content.right:before {
-       left: 10%;
-       margin-left: -6px;
-       border-left: 0;
-       border-right: 7px solid #bc3838;
+    #timeline > .timeline-item > .timeline-content.animation-element.from-left{
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+
+    #timeline > .timeline-item > .timeline-content.animation-element.in-view:not(.wait-load){
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    #timeline > .timeline-item > .timeline-content:before {
+        right: 100%;
+        left: inherit;
+        border-left: 0;
+        border-right: 10px solid #bc3838;
     }
 
     #timeline > .timeline-item > .timeline-icon {

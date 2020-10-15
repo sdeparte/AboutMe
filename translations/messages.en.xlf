@@ -1048,6 +1048,11 @@
         <source>subtitle.mariageSylMel</source>
         <target>Création du faire part de mon mariage avec ma femme.</target>
       </trans-unit>
+
+      <trans-unit id="title_curriculum">
+        <source>title.curriculum</source>
+        <target>Curriculum</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -3,7 +3,7 @@
 #slider{
     background-image:url('../imgs/slider-background-repeat.png');
     position: relative;
-    min-height: 600px;
+    min-height: 500px;
     overflow: hidden;
 }
 
@@ -178,7 +178,7 @@
 
 @media (max-width: 575.98px) {
     #slider{
-        min-height: 500px;
+        min-height: 400px;
     }
 
     #slider>.sd-rubrique{
