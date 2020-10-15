@@ -206,10 +206,10 @@ img{
 }
 
 .sd-title{
-    padding: 30px 15px 15px 15px;
+    padding: 30px 15px 0 15px;
 }
 
-.sd-title>h5{
+.sd-title > h5{
     color:#2c3e50;
     border-bottom:1px solid #ccc;
     padding-bottom:10px;
@@ -222,7 +222,7 @@ img{
     transition: all .25s linear;
 }
 
-.sd-section .content:hover .sd-title>h5{
+.sd-section .content:hover .sd-title > h5{
     color:#bc3838;
     border-bottom:1px solid #bc3838;
 }
@@ -251,7 +251,7 @@ img{
     box-shadow:0 0 20px rgba(0, 0, 0, .1);
 }
 
-.sd-circle>svg{
+.sd-circle > svg{
     position:absolute;
     top:50%;
     left:50%;

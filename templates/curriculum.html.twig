@@ -1,0 +1,354 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+    {{ encore_entry_link_tags('curriculum') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+    {{ encore_entry_script_tags('curriculum') }}
+{% endblock %}
+
+{% block content %}
+    <div class="padding-navbar"></div>
+
+    <div class="100-vh bg-white clearfix p-4">
+        <div id="timeline">
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2020</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Certificat Adobe - « Digital Video using Premiere Pro CC 2015 »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2019</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Auto-Entrepreneur
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2018</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            « ProwebCE »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2017</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            « AUSY »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2014</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Formation de « Sauveteur Secouriste du Travail »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2013</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Informaticien industriel au sein de la société « Alprobotic »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item timeline-small clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date"></div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Organisateur du festival Japan’Culture (sur la culture japonaise et le manga)
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2012</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Certificat de Qualification Paritaire de la Métallurgie
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Développeur informatique en alternance au sein de l’entreprise « Trixell »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2012</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Certificat de Qualification Paritaire de la Métallurgie
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Développeur informatique en alternance au sein de l’entreprise « Trixell »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item timeline-small clearfix">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Licence Professionnelle - « Systèmes embarqués »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2011</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            BTS - « Informatique et Réseaux pour les Industrie et les Services »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2010</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Stagiaire en réseau informatique au sein de la société « COM6 »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2009</div>
+                </div>
+                <div class="timeline-content animation-element from-left">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Baccalauréat - « STI Génie Electrotechnique »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2007</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Webdesigner pour la société d’infographie « Sever-Système »
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item clearfix">
+                <div class="timeline-icon">
+                    <div class="timeline-date">2005</div>
+                </div>
+                <div class="timeline-content right animation-element from-right">
+                    <div class="sd-circle float-left m-2 mr-4">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                    </div>
+                    <div class="sd-title">
+                        <h5>
+                            Stagiaire en maintenance informatique à l’AFPA
+                        </h5>
+                    </div>
+                    <p class="pl-3 pr-3 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item timeline-small clearfix">
+                <div class="timeline-icon"></div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

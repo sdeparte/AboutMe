@@ -12,11 +12,6 @@
     {{ parent() }}
 
     {{ encore_entry_script_tags('realisations') }}
-
-    <script type="text/javascript">
-        var variables = ['{{ 'home.idees'|trans }}', '{{ 'home.envies'|trans }}', '{{ 'home.reves'|trans }}', '{{ 'home.besoins'|trans }}', '{{ 'home.projets'|trans }}'];
-        var current = '{{ 'home.idees'|trans }}';
-    </script>
 {% endblock %}
 
 {% block content %}

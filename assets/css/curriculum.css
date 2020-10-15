@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.project-name {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#timeline {
+   width: 100%;
+   margin: 30px auto;
+   position: relative;
+   padding: 0 10px;
+   transition: all .4s ease;
+}
+
+#timeline:before {
+    content:"";
+    width: 3px;
+    height: 100%;
+    background: #bc3838;
+    left: 50%;
+    top: 0;
+    position: absolute;
+}
+
+#timeline::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+#timeline > .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#timeline > .timeline-item > .timeline-icon {
+    background: #bc3838;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -28px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#timeline > .timeline-item.timeline-small > .timeline-icon {
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: -8px;
+}
+
+#timeline > .timeline-item > .timeline-icon > .timeline-date {
+    position: relative;
+    text-align: center;
+    top: 16px;
+    font-weight: 700;
+}
+
+#timeline > .timeline-item > .timeline-icon > svg {
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+#timeline > .timeline-item > .timeline-content {
+    position: relative;
+    float: left;
+    width: 45%;
+    padding: 15px;
+    background:url('../imgs/block-background-repeat.png') no-repeat bottom right;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border-right: 4px solid #bc3838;
+
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+#timeline > .timeline-item > .timeline-content:hover {
+    background-color: #fefefe;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+#timeline > .timeline-item > .timeline-content:before {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #bc3838;
+}
+
+#timeline > .timeline-item.timeline-small > .timeline-content:before {
+    top: 15px;
+}
+
+#timeline > .timeline-item > .timeline-content.right {
+    float: right;
+    border-right: 0;
+    border-left: 4px solid #bc3838;
+}
+
+#timeline > .timeline-item > .timeline-content.right:before {
+    content: '';
+    right: 100%;
+    left: inherit;
+    border-left: 0;
+    border-right: 10px solid #bc3838;
+}
+
+#timeline > .timeline-item > .timeline-content:hover .sd-title > h5{
+    color: #bc3838;
+    border-bottom: 1px solid #bc3838;
+}
+
+#timeline > .timeline-item > .timeline-content > .sd-circle {
+    overflow: hidden;
+}
+
+#timeline > .timeline-item > .timeline-content:hover .sd-circle{
+    color: #fff;
+    background-color: #bc3838;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+#timeline > .timeline-item > .timeline-content > .sd-circle > svg {
+    top: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    #timeline {
+        margin: 30px;
+        padding: 0px;
+        width: 90%;
+    }
+
+    #timeline:before {
+        left: 0;
+    }
+
+    #timeline > .timeline-item > .timeline-content {
+        width: 90%;
+        float: right;
+    }
+
+    #timeline > .timeline-item > .timeline-content:before,
+    #timeline > .timeline-item > .timeline-content.right:before {
+       left: 10%;
+       margin-left: -6px;
+       border-left: 0;
+       border-right: 7px solid #bc3838;
+    }
+
+    #timeline > .timeline-item > .timeline-icon {
+        left: 0;
+    }
+
+    #timeline > .timeline-item.title > .timeline-icon {
+        margin-left: -23px;
+    }
+}

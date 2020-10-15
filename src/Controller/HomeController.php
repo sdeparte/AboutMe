@@ -52,4 +52,19 @@ class HomeController extends AbstractController
             ['listCreations' => $listCreations]
         );
     }
+
+    /**
+     * @Route(
+     *     "/{_locale}/curriculum",
+     *     name="curriculum",
+     *     defaults={"_locale": "fr"},
+     *     requirements={"_locale": "en|fr"}
+     * )
+     */
+    public function curriculum()
+    {
+        return $this->render(
+            'curriculum.html.twig'
+        );
+    }
 }
