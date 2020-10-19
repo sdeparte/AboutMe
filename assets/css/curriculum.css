@@ -6,22 +6,8 @@
     -moz-box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.project-name {
-    text-align: center;
-    padding: 10px 0;
+.timeline-padding {
+    padding: 1.5rem 1.5rem 150px 1.5rem;
 }
 
 #timeline {
@@ -67,6 +53,7 @@ a {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -86,6 +73,12 @@ a {
     text-align: center;
     top: 16px;
     font-weight: 700;
+    line-height: 25px;
+}
+
+#timeline > .timeline-item > .timeline-icon > .timeline-date > .timeline-date-top {
+    margin-top: -12px;
+    border-bottom: 3px solid #fff;
 }
 
 #timeline > .timeline-item > .timeline-icon > svg {
@@ -147,6 +140,28 @@ a {
     border-right: 10px solid #bc3838;
 }
 
+#timeline > .timeline-item > .timeline-content .sd-title{
+    margin-bottom: -25px;
+}
+
+#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle{
+    position: relative;
+    top: -42px;
+    font-style: italic;
+    font-size: 80%;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right){
+    top: -45px;
+    left: 100px;
+}
+
 #timeline > .timeline-item > .timeline-content:hover .sd-title > h5{
     color: #bc3838;
     border-bottom: 1px solid #bc3838;
@@ -167,7 +182,67 @@ a {
     top: 60%;
 }
 
-@media screen and (max-width: 768px) {
+#skills > .sprite{
+    margin-top: -175px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    width: 33%;
+    justify-content: space-around ;
+}
+
+.single-chart > .chart-title {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.single-chart > .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.single-chart > .circular-chart > .circle-bg {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3.8;
+}
+
+.single-chart.in-view > .circular-chart > .circle {
+    fill: #fff;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+    stroke: #bc3838;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.single-chart > .circular-chart > .percentage {
+    fill: #34495e;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+@media (max-width: 991.98px) {
+    #timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right){
+        left: inherit;
+    }
+}
+
+@media (max-width: 767.98px) {
     #timeline {
         margin: 30px;
         padding: 0px;
