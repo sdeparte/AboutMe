@@ -1053,6 +1053,27 @@
         <source>title.curriculum</source>
         <target>Curriculum</target>
       </trans-unit>
+
+      <trans-unit id="title_etudes_experience">
+        <source>title.etudes_experiences</source>
+        <target>Études et Expériences</target>
+      </trans-unit>
+      <trans-unit id="title_etudes">
+        <source>title.etudes</source>
+        <target>Études</target>
+      </trans-unit>
+      <trans-unit id="title_experience">
+        <source>title.experiences</source>
+        <target>Expériences</target>
+      </trans-unit>
+      <trans-unit id="title_competences">
+        <source>title.competences</source>
+        <target>Compétences</target>
+      </trans-unit>
+      <trans-unit id="title_hobbys">
+        <source>title.hobbys</source>
+        <target>Hobbys</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
