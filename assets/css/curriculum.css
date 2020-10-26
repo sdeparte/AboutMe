@@ -6,10 +6,6 @@
     -moz-box-sizing: border-box;
 }
 
-.timeline-padding {
-    padding: 1.5rem 1.5rem 150px 1.5rem;
-}
-
 #timeline {
    width: 100%;
    margin: 30px auto;
@@ -192,6 +188,7 @@
 }
 
 #skills,
+#cursus,
 #hobbies{
     position: relative;
     z-index: 3;
@@ -201,11 +198,13 @@
     margin-top: -175px;
 }
 
+#me > .sd-rubrique,
+#cursus > .sd-rubrique,
 #skills > .sd-rubrique {
     padding: 1.5rem 1.5rem 175px 1.5rem;
 }
 
-#hobbies > .sd-rubrique .rounded-hobby > img {
+.sd-rubrique .rounded-img > img {
     margin: 10px 0;
     border: 4px solid #fff;
     border-radius: 50%;
@@ -213,7 +212,7 @@
     max-height: 350px;
 }
 
-#hobbies > .sd-rubrique .rounded-hobby > .hobby-title {
+.sd-rubrique .rounded-img > .rounded-img-title {
     text-align: center;
     font-size: 120%;
     font-weight: 700;
@@ -267,9 +266,21 @@
     #timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right){
         left: inherit;
     }
+
+    .animation-element.in-view.delay-2,
+    .animation-element.in-view.delay-3,
+    .animation-element.in-view.delay-4,
+    .animation-element.in-view.delay-5,
+    .animation-element.in-view.delay-6 {
+        transition-delay: 0s;
+    }
 }
 
 @media (max-width: 767.98px) {
+    #me .border-right {
+        border-right-width: 0px !important;
+    }
+
     #timeline {
         margin: 30px;
         padding: 0px;

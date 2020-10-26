@@ -16,6 +16,11 @@
                     {{ 'title.accueil'|trans }}
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('curriculum', {'_fragment': ''}) }}">
+                    {{ 'title.curriculum'|trans }}
+                </a>
+            </li>
             <li class="nav-item has-children">
                 <a class="nav-link" href="#technologies">
                     {{ 'title.technologies'|trans }}
@@ -151,11 +156,6 @@
                         </div>
                     </div>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ path('curriculum', {'_fragment': ''}) }}">
-                    {{ 'title.curriculum'|trans }}
-                </a>
             </li>
         </ul>
     </div>

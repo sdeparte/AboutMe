@@ -15,391 +15,446 @@
 {% endblock %}
 
 {% block content %}
-    <div class="bg-white clearfix timeline-padding overflow-x-hidden">
-        <div id="timeline" class="animation-element from-bottom">
-            <div class="timeline-item timeline-small clearfix">
-                <div class="timeline-icon"></div>
-
-                <div class="d-none d-md-block timeline-title">
-                    <div class="pt-4 sd-section-title text-center animation-element from-left">
-                        &lt;{{ 'title.etudes'|trans }} /&gt;
-                    </div>
-
-                    <div class="pt-4 right sd-section-title text-center animation-element from-right">
-                        &lt;{{ 'title.experiences'|trans }} /&gt;
-                    </div>
+    <div class="bg-flat">
+        <div id="me">
+            <div class="sd-rubrique clearfix text-white">
+                <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
+                    &lt;Sylvain DEPARTE /&gt;
                 </div>
 
-                <div class="d-block d-md-none timeline-title">
-                    <div class="pt-4 sd-section-title text-center animation-element from-left">
-                        &lt;{{ 'title.etudes_experiences'|trans }} /&gt;
+                <div class="row p-4">
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 border-right animation-element from-bottom delay-2">
+                        <p>
+                            <b>Né le :</b><br />
+                            30 septembre 1991
+                        </p>
+                        <p>
+                            <b>Site web. :</b><br />
+                            <a href="http://sdeparte.com/">http://sdeparte.com/</a>
+                        </p>
+                        <p>
+                            <b>Adr. mail :</b><br />
+                            <a href="mailto:sylvain.departe@gmail.com">sylvain.departe@gmail.com</a>
+                        </p>
+                        <p>
+                            <b>Tél. :</b><br />
+                            <a href="tel:0652420401">06 52 42 04 01</a>
+                        </p>
                     </div>
-                </div>
-            </div>
 
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon">
-                    <div class="timeline-date">
-                        <div class="timeline-date-top">2020</div>
-                        <div class="timeline-date-bottom">2019</div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-bottom delay-3">
+                        <img src="{{ asset('hobbies/info.jpg') }}" alt="">
                     </div>
-                </div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Certificat Adobe - « Digital Video using Premiere Pro CC 2015 »
-                        </h5>
-                        <span class="sd-subtitle">Moirans</span>
-                        <span class="sd-subtitle float-right">(24/02/2020)</span>
-                    </div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Auto-Entrepreneur // « ProwebCE »
-                        </h5>
-                        <span class="sd-subtitle">Monestier-de-Clermont</span>
-                        <span class="sd-subtitle float-right">(01/08/2019 - EN POSTE)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
 
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">2018</div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            « ProwebCE »
-                        </h5>
-                        <span class="sd-subtitle">Saint-Martin-d'Hères</span>
-                        <span class="sd-subtitle float-right">(01/08/2018 - EN POSTE)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 p-2 text-justify animation-element from-bottom delay-4">
+                        <p>
+                            Je suis passionné depuis l'enfance par le développement et plus particulièrement par le développement de sites internet.
+                        </p>
 
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">2017</div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            « AUSY »
-                        </h5>
-                        <span class="sd-subtitle">Montbonnot-Saint-Martin</span>
-                        <span class="sd-subtitle float-right">(27/05/2017 - 31/07/2018)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
+                        <p>
+                            Lorsque je n'arrive pas à trouver une application ou un site WEB implémentant les fonctionnalitées qui me sont nécessaires, j'ai la chance de pouvoir le concevoir moi-même.
+                            Ces différents projets personnels me permettent de continuer à apprendre de nouvelles connaissances au fur et à mesure que je me confronte à de nouveaux obstacles techniques.
+                        </p>
 
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">
-                        <div class="timeline-date-top">2014</div>
-                        <div class="timeline-date-bottom">2013</div>
+                        <p>
+                            Justement, "apprendre" est-ce que je préfère. Dans le développement, mais pas que.
+                            J'adore explorer de nouveaux domaines (illustration, animation, montage de vidéos, photographie, etc.).
+                            Ces différentes explorations finissent souvent par devenir de nouvelles passions.
+                        </p>
                     </div>
-                </div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Formation de « Sauveteur Secouriste du Travail »
-                        </h5>
-                        <span class="sd-subtitle">Grenoble</span>
-                        <span class="sd-subtitle float-right">(2014)</span>
-                    </div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Informaticien industriel au sein de la société « Alprobotic »
-                        </h5>
-                        <span class="sd-subtitle">Le Versoud</span>
-                        <span class="sd-subtitle float-right">(04/07/2013 - 26/05/2017)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item timeline-small clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date"></div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Organisateur du festival Japan’Culture (sur la culture japonaise et le manga)
-                        </h5>
-                        <span class="sd-subtitle">Vizille</span>
-                        <span class="sd-subtitle float-right">(25/05/2013 - 26/05/2013)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">2012</div>
-                </div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Certificat de Qualification Paritaire de la Métallurgie
-                        </h5>
-                        <span class="sd-subtitle">UJF Grenoble</span>
-                        <span class="sd-subtitle float-right">(2011 - 2012)</span>
-                    </div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Développeur informatique en alternance au sein de l’entreprise « Trixell »
-                        </h5>
-                        <span class="sd-subtitle">Moirans</span>
-                        <span class="sd-subtitle float-right">(04/09/2011 - 30/05/2012)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item timeline-small clearfix">
-                <div class="timeline-icon animation-element from-bottom"></div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Licence Professionnelle - « Systèmes embarqués »
-                        </h5>
-                        <span class="sd-subtitle">UJF Grenoble</span>
-                        <span class="sd-subtitle float-right">(2011 - 2012)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">
-                        <div class="timeline-date-top">2011</div>
-                        <div class="timeline-date-bottom">2010</div>
-                    </div>
-                </div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            BTS - « Informatique et Réseaux pour les Industrie et les Services »
-                        </h5>
-                        <span class="sd-subtitle">LGM Meylan</span>
-                        <span class="sd-subtitle float-right">(2009 - 2011)</span>
-                    </div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Stagiaire en réseau informatique au sein de la société « COM6 »
-                        </h5>
-                        <span class="sd-subtitle">Seyssinet-Pariset</span>
-                        <span class="sd-subtitle float-right">(24/05/2010 - 04/08/2010)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">
-                        <div class="timeline-date-top">2009</div>
-                        <div class="timeline-date-bottom">2007</div>
-                    </div>
-                </div>
-                <div class="timeline-content animation-element from-left">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Baccalauréat - « STI Génie Electrotechnique »
-                        </h5>
-                        <span class="sd-subtitle">LTE Vizille</span>
-                        <span class="sd-subtitle float-right">(2007 - 2009)</span>
-                    </div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Webdesigner pour la société d’infographie « Sever-Système »
-                        </h5>
-                        <span class="sd-subtitle">Grenoble</span>
-                        <span class="sd-subtitle float-right">(Juillet 2007)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Créations de sites internet avec un infographiste grenoblois.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item clearfix">
-                <div class="timeline-icon animation-element from-bottom">
-                    <div class="timeline-date">2005</div>
-                </div>
-                <div class="timeline-content right animation-element from-right">
-                    <div class="sd-circle float-left m-2 mr-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
-                    </div>
-                    <div class="sd-title">
-                        <h5>
-                            Stagiaire en maintenance informatique à l’AFPA
-                        </h5>
-                        <span class="sd-subtitle">Pont de Claix</span>
-                        <span class="sd-subtitle float-right">(05/12/2005 - 16/12/2005)</span>
-                    </div>
-                    <p class="pl-3 pr-3 text-justify">
-                        Réparation de postes informatiques, installations de systèmes d’exploitation (Windows / Linux).
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item timeline-small clearfix">
-                <div class="timeline-icon"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="skills">
-        <div class="sprite reverse shadow-top bg-flat"></div>
-        <div class="sd-rubrique clearfix bg-flat text-white">
-            <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
-                &lt;{{ 'title.competences'|trans }} /&gt;
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-2">
-                    <svg viewBox="0 0 36 36" class="circular-chart">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <text x="18" y="20.35" class="percentage">90%</text>
-                    </svg>
-                    <div class="chart-title">Développement WEB</div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-3">
-                    <svg viewBox="0 0 36 36" class="circular-chart">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <text x="18" y="20.35" class="percentage">80%</text>
-                    </svg>
-                    <div class="chart-title">Développement Bureautique</div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-4">
-                    <svg viewBox="0 0 36 36" class="circular-chart">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <text x="18" y="20.35" class="percentage">60%</text>
-                    </svg>
-                    <div class="chart-title">Développement Mobile</div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-5">
-                    <svg viewBox="0 0 36 36" class="circular-chart">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                        <text x="18" y="20.35" class="percentage">60%</text>
-                    </svg>
-                    <div class="chart-title">Graphisme</div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="hobbies">
-        <div class="sprite shadow-top bg-flater"></div>
-        <div class="sd-rubrique clearfix p-4 bg-flater text-white">
-            <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
-                &lt;{{ 'title.hobbys'|trans }} /&gt;
+        <div id="cursus">
+            <div class="sprite shadow-top bg-white"></div>
+            <div class="clearfix sd-rubrique bg-white overflow-x-hidden">
+                <div id="timeline" class="animation-element from-bottom">
+                    <div class="timeline-item timeline-small clearfix">
+                        <div class="timeline-icon"></div>
+
+                        <div class="d-none d-md-block timeline-title">
+                            <div class="pt-4 sd-section-title text-center animation-element from-left">
+                                &lt;{{ 'title.etudes'|trans }} /&gt;
+                            </div>
+
+                            <div class="pt-4 right sd-section-title text-center animation-element from-right">
+                                &lt;{{ 'title.experiences'|trans }} /&gt;
+                            </div>
+                        </div>
+
+                        <div class="d-block d-md-none timeline-title">
+                            <div class="pt-4 sd-section-title text-center animation-element from-left">
+                                &lt;{{ 'title.etudes_experiences'|trans }} /&gt;
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon">
+                            <div class="timeline-date">
+                                <div class="timeline-date-top">2020</div>
+                                <div class="timeline-date-bottom">2019</div>
+                            </div>
+                        </div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Certificat Adobe - « Digital Video using Premiere Pro CC 2015 »
+                                </h5>
+                                <span class="sd-subtitle">Moirans</span>
+                                <span class="sd-subtitle float-right">(24/02/2020)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Auto-Entrepreneur // « ProwebCE »
+                                </h5>
+                                <span class="sd-subtitle">Monestier-de-Clermont</span>
+                                <span class="sd-subtitle float-right">(01/08/2019 - EN POSTE)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">2018</div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    « ProwebCE »
+                                </h5>
+                                <span class="sd-subtitle">Saint-Martin-d'Hères</span>
+                                <span class="sd-subtitle float-right">(01/08/2018 - EN POSTE)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">2017</div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    « AUSY »
+                                </h5>
+                                <span class="sd-subtitle">Montbonnot-Saint-Martin</span>
+                                <span class="sd-subtitle float-right">(27/05/2017 - 31/07/2018)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">
+                                <div class="timeline-date-top">2014</div>
+                                <div class="timeline-date-bottom">2013</div>
+                            </div>
+                        </div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Formation de « Sauveteur Secouriste du Travail »
+                                </h5>
+                                <span class="sd-subtitle">Grenoble</span>
+                                <span class="sd-subtitle float-right">(2014)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Informaticien industriel au sein de la société « Alprobotic »
+                                </h5>
+                                <span class="sd-subtitle">Le Versoud</span>
+                                <span class="sd-subtitle float-right">(04/07/2013 - 26/05/2017)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item timeline-small clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date"></div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Organisateur du festival Japan’Culture (sur la culture japonaise et le manga)
+                                </h5>
+                                <span class="sd-subtitle">Vizille</span>
+                                <span class="sd-subtitle float-right">(25/05/2013 - 26/05/2013)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">2012</div>
+                        </div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Certificat de Qualification Paritaire de la Métallurgie
+                                </h5>
+                                <span class="sd-subtitle">UJF Grenoble</span>
+                                <span class="sd-subtitle float-right">(2011 - 2012)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Développeur informatique en alternance au sein de l’entreprise « Trixell »
+                                </h5>
+                                <span class="sd-subtitle">Moirans</span>
+                                <span class="sd-subtitle float-right">(04/09/2011 - 30/05/2012)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item timeline-small clearfix">
+                        <div class="timeline-icon animation-element from-bottom"></div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Licence Professionnelle - « Systèmes embarqués »
+                                </h5>
+                                <span class="sd-subtitle">UJF Grenoble</span>
+                                <span class="sd-subtitle float-right">(2011 - 2012)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">
+                                <div class="timeline-date-top">2011</div>
+                                <div class="timeline-date-bottom">2010</div>
+                            </div>
+                        </div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    BTS - « Informatique et Réseaux pour les Industrie et les Services »
+                                </h5>
+                                <span class="sd-subtitle">LGM Meylan</span>
+                                <span class="sd-subtitle float-right">(2009 - 2011)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Stagiaire en réseau informatique au sein de la société « COM6 »
+                                </h5>
+                                <span class="sd-subtitle">Seyssinet-Pariset</span>
+                                <span class="sd-subtitle float-right">(24/05/2010 - 04/08/2010)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">
+                                <div class="timeline-date-top">2009</div>
+                                <div class="timeline-date-bottom">2007</div>
+                            </div>
+                        </div>
+                        <div class="timeline-content animation-element from-left">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Baccalauréat - « STI Génie Electrotechnique »
+                                </h5>
+                                <span class="sd-subtitle">LTE Vizille</span>
+                                <span class="sd-subtitle float-right">(2007 - 2009)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Webdesigner pour la société d’infographie « Sever-Système »
+                                </h5>
+                                <span class="sd-subtitle">Grenoble</span>
+                                <span class="sd-subtitle float-right">(Juillet 2007)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Créations de sites internet avec un infographiste grenoblois.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                        <div class="timeline-icon animation-element from-bottom">
+                            <div class="timeline-date">2005</div>
+                        </div>
+                        <div class="timeline-content right animation-element from-right">
+                            <div class="sd-circle float-left m-2 mr-4">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
+                            </div>
+                            <div class="sd-title">
+                                <h5>
+                                    Stagiaire en maintenance informatique à l’AFPA
+                                </h5>
+                                <span class="sd-subtitle">Pont de Claix</span>
+                                <span class="sd-subtitle float-right">(05/12/2005 - 16/12/2005)</span>
+                            </div>
+                            <p class="pl-3 pr-3 text-justify">
+                                Réparation de postes informatiques, installations de systèmes d’exploitation (Windows / Linux).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item timeline-small clearfix">
+                        <div class="timeline-icon"></div>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-hobby text-center animation-element from-bottom delay-2">
-                    <img src="{{ asset('hobbies/info.jpg') }}" alt="">
-                    <div class="hobby-title">Informatique / Développement</div>
+        <div id="skills">
+            <div class="sprite reverse shadow-top bg-flat"></div>
+            <div class="sd-rubrique clearfix bg-flat text-white">
+                <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
+                    &lt;{{ 'title.competences'|trans }} /&gt;
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-hobby text-center animation-element from-bottom delay-3">
-                    <img src="{{ asset('hobbies/fitness.jpg') }}" alt="">
-                    <div class="hobby-title">Musculation / Fitness</div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-2">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage">90%</text>
+                        </svg>
+                        <div class="chart-title">Développement WEB</div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-3">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage">80%</text>
+                        </svg>
+                        <div class="chart-title">Développement Bureautique</div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-4">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage">60%</text>
+                        </svg>
+                        <div class="chart-title">Développement Mobile</div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-bottom delay-5">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage">60%</text>
+                        </svg>
+                        <div class="chart-title">Graphisme</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hobbies">
+            <div class="sprite shadow-top bg-flater"></div>
+            <div class="sd-rubrique clearfix p-4 bg-flater text-white">
+                <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
+                    &lt;{{ 'title.hobbys'|trans }} /&gt;
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-hobby text-center animation-element from-bottom delay-4">
-                    <img src="{{ asset('hobbies/mangas.jpg') }}" alt="">
-                    <div class="hobby-title">Mangas / Culture japonaise</div>
-                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-bottom delay-2">
+                        <img src="{{ asset('hobbies/info.jpg') }}" alt="">
+                        <div class="rounded-img-title">Informatique / Développement</div>
+                    </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-hobby text-center animation-element from-bottom delay-5">
-                    <img src="{{ asset('hobbies/photo.jpg') }}" alt="">
-                    <div class="hobby-title">Photographie</div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-bottom delay-3">
+                        <img src="{{ asset('hobbies/fitness.jpg') }}" alt="">
+                        <div class="rounded-img-title">Musculation / Fitness</div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-bottom delay-4">
+                        <img src="{{ asset('hobbies/mangas.jpg') }}" alt="">
+                        <div class="rounded-img-title">Mangas / Culture japonaise</div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-bottom delay-5">
+                        <img src="{{ asset('hobbies/photo.jpg') }}" alt="">
+                        <div class="rounded-img-title">Photographie</div>
+                    </div>
                 </div>
             </div>
         </div>
