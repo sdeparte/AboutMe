@@ -380,6 +380,7 @@ img{
 
 .bg-binary{
     background-image:url('../imgs/slider-background-repeat.png');
+    background-repeat: repeat-x;
 }
 
 .bg-bottom{

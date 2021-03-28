@@ -6,10 +6,6 @@
     -moz-box-sizing: border-box;
 }
 
-#me {
-    background-image: url(/build/images/slider-background-repeat.93326002.png);
-}
-
 #cursus > .sprite {
     margin-top: -175px;
 }
@@ -333,6 +329,10 @@
 }
 
 @media (max-width: 767.98px) {
+    #me {
+        background-position: bottom;
+    }
+
     #me .border-right {
         border-right-width: 0px !important;
     }
