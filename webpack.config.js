@@ -19,6 +19,7 @@ Encore
     .addEntry('curriculum', './assets/js/curriculum.js')
     .addEntry('computer', './assets/js/computer.js')
     .addEntry('smartphone', './assets/js/smartphone.js')
+    .addEntry('me360', './assets/js/me360.js')
     .addEntry('fontawesome', './assets/css/fontawesome/fontawesome.css')
     .addEntry('bootstrap', './assets/js/bootstrap/bootstrap.min.js')
     .splitEntryChunks()
