@@ -6,12 +6,20 @@
     -moz-box-sizing: border-box;
 }
 
+#me {
+    background-image: url(/build/images/slider-background-repeat.93326002.png);
+}
+
+#cursus > .sprite {
+    margin-top: -75px;
+}
+
 #timeline {
-   width: 100%;
-   margin: 30px auto;
-   position: relative;
-   padding: 0 10px;
-   transition: all .4s ease;
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    padding: 0 10px;
+    transition: all .4s ease;
 }
 
 #timeline:before {
@@ -301,6 +309,10 @@
         float: right;
         border-right: 0;
         border-left: 4px solid #bc3838;
+    }
+
+    #timeline > .timeline-item > .timeline-content:not(:last-child) {
+        margin-bottom: 50px;
     }
 
     #timeline > .timeline-item > .timeline-content.animation-element.from-left{

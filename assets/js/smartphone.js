@@ -443,7 +443,7 @@ function smartphone_handleComplete(evt,comp) {
         color: "#FFFFFF",
         opacity: 1.00,
         manifest: [
-            {src:"/about-me/images/smartphone_web_atlas_.png?1599024404916", id:"smartphone_web_atlas_"}
+            {src:"/images/smartphone_web_atlas_.png?1599024404916", id:"smartphone_web_atlas_"}
         ],
         preloads: []
     };

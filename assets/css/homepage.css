@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 #slider{
-    background-image:url('../imgs/slider-background-repeat.png');
     position: relative;
     min-height: 500px;
     overflow: hidden;

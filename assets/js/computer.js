@@ -5609,10 +5609,10 @@ function computer_handleComplete(evt,comp) {
         color: "#FFFFFF",
         opacity: 0.00,
         manifest: [
-            {src:"/about-me/images/Moi_FullSize_atlas_.png?1598961538419", id:"Moi_FullSize_atlas_"},
-            {src:"/about-me/images/Moi_FullSize_atlas_2.png?1598961538421", id:"Moi_FullSize_atlas_2"},
-            {src:"/about-me/images/Moi_FullSize_atlas_3.png?1598961538424", id:"Moi_FullSize_atlas_3"},
-            {src:"/about-me/images/Moi_FullSize_atlas_4.png?1598961538444", id:"Moi_FullSize_atlas_4"}
+            {src:"/images/Moi_FullSize_atlas_.png?1598961538419", id:"Moi_FullSize_atlas_"},
+            {src:"/images/Moi_FullSize_atlas_2.png?1598961538421", id:"Moi_FullSize_atlas_2"},
+            {src:"/images/Moi_FullSize_atlas_3.png?1598961538424", id:"Moi_FullSize_atlas_3"},
+            {src:"/images/Moi_FullSize_atlas_4.png?1598961538444", id:"Moi_FullSize_atlas_4"}
         ],
         preloads: []
     };

@@ -9,6 +9,10 @@ $( document ).ready(function() {
         showWhenInView();
     });
 
+    $(window).resize(function() {
+        showWhenInView();
+    });
+
     showWhenInView();
 });
 
@@ -47,6 +51,11 @@ function isShowInView(window, element) {
     var window_bottom_position  = (window_top_position + window_height);
 
     var $element = $(element);
+
+    if ($element.data('relatedto') !== undefined) {
+        $element = $('#' + $element.data('relatedto'));
+    }
+
     var element_height = $element.outerHeight();
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);

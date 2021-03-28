@@ -22,7 +22,7 @@
 {% endblock %}
 
 {% block content %}
-    <div id="slider">
+    <div id="slider" class="bg-binary">
         <div class="sd-rubrique">
             <div class="animation-element from-left">
                 <div class="sd-circle mb-2">
@@ -38,7 +38,7 @@
     <div id="header" class="bg-gray">
         <div class="sprite large shadow-top bg-gray"></div>
         <div class="clearfix">
-            <div id="computer_global_container" class="animation-element from-bottom wait-load">
+            <div id="computer_global_container" data-relatedTo="computer_animation_container" class="animation-element from-bottom wait-load">
                 <div id="computer_animation_container">
                     <canvas id="computer_canvas"></canvas>
                     <div id="computer_dom_overlay_container"></div>
@@ -50,7 +50,7 @@
     <div id="presentation">
         <div class="sprite xlarge reverse shadow-top bg-white"></div>
 
-        <div class="sd-rubrique clearfix bg-white pr-5">
+        <div class="sd-rubrique clearfix bg-white p-5">
             <div id="smartphone_global_container" class="animation-element from-left wait-load">
                 <div id="smartphone_animation_container">
                     <canvas id="smartphone_canvas"></canvas>
@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="sd-incline overflow-hidden">
+            <div class="overflow-hidden">
                 <div class="animation-element from-right">
                     <div class="pt-4 sd-section-title text-center">
                         &lt;{{ 'title.presentation'|trans }} /&gt;
@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <div class="bg-flat">
+    <div class="bg-flat bg-binary bg-bottom">
         <div class="sd-ciel-inner"></div>
 
         <div id="technologies" class="l-home-plugins js-plugin-blocks-container">
