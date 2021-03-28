@@ -215,6 +215,7 @@
 .sd-rubrique .rounded-animation {
     position: relative;
     margin: 10px 0;
+    background-color: #dbdbdb;
     border: 4px solid #fff;
     border-radius: 50%;
     overflow: hidden;
