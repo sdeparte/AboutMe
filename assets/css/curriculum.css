@@ -216,10 +216,6 @@
     text-align: center;
 }
 
-#me > .sd-rubrique hr {
-    border-top: 1px solid #fff;
-}
-
 #me > .sd-rubrique .rounded-animation {
     position: relative;
     width: 100%;
