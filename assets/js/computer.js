@@ -56,7 +56,13 @@ function computer_handleComplete(evt,comp) {
     computer_fnStartAnimation();
 
     setTimeout(function(){
-        $(computer_global_container).removeClass('wait-load');
+        var animationHandler = $(computer_global_container).data('animation-handler');
+
+        if (animationHandler === undefined) {
+            $(computer_global_container).removeClass('wait-load');
+        } else {
+            $('#' + animationHandler).removeClass('wait-load');
+        }
     }, 250);
 }
 
@@ -5694,10 +5700,10 @@ function computer_handleComplete(evt,comp) {
             }
             domContainers[0].width = w * pRatio * sRatio;
             domContainers[0].height = h * pRatio * sRatio;
-            domContainers.forEach(function(container) {
+            /*domContainers.forEach(function(container) {
                 container.style.width = w * sRatio + 'px';
                 container.style.height = h * sRatio + 'px';
-            });
+            });*/
             stage.scaleX = pRatio*sRatio;
             stage.scaleY = pRatio*sRatio;
             lastW = iw; lastH = ih; lastS = sRatio;

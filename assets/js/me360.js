@@ -56,7 +56,13 @@ function me360_handleComplete(evt,comp) {
     me360_fnStartAnimation();
 
     setTimeout(function(){
-        $(me360_global_container).removeClass('wait-load');
+        var animationHandler = $(me360_global_container).data('animation-handler');
+
+        if (animationHandler === undefined) {
+            $(me360_global_container).removeClass('wait-load');
+        } else {
+            $('#' + animationHandler).removeClass('wait-load');
+        }
     }, 250);
 }
 

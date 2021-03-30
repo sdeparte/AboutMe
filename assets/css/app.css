@@ -19,7 +19,7 @@ body {
     color:#2c3e50;
 }
 
-a {
+a, a * {
     color: inherit;
     text-decoration: none;
 }
@@ -33,6 +33,10 @@ a.underline {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #dc5858;
+}
+
+a.no-underline:hover {
+    text-decoration: none;
 }
 
 button:focus {

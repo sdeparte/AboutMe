@@ -52,8 +52,8 @@ function isShowInView(window, element) {
 
     var $element = $(element);
 
-    if ($element.data('relatedto') !== undefined) {
-        $element = $('#' + $element.data('relatedto'));
+    if ($element.data('related-to') !== undefined) {
+        $element = $('#' + $element.data('related-to'));
     }
 
     var element_height = $element.outerHeight();
