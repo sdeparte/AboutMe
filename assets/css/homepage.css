@@ -55,7 +55,7 @@
     width: 60%;
     max-width: 800px;
     max-height: 600px;
-    margin-top: -33%;
+    margin-top: -26%;
     overflow: hidden;
 }
 
@@ -93,6 +93,8 @@
     float: left;
     position: relative;
     width: 33%;
+    max-width: 500px;
+    max-height: 768px;
     overflow: hidden;
 }
 
@@ -132,6 +134,10 @@
 }
 
 @media (max-width: 1199.98px) {
+    #computer_animation_handler {
+        margin-top: -33%;
+    }
+
     #slider > .sd-rubrique {
         right: 500px;
     }
