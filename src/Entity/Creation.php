@@ -49,9 +49,10 @@ class Creation
     private $hoverColor;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Image", mappedBy="creation")
+     * @ORM\ManyToMany(targetEntity="App\Entity\BigType", inversedBy="creations")
+     * @ORM\JoinColumn(nullable=false)
      */
-    private $images;
+    private $bigTypes;
 
     /**
      * @ORM\ManyToMany(targetEntity="App\Entity\Tag", inversedBy="creations")
@@ -82,7 +83,7 @@ class Creation
 
     public function __construct()
     {
-        $this->images = new ArrayCollection();
+        $this->bigTypes = new ArrayCollection();
         $this->tags = new ArrayCollection();
         $this->technologies = new ArrayCollection();
     }
@@ -165,31 +166,26 @@ class Creation
     }
 
     /**
-     * @return Collection|Image[]
+     * @return Collection|BigType[]
      */
-    public function getImages(): Collection
+    public function getBigTypes(): Collection
     {
-        return $this->images;
+        return $this->bigTypes;
     }
 
-    public function addImage(Image $image): self
+    public function addBigType(BigType $bigType): self
     {
-        if (!$this->images->contains($image)) {
-            $this->images[] = $image;
-            $image->setCreation($this);
+        if (!$this->bigTypes->contains($bigType)) {
+            $this->bigTypes[] = $bigType;
         }
 
         return $this;
     }
 
-    public function removeImage(Image $image): self
+    public function removeBigType(BigType $bigType): self
     {
-        if ($this->images->contains($image)) {
-            $this->images->removeElement($image);
-            // set the owning side to null (unless already changed)
-            if ($image->getCreation() === $this) {
-                $image->setCreation(null);
-            }
+        if ($this->bigTypes->contains($bigType)) {
+            $this->bigTypes->removeElement($bigType);
         }
 
         return $this;

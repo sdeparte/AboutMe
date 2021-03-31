@@ -26,17 +26,14 @@ a, a * {
 
 a:hover,
 a:active {
+    text-decoration: none;
     color: #bc3838;
 }
 
-a.underline {
+a.underline, a.underline:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #dc5858;
-}
-
-a.no-underline:hover {
-    text-decoration: none;
 }
 
 button:focus {

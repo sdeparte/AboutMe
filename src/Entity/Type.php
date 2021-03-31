@@ -24,11 +24,6 @@ class Type
     private $titleKey;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\BigType", mappedBy="types")
-     */
-    private $bigTypes;
-
-    /**
      * @ORM\ManyToMany(targetEntity="App\Entity\Svg", inversedBy="types")
      */
     private $svgs;
@@ -40,7 +35,6 @@ class Type
 
     public function __construct()
     {
-        $this->bigTypes = new ArrayCollection();
         $this->svgs = new ArrayCollection();
         $this->creations = new ArrayCollection();
     }
@@ -58,34 +52,6 @@ class Type
     public function setTitleKey(string $titleKey): self
     {
         $this->titleKey = $titleKey;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|BigType[]
-     */
-    public function getBigTypes(): Collection
-    {
-        return $this->bigTypes;
-    }
-
-    public function addBigType(BigType $bigType): self
-    {
-        if (!$this->bigTypes->contains($bigType)) {
-            $this->bigTypes[] = $bigType;
-            $bigType->addType($this);
-        }
-
-        return $this;
-    }
-
-    public function removeBigType(BigType $bigType): self
-    {
-        if ($this->bigTypes->contains($bigType)) {
-            $this->bigTypes->removeElement($bigType);
-            $bigType->removeType($this);
-        }
 
         return $this;
     }

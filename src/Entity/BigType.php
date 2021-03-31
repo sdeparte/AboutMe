@@ -24,13 +24,18 @@ class BigType
     private $titleKey;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Type", inversedBy="bigTypes")
+     * @ORM\OneToOne(targetEntity="App\Entity\Svg", inversedBy="bigType")
      */
-    private $types;
+    private $svg;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Creation", inversedBy="bigTypes")
+     */
+    private $creations;
 
     public function __construct()
     {
-        $this->types = new ArrayCollection();
+        $this->creations = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -50,27 +55,39 @@ class BigType
         return $this;
     }
 
-    /**
-     * @return Collection|type[]
-     */
-    public function getTypes(): Collection
+    public function getSvg(): Svg
     {
-        return $this->types;
+        return $this->svg;
     }
 
-    public function addType(type $type): self
+    public function setSvg(Svg $svg): self
     {
-        if (!$this->types->contains($type)) {
-            $this->types[] = $type;
+        $this->svg = $svg;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Creation[]
+     */
+    public function getCreations(): Collection
+    {
+        return $this->creations;
+    }
+
+    public function addCreation(Creation $creation): self
+    {
+        if (!$this->creations->contains($creation)) {
+            $this->creations[] = $creation;
         }
 
         return $this;
     }
 
-    public function removeType(type $type): self
+    public function removeCreation(Creation $creation): self
     {
-        if ($this->types->contains($type)) {
-            $this->types->removeElement($type);
+        if ($this->creations->contains($creation)) {
+            $this->creations->removeElement($creation);
         }
 
         return $this;

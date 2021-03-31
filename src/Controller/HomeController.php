@@ -17,7 +17,15 @@ class HomeController extends AbstractController
      */
     public function index()
     {
-        return $this->render('index.html.twig');
+        $em = $this->getDoctrine()->getManager();
+
+        $repository = $em->getRepository('App:BigType');
+        $listBigTypes = $repository->findAll();
+
+        return $this->render(
+            'index.html.twig',
+            ['listBigTypes' => $listBigTypes]
+        );
     }
 
     /**
@@ -30,7 +38,15 @@ class HomeController extends AbstractController
      */
     public function technologies()
     {
-        return $this->render('technologies.html.twig');
+        $em = $this->getDoctrine()->getManager();
+
+        $repository = $em->getRepository('App:BigType');
+        $listBigTypes = $repository->findAll();
+
+        return $this->render(
+            'technologies.html.twig',
+            ['listBigTypes' => $listBigTypes]
+        );
     }
 
     /**
@@ -44,12 +60,19 @@ class HomeController extends AbstractController
     public function realisations()
     {
         $em = $this->getDoctrine()->getManager();
+
+        $repository = $em->getRepository('App:BigType');
+        $listBigTypes = $repository->findAll();
+
         $repository = $em->getRepository('App:Creation');
         $listCreations = $repository->findAll();
 
         return $this->render(
             'realisations.html.twig',
-            ['listCreations' => $listCreations]
+            [
+                'listCreations' => $listCreations,
+                'listBigTypes' => $listBigTypes,
+            ]
         );
     }
 
@@ -63,8 +86,14 @@ class HomeController extends AbstractController
      */
     public function curriculum()
     {
+        $em = $this->getDoctrine()->getManager();
+
+        $repository = $em->getRepository('App:BigType');
+        $listBigTypes = $repository->findAll();
+
         return $this->render(
-            'curriculum.html.twig'
+            'curriculum.html.twig',
+            ['listBigTypes' => $listBigTypes]
         );
     }
 }

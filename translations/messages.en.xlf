@@ -27,25 +27,25 @@
         <source>title.realisations</source>
         <target>Creations</target>
       </trans-unit>
-      <trans-unit id="title_applications_bureautiques">
-        <source>title.applications.bureautiques</source>
+      <trans-unit id="text_bigType_appBureautiques">
+        <source>text.bigType.appBureautiques</source>
         <target>Office applications</target>
       </trans-unit>
-      <trans-unit id="title_applications_mobiles">
-        <source>title.applications.mobiles</source>
+      <trans-unit id="text_bigType_appMobiles">
+        <source>text.bigType.appMobiles</source>
         <target>Mobile applications</target>
       </trans-unit>
-      <trans-unit id="title_applications_sites_web">
-        <source>title.applications.sites.web</source>
+      <trans-unit id="text_bigType_appSiteWebs">
+        <source>text.bigType.appSiteWebs</source>
         <target>Applications / Websites</target>
       </trans-unit>
-      <trans-unit id="title_creations_graphiques">
-        <source>title.creations.graphiques</source>
+      <trans-unit id="text_bigType_creaGraphiques">
+        <source>text.bigType.creaGraphiques</source>
         <target>Graphic creations</target>
       </trans-unit>
       <trans-unit id="txt_x_realisations">
         <source>txt.x.realisation</source>
-        <target>%count% creations</target>
+        <target>%count% creation(s)</target>
       </trans-unit>
 
       <trans-unit id="title_presentation">

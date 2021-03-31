@@ -33,6 +33,11 @@ class Svg
      */
     private $types;
 
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\BigType", mappedBy="svg")
+     */
+    private $bigType;
+
     public function __construct()
     {
         $this->types = new ArrayCollection();
@@ -91,6 +96,18 @@ class Svg
             $this->types->removeElement($type);
             $type->removeSvg($this);
         }
+
+        return $this;
+    }
+
+    public function getBigType(): ?BigType
+    {
+        return $this->bigType;
+    }
+
+    public function setBigType(BigType $bigType): self
+    {
+        $this->bigType = $bigType;
 
         return $this;
     }
