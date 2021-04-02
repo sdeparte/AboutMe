@@ -7,7 +7,6 @@
     right: 0;
     background-color: #34495e;
     color: #fff;
-    height: 102px;
     padding: 12px 20px;
     z-index: 4;
 }
@@ -38,7 +37,7 @@
 }
 
 .padding-searchbar {
-    padding: 51px;
+    padding-bottom: 102px;
 }
 
 .all-height-remain {

@@ -24,6 +24,7 @@ $( document ).ready(function() {
         }
     });
 
+    calculeSearchbarHeight();
     checkCreationsVisibility();
 
     $('#searchbar .big-type').click(function() {
@@ -73,8 +74,17 @@ $( document ).ready(function() {
 });
 
 $(window).resize(function(){
+    calculeSearchbarHeight();
     calculeNewItemPerRow();
 });
+
+function calculeSearchbarHeight() {
+    var searchBarHeight = $('#searchbar').outerHeight();
+    var navBarHeight = $('#navbar').outerHeight();
+
+    $('.padding-searchbar').css('padding-bottom', searchBarHeight + 'px');
+    $('.all-height-remain').css('min-height', 'calc(100vh - ' + (searchBarHeight + navBarHeight) + 'px');
+}
 
 function calculeNewItemPerRow() {
     var containerWidth = $('.list-realisations').outerWidth();
