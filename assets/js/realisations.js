@@ -15,8 +15,11 @@ $( document ).ready(function() {
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 
             if (target.length) {
+                var navBarHeight = $('#navbar').outerHeight();
+                var searchBarHeight = $('#searchbar').outerHeight();
+
                 $('html,body').animate({
-                    scrollTop: target.offset().top - 150
+                    scrollTop: target.offset().top - (navBarHeight + searchBarHeight)
                 }, 0);
 
                 return false;
@@ -66,7 +69,12 @@ $( document ).ready(function() {
             $triggered.addClass('active');
             $triggeredElement.slideDown();
 
-            $('html, body').animate({scrollTop: $('#creation-'+ target).offset().top - 125}, 0);
+            var navBarHeight = $('#navbar').outerHeight();
+            var searchBarHeight = $('#searchbar').outerHeight();
+
+            $('html, body').animate({
+                scrollTop: $('#creation-'+ target).offset().top - (navBarHeight + searchBarHeight)
+            }, 0);
         } else {
             closeAllDescriptions();
         }
@@ -79,11 +87,11 @@ $(window).resize(function(){
 });
 
 function calculeSearchbarHeight() {
-    var searchBarHeight = $('#searchbar').outerHeight();
     var navBarHeight = $('#navbar').outerHeight();
+    var searchBarHeight = $('#searchbar').outerHeight();
 
     $('.padding-searchbar').css('padding-bottom', searchBarHeight + 'px');
-    $('.all-height-remain').css('min-height', 'calc(100vh - ' + (searchBarHeight + navBarHeight) + 'px');
+    $('.all-height-remain').css('min-height', 'calc(100vh - ' + ( navBarHeight + searchBarHeight) + 'px');
 }
 
 function calculeNewItemPerRow() {
@@ -104,7 +112,7 @@ function calculeNewItemPerRow() {
 }
 
 function positionExpandableElement(triggered, element) {
-    var allFlexItems = $('.list-realisations > .one-realisation.use');
+    var allFlexItems = $('.list-realisations > .one-realisation.use:not(.hide)');
     var itemsData = [];
 
     $.each(allFlexItems, function(key, el){

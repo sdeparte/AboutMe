@@ -51,8 +51,10 @@ $( document ).ready(function() {
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 
             if (target.length) {
+                var navBarHeight = $('#navbar').outerHeight();
+
                 $('html,body').animate({
-                    scrollTop: target.offset().top - 100
+                    scrollTop: target.offset().top - navBarHeight
                 }, 0);
 
                 return false;
