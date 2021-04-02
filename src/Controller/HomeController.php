@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
@@ -57,7 +58,7 @@ class HomeController extends AbstractController
      *     requirements={"_locale": "en|fr"}
      * )
      */
-    public function realisations()
+    public function realisations(Request $request)
     {
         $em = $this->getDoctrine()->getManager();
 

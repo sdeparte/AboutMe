@@ -15,12 +15,22 @@
 {% endblock %}
 
 {% block content %}
-    {% include 'ariane.html.twig' with {'titles': {'languages': 'title.languages.de.developpements'|trans, 'environnements': 'title.environnements.systemes.expoitations'|trans }} %}
+    <div class="search-bar p-4">
+        Sélectionnez les types de créations à afficher :
+        <div class="row">
+            {% for bigType in listBigTypes %}
+                <div class="big-type" data-big-type="{{ bigType.id }}">
+                    {{ bigType.svg.svgHtml|raw }}
+                    {{ bigType.titleKey|trans }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 
-    <div class="100-vh bg-white clearfix">
+    <div class="all-height-remain bg-white clearfix">
         <div class="list-realisations">
             {% for creation in listCreations %}
-                <div class="one-realisation" id="creation-{{ creation.id }}" data-target="{{ creation.id }}" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div class="one-realisation" id="creation-{{ creation.id }}" data-target="{{ creation.id }}" data-big-types="{{ creation.bigTypeIds }}" style="transform: matrix(1, 0, 0, 1, 0, 0);">
                     <span data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
                         <div class="inner {{ creation.hoverColor }}">
                             <span class="realisation-type" style="color:{{ creation.color }}">

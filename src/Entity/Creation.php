@@ -49,7 +49,7 @@ class Creation
     private $hoverColor;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\BigType", inversedBy="creations")
+     * @ORM\ManyToMany(targetEntity="App\Entity\BigType", mappedBy="creations")
      * @ORM\JoinColumn(nullable=false)
      */
     private $bigTypes;
@@ -171,6 +171,21 @@ class Creation
     public function getBigTypes(): Collection
     {
         return $this->bigTypes;
+    }
+
+    /**
+     * @return String
+     */
+    public function getBigTypeIds(): String
+    {
+        $bigTypeIds = [];
+
+        /** @var BigType $bigType */
+        foreach ($this->bigTypes as $bigType) {
+            $bigTypeIds[] = $bigType->getId();
+        }
+
+        return '['.implode(',', $bigTypeIds).']';
     }
 
     public function addBigType(BigType $bigType): self

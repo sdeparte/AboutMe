@@ -24,6 +24,14 @@ $( document ).ready(function() {
         }
     });
 
+    checkCreationsVisibility();
+
+    $('.big-type').click(function() {
+        $(this).toggleClass('selected');
+
+        checkCreationsVisibility();
+    });
+
     var containerWidth = $('.list-realisations').outerWidth();
     var itemWidth = $('.list-realisations > .one-realisation').outerWidth();
 
@@ -82,4 +90,25 @@ function positionExpandableElement(triggered, element) {
     var insertAfter = (itemsPerRow * rowNumber) + itemsPerRow - 1; //we add itemsPerRow because we always need to skip the first row, -1 because array starts at 0
 
     $(element).insertAfter($('.list-realisations > .one-realisation')[insertAfter]);
+}
+
+function checkCreationsVisibility() {
+    $('.one-realisation').each(function() {
+        var $creation = $(this);
+        var bigTypes = $creation.data('big-types');
+        var visibility = false;
+
+        for (var i = 0; i < bigTypes.length; i++) {
+            if ($('.big-type[data-big-type="' + bigTypes[i] + '"]').hasClass('selected')) {
+                visibility = true;
+                break;
+            }
+        }
+
+        if (visibility) {
+            $creation.removeClass('hide');
+        } else {
+            $creation.addClass('hide');
+        }
+    });
 }
