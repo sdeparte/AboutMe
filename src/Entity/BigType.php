@@ -33,6 +33,8 @@ class BigType
      */
     private $creations;
 
+    private $selected = true;
+
     public function __construct()
     {
         $this->creations = new ArrayCollection();
@@ -91,5 +93,21 @@ class BigType
         }
 
         return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isSelected(): bool
+    {
+        return $this->selected;
+    }
+
+    /**
+     * @param bool $selected
+     */
+    public function setSelected(bool $selected): void
+    {
+        $this->selected = $selected;
     }
 }

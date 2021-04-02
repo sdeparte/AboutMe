@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\BigType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -64,6 +65,21 @@ class HomeController extends AbstractController
 
         $repository = $em->getRepository('App:BigType');
         $listBigTypes = $repository->findAll();
+
+        $bigTypesToShow = $request->get('bigTypesToShow');
+
+        if (null !== $bigTypesToShow) {
+            $bigTypesToShow = explode(';', $bigTypesToShow);
+
+            /** @var BigType $bigType */
+            foreach ($listBigTypes as $bigType) {
+                if (!\in_array($bigType->getId(), $bigTypesToShow)) {
+                    $bigType->setSelected(false);
+                }
+            }
+        }
+
+        dump($listBigTypes);
 
         $repository = $em->getRepository('App:Creation');
         $listCreations = $repository->findAll();

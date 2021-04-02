@@ -29,6 +29,18 @@ $( document ).ready(function() {
     $('.big-type').click(function() {
         $(this).toggleClass('selected');
 
+        var show = [];
+
+        $('.big-type').each(function() {
+            var $bigType = $(this);
+
+            if ($bigType.hasClass('selected')) {
+                show.push($bigType.data('big-type'));
+            }
+        });
+
+        window.history.pushState('','', window.location.pathname + '?bigTypesToShow=' + show.join(';'));
+
         checkCreationsVisibility();
     });
 
