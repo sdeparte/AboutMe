@@ -1,16 +1,23 @@
 @charset "UTF-8";
 
-.search-bar {
+#searchbar {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    right: 0;
     background-color: #34495e;
     color: #fff;
+    height: 102px;
+    padding: 12px 20px;
+    z-index: 4;
 }
 
-.search-bar .svg-inline--fa {
+#searchbar .svg-inline--fa {
     font-size: 1em;
     margin-right: 5px
 }
 
-.search-bar .big-type {
+#searchbar .big-type {
     display: inline-block;
     font-weight: bold;
     background-color: #2c3e50;
@@ -24,10 +31,14 @@
     transition: all .25s linear;
 }
 
-.search-bar .big-type:hover,
-.search-bar .big-type.selected {
+#searchbar .big-type:hover,
+#searchbar .big-type.selected {
     background-color: #fff;
     color: #bc3838;
+}
+
+.padding-searchbar {
+    padding: 51px;
 }
 
 .all-height-remain {
@@ -61,9 +72,13 @@ img.realisation-element {
     cursor: pointer;
     width: 25%;
 
-    -webkit-transition: width .25s linear, opacity .25s linear .25s, filter .25s linear .5s;
-    -moz-transition: width .25s linear, opacity .25s linear .25s, filter .25s linear .5s;
-    transition: width .25s linear, opacity .25s linear .25s, filter .25s linear .5s;
+    -webkit-transition: width .25s linear .25s, opacity .25s linear .5s, filter .25s linear .75s;
+    -moz-transition: width .25s linear .25s, opacity .25s linear .5s, filter .25s linear .75s;
+    transition: width .25s linear .25s, opacity .25s linear .5s, filter .25s linear .75s;
+}
+
+.list-realisations > .one-realisation.not-use {
+    display: none;
 }
 
 .list-realisations > .one-realisation.hide {
@@ -71,9 +86,9 @@ img.realisation-element {
     opacity: 0;
     width: 0;
 
-    -webkit-transition: filter .25s linear, opacity .25s linear .25s, width .25s linear .5s;
-    -moz-transition: filter .25s linear, opacity .25s linear .25s, width .25s linear .5s;
-    transition: filter .25s linear, opacity .25s linear .25s, width .25s linear .5s;
+    -webkit-transition: filter .25s linear .25s, opacity .25s linear .5s, width .25s linear .75s;
+    -moz-transition: filter .25s linear .25s, opacity .25s linear .5s, width .25s linear .75s;
+    transition: filter .25s linear .25s, opacity .25s linear .5s, width .25s linear .75s;
 }
 
 .list-realisations > .one-realisation > span {

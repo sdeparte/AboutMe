@@ -26,12 +26,12 @@ $( document ).ready(function() {
 
     checkCreationsVisibility();
 
-    $('.big-type').click(function() {
+    $('#searchbar .big-type').click(function() {
         $(this).toggleClass('selected');
 
         var show = [];
 
-        $('.big-type').each(function() {
+        $('#searchbar .big-type').each(function() {
             var $bigType = $(this);
 
             if ($bigType.hasClass('selected')) {
@@ -41,11 +41,13 @@ $( document ).ready(function() {
 
         window.history.pushState('','', window.location.pathname + '?bigTypesToShow=' + show.join(';'));
 
+        closeAllDescriptions();
         checkCreationsVisibility();
+        calculeNewItemPerRow();
     });
 
     var containerWidth = $('.list-realisations').outerWidth();
-    var itemWidth = $('.list-realisations > .one-realisation').outerWidth();
+    var itemWidth = $('.list-realisations > #realisation-reference').outerWidth();
 
     itemsPerRow = Math.floor(containerWidth / itemWidth);
 
@@ -53,65 +55,71 @@ $( document ).ready(function() {
         var $triggered = $(this);
 
         if (!$triggered.hasClass('active')) {
-            $('.list-realisations > .one-realisation').removeClass('active');
-            $('.list-realisations > .one-realisation-description').slideUp();
+            closeAllDescriptions();
 
-            var target = $triggered.attr('data-target');
-            var $triggeredElement = $('.list-realisations > .one-realisation-description[data-target='+ target +']');
+            var target = $triggered.data('target');
+            var $triggeredElement = $('.list-realisations > .one-realisation-description[data-target="'+ target +'"]');
 
             positionExpandableElement($triggered, $triggeredElement);
 
             $triggered.addClass('active');
             $triggeredElement.slideDown();
 
-            $('html, body').animate({scrollTop: $('#creation-'+ target).offset().top - 125}, 0)
+            $('html, body').animate({scrollTop: $('#creation-'+ target).offset().top - 125}, 0);
         } else {
-            $('.list-realisations > .one-realisation').removeClass('active');
-            $('.list-realisations > .one-realisation-description').slideUp();
+            closeAllDescriptions();
         }
     });
 });
 
 $(window).resize(function(){
+    calculeNewItemPerRow();
+});
+
+function calculeNewItemPerRow() {
     var containerWidth = $('.list-realisations').outerWidth();
-    var itemWidth = $('.list-realisations > .one-realisation').outerWidth();
+    var itemWidth = $('.list-realisations > #realisation-reference').outerWidth();
 
     var newItemsPerRow = Math.round(containerWidth / itemWidth);
 
-    if (itemsPerRow != newItemsPerRow) {
+    if (itemsPerRow !== newItemsPerRow) {
         itemsPerRow = newItemsPerRow;
 
         var $triggered = $('.list-realisations > .one-realisation.active');
-        var target = $triggered.attr('data-target');
+        var target = $triggered.data('target');
         var $triggeredElement = $('.list-realisations > .one-realisation-description[data-target='+ target +']');
 
         positionExpandableElement($triggered, $triggeredElement);
     }
-});
+}
 
 function positionExpandableElement(triggered, element) {
-    var allFlexItems = $('.list-realisations > .one-realisation');
+    var allFlexItems = $('.list-realisations > .one-realisation.use');
     var itemsData = [];
 
     $.each(allFlexItems, function(key, el){
-        itemsData.push($(el).attr('data-target'));
+        itemsData.push($(el).data('target'));
     });
 
-    var elNumber = $.inArray($(triggered).attr('data-target'), itemsData);
+    var elNumber = $.inArray($(triggered).data('target'), itemsData);
     var rowNumber = Math.floor(elNumber / itemsPerRow);
     var insertAfter = (itemsPerRow * rowNumber) + itemsPerRow - 1; //we add itemsPerRow because we always need to skip the first row, -1 because array starts at 0
+    $(element).insertAfter($('.list-realisations > .one-realisation.use:not(.hide)')[insertAfter]);
+}
 
-    $(element).insertAfter($('.list-realisations > .one-realisation')[insertAfter]);
+function closeAllDescriptions(animation = true) {
+    $('.list-realisations > .one-realisation').removeClass('active');
+    $('.list-realisations > .one-realisation-description').slideUp();
 }
 
 function checkCreationsVisibility() {
-    $('.one-realisation').each(function() {
+    $('.list-realisations > .one-realisation.use').each(function() {
         var $creation = $(this);
         var bigTypes = $creation.data('big-types');
         var visibility = false;
 
         for (var i = 0; i < bigTypes.length; i++) {
-            if ($('.big-type[data-big-type="' + bigTypes[i] + '"]').hasClass('selected')) {
+            if ($('#searchbar .big-type[data-big-type="' + bigTypes[i] + '"]').hasClass('selected')) {
                 visibility = true;
                 break;
             }

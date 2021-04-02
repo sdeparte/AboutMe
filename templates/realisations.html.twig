@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block content %}
-    <div class="search-bar p-4">
+    <div id="searchbar">
         Sélectionnez les types de créations à afficher :
         <div class="row">
             {% for bigType in listBigTypes %}
@@ -27,10 +27,12 @@
         </div>
     </div>
 
+    <div class="padding-searchbar"></div>
+
     <div class="all-height-remain bg-white clearfix">
         <div class="list-realisations">
             {% for creation in listCreations %}
-                <div class="one-realisation hide" id="creation-{{ creation.id }}" data-target="{{ creation.id }}" data-big-types="{{ creation.bigTypeIds }}" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div class="one-realisation use hide" id="creation-{{ creation.id }}" data-target="{{ creation.id }}" data-big-types="{{ creation.bigTypeIds }}" style="transform: matrix(1, 0, 0, 1, 0, 0);">
                     <span data-color="#e3544a" style="background-color:{{ creation.backgroundColor }}">
                         <div class="inner {{ creation.hoverColor }}">
                             <span class="realisation-type" style="color:{{ creation.color }}">
@@ -59,6 +61,7 @@
                     </div>
                 </div>
             {% endfor %}
+            <div id="realisation-reference" class="one-realisation not-use"></div>
         </div>
     </div>
 {% endblock %}
