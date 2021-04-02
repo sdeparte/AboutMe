@@ -55,7 +55,7 @@ class BigType
         return $this;
     }
 
-    public function getSvg(): Svg
+    public function getSvg(): ?Svg
     {
         return $this->svg;
     }
