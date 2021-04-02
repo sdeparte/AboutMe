@@ -79,8 +79,6 @@ class HomeController extends AbstractController
             }
         }
 
-        dump($listBigTypes);
-
         $repository = $em->getRepository('App:Creation');
         $listCreations = $repository->findAll();
 
