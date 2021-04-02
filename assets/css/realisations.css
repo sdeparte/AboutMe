@@ -42,7 +42,7 @@
 }
 
 .all-height-remain {
-    min-height: calc(100vh - 202px);
+    min-height: calc(100vh - 178px);
 }
 
 video.realisation-element,
