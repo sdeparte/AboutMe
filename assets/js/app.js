@@ -4,17 +4,24 @@ import '../css/app.css';
 
 import $ from 'jquery';
 
-$( document ).ready(function() {
+$(document).ready(function() {
     $(window).scroll(function() {
         showWhenInView();
     });
 
     $(window).resize(function() {
+        calculeNavBarHeight();
         showWhenInView();
     });
 
     showWhenInView();
 });
+
+function calculeNavBarHeight() {
+    var navBarHeight = $('#navbar').outerHeight();
+
+    $('.padding-navbar').css('padding-bottom', navBarHeight + 'px');
+}
 
 function showWhenInView() {
     var appearOnceItems = $('.animation-element.once');
