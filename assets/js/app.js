@@ -5,6 +5,26 @@ import '../css/app.css';
 import $ from 'jquery';
 
 $(document).ready(function() {
+    $("a[href*=\\#]:not([href=\\#])").click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+            if (target.length) {
+                var navBarHeight = $('#navbar').outerHeight() ?? 0;
+                var arianeHeight = $('#ariane').outerHeight() ?? 0;
+                var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
+
+                $('html,body').animate({
+                    scrollTop: target.offset().top - (navBarHeight + arianeHeight + searchbarHeight)
+                }, 0);
+
+                return false;
+            }
+        }
+    });
+
     $(window).scroll(function() {
         showWhenInView();
     });
@@ -18,9 +38,15 @@ $(document).ready(function() {
 });
 
 function calculeNavBarHeight() {
-    var navBarHeight = $('#navbar').outerHeight();
+    var navBarHeight = $('#navbar').outerHeight() ?? 0;
+    var arianeHeight = $('#ariane').outerHeight() ?? 0;
+    var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
 
     $('.padding-navbar').css('padding-bottom', navBarHeight + 'px');
+    $('.padding-ariane').css('padding-bottom', arianeHeight + 'px');
+    $('.padding-searchbar').css('padding-bottom', searchbarHeight + 'px');
+
+    $('.all-height-remain').css('min-height', 'calc(100vh - ' + (navBarHeight + arianeHeight + searchBarHeight) + 'px');
 }
 
 function showWhenInView() {
@@ -42,11 +68,11 @@ function showWhenInView() {
         }
     });
 
-    var arianeItems = $('.show-in-ariane');
+    var arianeItems = $('.show-in-ariane').toArray().reverse()
 
     $.each(arianeItems, function () {
         if (isShowInView(window, this)) {
-            $('#ariane>.ariane-bar>.sd-ariane-title>.sd-text').html($('.sd-section-title>.html-content', $(this)).html());
+            $('#ariane > .ariane-bar > .sd-ariane-title > .sd-text').html($('.sd-title > h5', $(this)).html());
         }
     });
 }
@@ -67,7 +93,11 @@ function isShowInView(window, element) {
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
 
-    if ((element_bottom_position >= window_top_position) &&
+    var navBarHeight = $('#navbar').outerHeight() ?? 0;
+    var arianeHeight = $('#ariane').outerHeight() ?? 0;
+    var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
+
+    if ((element_bottom_position >= window_top_position + navBarHeight + arianeHeight + searchbarHeight) &&
         (element_top_position <= window_bottom_position)
     ) {
         return true;

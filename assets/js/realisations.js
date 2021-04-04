@@ -8,25 +8,6 @@ import $ from 'jquery';
 var itemsPerRow;
 
 $( document ).ready(function() {
-    $("a[href*=\\#]:not([href=\\#])").click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-            if (target.length) {
-                var navBarHeight = $('#navbar').outerHeight();
-                var searchBarHeight = $('#searchbar').outerHeight();
-
-                $('html,body').animate({
-                    scrollTop: target.offset().top - (navBarHeight + searchBarHeight)
-                }, 0);
-
-                return false;
-            }
-        }
-    });
-
     calculeSearchbarHeight();
     checkCreationsVisibility();
 
@@ -82,17 +63,8 @@ $( document ).ready(function() {
 });
 
 $(window).resize(function(){
-    calculeSearchbarHeight();
     calculeNewItemPerRow();
 });
-
-function calculeSearchbarHeight() {
-    var navBarHeight = $('#navbar').outerHeight();
-    var searchBarHeight = $('#searchbar').outerHeight();
-
-    $('.padding-searchbar').css('padding-bottom', searchBarHeight + 'px');
-    $('.all-height-remain').css('min-height', 'calc(100vh - ' + ( navBarHeight + searchBarHeight) + 'px');
-}
 
 function calculeNewItemPerRow() {
     var containerWidth = $('.list-realisations').outerWidth();

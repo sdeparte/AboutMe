@@ -4,4 +4,6 @@ import '../css/curriculum.css';
 
 import $ from 'jquery';
 
-// TODO
+$( document ).ready(function() {
+    // TO DO
+});
