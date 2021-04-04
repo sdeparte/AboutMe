@@ -14,10 +14,10 @@ $(document).ready(function() {
             if (target.length) {
                 var navBarHeight = $('#navbar').outerHeight() ?? 0;
                 var arianeHeight = $('#ariane').outerHeight() ?? 0;
-                var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
+                var searchBarHeight = $('#searchbar').outerHeight() ?? 0;
 
                 $('html,body').animate({
-                    scrollTop: target.offset().top - (navBarHeight + arianeHeight + searchbarHeight)
+                    scrollTop: target.offset().top - (navBarHeight + arianeHeight + searchBarHeight)
                 }, 0);
 
                 return false;
@@ -40,11 +40,11 @@ $(document).ready(function() {
 function calculeNavBarHeight() {
     var navBarHeight = $('#navbar').outerHeight() ?? 0;
     var arianeHeight = $('#ariane').outerHeight() ?? 0;
-    var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
+    var searchBarHeight = $('#searchbar').outerHeight() ?? 0;
 
     $('.padding-navbar').css('padding-bottom', navBarHeight + 'px');
     $('.padding-ariane').css('padding-bottom', arianeHeight + 'px');
-    $('.padding-searchbar').css('padding-bottom', searchbarHeight + 'px');
+    $('.padding-searchbar').css('padding-bottom', searchBarHeight + 'px');
 
     $('.all-height-remain').css('min-height', 'calc(100vh - ' + (navBarHeight + arianeHeight + searchBarHeight) + 'px');
 }
@@ -95,9 +95,9 @@ function isShowInView(window, element) {
 
     var navBarHeight = $('#navbar').outerHeight() ?? 0;
     var arianeHeight = $('#ariane').outerHeight() ?? 0;
-    var searchbarHeight = $('#searchbar').outerHeight() ?? 0;
+    var searchBarHeight = $('#searchbar').outerHeight() ?? 0;
 
-    if ((element_bottom_position >= window_top_position + navBarHeight + arianeHeight + searchbarHeight) &&
+    if ((element_bottom_position >= window_top_position + navBarHeight + arianeHeight + searchBarHeight) &&
         (element_top_position <= window_bottom_position)
     ) {
         return true;
