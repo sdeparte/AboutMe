@@ -194,6 +194,11 @@ img{
     padding: 17px;
 }
 
+.dev-plugin.no-padding,
+.dev-plugin.big-circle.no-padding{
+    padding: 0;
+}
+
 .dev-plugin > img{
     display: block;
     width: 100%;

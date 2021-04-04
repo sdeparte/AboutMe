@@ -22,6 +22,10 @@
         <source>title.environnements.systemes.expoitations</source>
         <target>Environments / Operating systems</target>
       </trans-unit>
+      <trans-unit id="title_tools_softwares">
+        <source>title.tools.softwares</source>
+        <target>Tools / Softwares</target>
+      </trans-unit>
 
       <trans-unit id="title_realisations">
         <source>title.realisations</source>
