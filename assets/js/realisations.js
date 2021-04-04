@@ -8,7 +8,6 @@ import $ from 'jquery';
 var itemsPerRow;
 
 $( document ).ready(function() {
-    calculeSearchbarHeight();
     checkCreationsVisibility();
 
     $('#searchbar .big-type').click(function() {
