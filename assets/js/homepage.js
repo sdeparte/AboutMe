@@ -1,6 +1,3 @@
-import './app';
-import './bubbles';
-
 import '../css/homepage.css';
 
 import $ from 'jquery';

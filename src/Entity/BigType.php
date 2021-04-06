@@ -24,6 +24,11 @@ class BigType
     private $titleKey;
 
     /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $descriptionKey;
+
+    /**
      * @ORM\OneToOne(targetEntity="App\Entity\Svg", inversedBy="bigType")
      */
     private $svg;
@@ -53,6 +58,18 @@ class BigType
     public function setTitleKey(string $titleKey): self
     {
         $this->titleKey = $titleKey;
+
+        return $this;
+    }
+
+    public function getDescriptionKey(): ?string
+    {
+        return $this->descriptionKey;
+    }
+
+    public function setDescriptionKey(string $descriptionKey): self
+    {
+        $this->descriptionKey = $descriptionKey;
 
         return $this;
     }

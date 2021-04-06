@@ -222,13 +222,11 @@ img{
     background-color: #fafafa;
     border-radius: 10px;
     min-height: 200px;
-    height: calc(100% - 30px);
+    height: 100%;
 
-    -webkit-transition: all .25s linear;
-    -moz-transition: all .25s linear;
-    -ms-transition: all .25s linear;
-    -o-transition: all .25s linear;
-    transition: all .25s linear;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease;
 }
 
 .sd-section .content:hover{
@@ -314,18 +312,18 @@ img{
 }
 .sd-button:focus{
     outline:none;
-    -webkit-box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75),0 0 0 1.25px rgba(82,95,127,.5) inset,0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
-    box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75),inset 0 0 0 1.25px rgba(82,95,127,.5),0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    -webkit-box-shadow: 0 0 0 1.5px hsla(0,0%,100%,.75),0 0 0 1.25px rgba(82,95,127,.5) inset,0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    box-shadow: 0 0 0 1.5px hsla(0,0%,100%,.75),inset 0 0 0 1.25px rgba(82,95,127,.5),0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
 }
 
 .sd-button:focus,.sd-button:hover{
     color:#7795f8;
     -webkit-transform:translateY(-1px);
     transform:translateY(-1px);
-    -webkit-box-shadow:0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
-    box-shadow:0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
-    -webkit-box-shadow:0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
-    box-shadow:0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08)
+    -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
 }
 
 .sd-button:active{

@@ -5,233 +5,344 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="title_accueil">
+      <trans-unit id="title.accueil">
         <source>title.accueil</source>
         <target>Home</target>
       </trans-unit>
 
-      <trans-unit id="title_technologies">
+      <trans-unit id="title.technologies">
         <source>title.technologies</source>
         <target>Technologies</target>
       </trans-unit>
-      <trans-unit id="title_languages_de_developpements">
+      <trans-unit id="title.languages.de.developpements">
         <source>title.languages.de.developpements</source>
         <target>Development languages</target>
       </trans-unit>
-      <trans-unit id="title_environnements_systemes_expoitations">
+      <trans-unit id="title.environnements.systemes.expoitations">
         <source>title.environnements.systemes.expoitations</source>
         <target>Environments / Operating systems</target>
       </trans-unit>
-      <trans-unit id="title_tools_softwares">
+      <trans-unit id="title.tools.softwares">
         <source>title.tools.softwares</source>
         <target>Tools / Softwares</target>
       </trans-unit>
 
-      <trans-unit id="title_realisations">
+      <trans-unit id="title.realisations">
         <source>title.realisations</source>
         <target>Creations</target>
       </trans-unit>
-      <trans-unit id="text_bigType_appBureautiques">
+      <trans-unit id="text.bigType.appBureautiques">
         <source>text.bigType.appBureautiques</source>
         <target>Office applications</target>
       </trans-unit>
-      <trans-unit id="text_bigType_appMobiles">
+      <trans-unit id="text.bigType.appMobiles">
         <source>text.bigType.appMobiles</source>
         <target>Mobile applications</target>
       </trans-unit>
-      <trans-unit id="text_bigType_appSiteWebs">
+      <trans-unit id="text.bigType.appSiteWebs">
         <source>text.bigType.appSiteWebs</source>
         <target>Applications / Websites</target>
       </trans-unit>
-      <trans-unit id="text_bigType_creaGraphiques">
+      <trans-unit id="text.bigType.creaGraphiques">
         <source>text.bigType.creaGraphiques</source>
         <target>Graphic creations</target>
       </trans-unit>
-      <trans-unit id="txt_x_realisations">
-        <source>txt.x.realisation</source>
-        <target>%count% creation(s)</target>
+      <trans-unit id="text.x.realisations">
+        <source>text.x.realisation</source>
+        <target>1 creation|%count% creation(s)</target>
       </trans-unit>
 
-      <trans-unit id="title_presentation">
+      <trans-unit id="title.presentation">
         <source>title.presentation</source>
         <target>Presentation</target>
       </trans-unit>
 
-      <trans-unit id="home_developpeur">
+      <trans-unit id="home.developpeur">
         <source>home.developpeur</source>
         <target>Developer</target>
       </trans-unit>
-      <trans-unit id="home_de_vos">
+      <trans-unit id="home.de.vos">
         <source>home.de.vos</source>
         <target>of your</target>
       </trans-unit>
-      <trans-unit id="home_idees">
+      <trans-unit id="home.idees">
         <source>home.idees</source>
         <target>ideas</target>
       </trans-unit>
-      <trans-unit id="home_envies">
+      <trans-unit id="home.envies">
         <source>home.envies</source>
         <target>desires</target>
       </trans-unit>
-      <trans-unit id="home_reves">
+      <trans-unit id="home.reves">
         <source>home.reves</source>
         <target>dreams</target>
       </trans-unit>
-      <trans-unit id="home_besoins">
+      <trans-unit id="home.besoins">
         <source>home.besoins</source>
         <target>needs</target>
       </trans-unit>
-      <trans-unit id="home_projets">
+      <trans-unit id="home.projets">
         <source>home.projets</source>
         <target>projects</target>
       </trans-unit>
 
-      <trans-unit id="btn_en_savoir_plus">
+      <trans-unit id="btn.en.savoir.plus">
         <source>btn.en.savoir.plus</source>
         <target>See more</target>
       </trans-unit>
-      <trans-unit id="btn_voir_les_realisations">
-        <source>btn.voir.les.realisations</source>
-        <target>See the creations</target>
+      <trans-unit id="btn.voir.les.x.realisations">
+        <source>btn.voir.les.x.realisations</source>
+        <target>See the creation|See the %count% creations</target>
       </trans-unit>
 
 
-      <trans-unit id="text_realisation_description">
+      <trans-unit id="text.presentation.p1">
+        <source>text.presentation.p1</source>
+        <target>
+            Sylvain DEPARTE, diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisé dans la programmation des « Systèmes Embarqués ».
+            Actuellement en poste au sein de la société ProwebCE en tant que « Développeur PHP » depuis 2018.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.presentation.p2">
+        <source>text.presentation.p2</source>
+        <target>
+            Je suis passionné par le développement et le design informatique.
+            J’ai donc suivi une formation très orientée sur la programmation, qui m'a permis de connaitre une grande variété de langages de programmations (C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript, ActionScript, etc.).
+            Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, embarquées (sous Android) et des sites internet.
+            De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités : depuis la définition des besoins du clients jusqu’aux tests finaux, en passant bien entendu par sa création et son développement.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.presentation.p3">
+        <source>text.presentation.p3</source>
+        <target>
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="text.bigType.description.appBureautiques">
+        <source>text.bigType.description.appBureautiques</source>
+        <target>
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.bigType.description.appMobiles">
+        <source>text.bigType.description.appMobiles</source>
+        <target>
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.bigType.description.appSiteWebs">
+        <source>text.bigType.description.appSiteWebs</source>
+        <target>
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.bigType.description.creaGraphiques">
+        <source>text.bigType.description.creaGraphiques</source>
+        <target>
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+        </target>
+      </trans-unit>
+
+
+      <trans-unit id="title.curriculum">
+        <source>title.curriculum</source>
+        <target>Curriculum</target>
+      </trans-unit>
+
+      <trans-unit id="text.prenom.nom">
+        <source>text.prenom.nom</source>
+        <target>
+            Sylvain DEPARTE
+        </target>
+      </trans-unit>
+      <trans-unit id="text.date.naissance">
+        <source>text.date.naissance</source>
+        <target>
+            September 30, 1991
+        </target>
+      </trans-unit>
+
+      <trans-unit id="text.description.p1">
+        <source>text.description.p1</source>
+        <target>
+            Je suis passionné depuis l'enfance par le développement et plus particulièrement par le développement de sites internet.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.description.p2">
+        <source>text.description.p2</source>
+        <target>
+            Lorsque je n'arrive pas à trouver une application ou un site WEB implémentant les fonctionnalitées qui me sont nécessaires, j'ai la chance de pouvoir le concevoir moi-même.
+            Ces différents projets personnels me permettent de continuer à apprendre de nouvelles connaissances au fur et à mesure que je me confronte à de nouveaux obstacles techniques.
+        </target>
+      </trans-unit>
+      <trans-unit id="text.description.p3">
+        <source>text.description.p3</source>
+        <target>
+            Justement, "apprendre" est-ce que je préfère. Dans le développement, mais pas que.
+            J'adore explorer de nouveaux domaines (illustration, animation, montage de vidéos, photographie, etc.).
+            Ces différentes explorations finissent souvent par devenir de nouvelles passions.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="title.etudes.experience">
+        <source>title.etudes.experiences</source>
+        <target>Education and Experience</target>
+      </trans-unit>
+      <trans-unit id="title.etudes">
+        <source>title.etudes</source>
+        <target>Education</target>
+      </trans-unit>
+      <trans-unit id="title.experience">
+        <source>title.experiences</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="title.competences">
+        <source>title.competences</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="title.hobbys">
+        <source>title.hobbys</source>
+        <target>Hobbies</target>
+      </trans-unit>
+
+
+      <trans-unit id="text.realisation.description">
         <source>text.realisation.description</source>
         <target>Description :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_contact_analyse">
+      <trans-unit id="text.realisation.contact.analyse">
         <source>text.realisation.contact.analyse</source>
         <target>Contacts et analyses :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_analyse">
+      <trans-unit id="text.realisation.analyse">
         <source>text.realisation.analyse</source>
         <target>Analyses :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_analyse_redaction">
+      <trans-unit id="text.realisation.analyse.redaction">
         <source>text.realisation.analyse.redaction</source>
         <target>Analyses et rédactions :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_recherche_cablage">
+      <trans-unit id="text.realisation.recherche.cablage">
         <source>text.realisation.recherche.cablage</source>
         <target>Recherches et câblage :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_dataBase">
+      <trans-unit id="text.realisation.dataBase">
         <source>text.realisation.dataBase</source>
         <target>Base de données :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_design">
+      <trans-unit id="text.realisation.design">
         <source>text.realisation.design</source>
         <target>Design :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_creation">
+      <trans-unit id="text.realisation.creation">
         <source>text.realisation.creation</source>
         <target>Créations :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_conceptions_graphiques">
+      <trans-unit id="text.realisation.conceptions.graphiques">
         <source>text.realisation.conceptions.graphiques</source>
         <target>Conception graphiques :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_developpement">
+      <trans-unit id="text.realisation.developpement">
         <source>text.realisation.developpement</source>
         <target>Développements :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_tests">
+      <trans-unit id="text.realisation.tests">
         <source>text.realisation.tests</source>
         <target>Tests :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_documentation">
+      <trans-unit id="text.realisation.documentation">
         <source>text.realisation.documentation</source>
         <target>Documentation :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_version_param">
+      <trans-unit id="text.realisation.version.param">
         <source>text.realisation.version.param</source>
         <target>Version %param% :</target>
       </trans-unit>
-      <trans-unit id="text_realisation_application_param">
+      <trans-unit id="text.realisation.application.param">
         <source>text.realisation.application.param</source>
         <target>Application %param% :</target>
       </trans-unit>
 
-      <trans-unit id="text_type_siteWeb">
+      <trans-unit id="text.type.siteWeb">
         <source>text.type.siteWeb</source>
         <target>Site web</target>
       </trans-unit>
-      <trans-unit id="text_type_appWeb">
+      <trans-unit id="text.type.appWeb">
         <source>text.type.appWeb</source>
         <target>Application web</target>
       </trans-unit>
-      <trans-unit id="text_type_jeuWeb">
+      <trans-unit id="text.type.jeuWeb">
         <source>text.type.jeuWeb</source>
         <target>Jeu web</target>
       </trans-unit>
-      <trans-unit id="text_type_siteVitrine">
+      <trans-unit id="text.type.siteVitrine">
         <source>text.type.siteVitrine</source>
         <target>Site vitrine</target>
       </trans-unit>
-      <trans-unit id="text_type_appAndroid">
+      <trans-unit id="text.type.appAndroid">
         <source>text.type.appAndroid</source>
         <target>Application Android</target>
       </trans-unit>
-      <trans-unit id="text_type_appMobileMulti_android_ios">
+      <trans-unit id="text.type.appMobileMulti.android.ios">
         <source>text.type.appMobileMulti.android.ios</source>
         <target>App. Mobile Android / iOS</target>
       </trans-unit>
-      <trans-unit id="text_type_appMobileMulti_windows_android">
+      <trans-unit id="text.type.appMobileMulti.windows.android">
         <source>text.type.appMulti.windows.android</source>
         <target>App. Windows / Android</target>
       </trans-unit>
-      <trans-unit id="text_type_fairePart">
+      <trans-unit id="text.type.fairePart">
         <source>text.type.fairePart</source>
         <target>Faire part de mariage</target>
       </trans-unit>
-      <trans-unit id="text_type_flyer">
+      <trans-unit id="text.type.flyer">
         <source>text.type.flyer</source>
         <target>Flyer</target>
       </trans-unit>
-      <trans-unit id="text_type_illustration">
+      <trans-unit id="text.type.illustration">
         <source>text.type.illustration</source>
         <target>Illustration</target>
       </trans-unit>
-      <trans-unit id="text_type_logo">
+      <trans-unit id="text.type.logo">
         <source>text.type.logo</source>
         <target>Logo</target>
       </trans-unit>
-      <trans-unit id="text_type_cms">
+      <trans-unit id="text.type.cms">
         <source>text.type.cms</source>
         <target>CMS</target>
       </trans-unit>
-      <trans-unit id="text_type_siteFlash">
+      <trans-unit id="text.type.siteFlash">
         <source>text.type.siteFlash</source>
         <target>Site Flash</target>
       </trans-unit>
 
 
-      <trans-unit id="title_pixDrive">
+      <trans-unit id="title.pixDrive">
         <source>title.pixDrive</source>
         <target>PixDrive</target>
       </trans-unit>
-      <trans-unit id="subtitle_pixDrive">
+      <trans-unit id="subtitle.pixDrive">
         <source>subtitle.pixDrive</source>
         <target>Drive permettant de stocker / partager vos photos.</target>
       </trans-unit>
 
-      <trans-unit id="title_maCollec">
+      <trans-unit id="title.maCollec">
         <source>title.maCollec</source>
         <target>Ma Collec'</target>
       </trans-unit>
-      <trans-unit id="subtitle_maCollec">
+      <trans-unit id="subtitle.maCollec">
         <source>subtitle.maCollec</source>
         <target>Application communautaire de gestion de collections.</target>
       </trans-unit>
-      <trans-unit id="description_maCollec">
+      <trans-unit id="description.maCollec">
         <source>description.maCollec</source>
         <target>
             Le projet consiste à développer une application permettant de gérer une collection de livres. En scannant le code-barres d’un ouvrage, l’application affiche à l’utilisateur s’il fait déjà partie de sa collection ou non. L’utilisateur peut ensuite l’ajouter ou le supprimer de celle-ci et/ou définir les informations de ce livre. Elle fournit aussi une liste de tous les livres présent dans la collection de l’utilisateur, ainsi qu’un graphique de suivit des achats de livres, par mois.<![CDATA[<br /><br />]]>
             L’application utilise une base de données présente localement sur le Smartphone de l’utilisateur et se synchronise régulièrement avec une base de données externe.
         </target>
       </trans-unit>
-      <trans-unit id="developpement_maCollec_v1">
+      <trans-unit id="developpement.maCollec.v1">
         <source>developpement.maCollec.v1</source>
         <target>
             • Intégration du système de scanneur de code-barres (API Barcode Scanner)<![CDATA[<br />]]>
@@ -242,43 +353,43 @@
             • Développement du système de suivit des achats mensuel
         </target>
       </trans-unit>
-      <trans-unit id="tests_maCollec_v1">
+      <trans-unit id="tests.maCollec.v1">
         <source>tests.maCollec.v1</source>
         <target>
             • Test unitaires<![CDATA[<br />]]>
             • Tests d’utilisations
         </target>
       </trans-unit>
-      <trans-unit id="developpement_maCollec_v2">
+      <trans-unit id="developpement.maCollec.v2">
         <source>developpement.maCollec.v2</source>
         <target>
 
         </target>
       </trans-unit>
-      <trans-unit id="tests_maCollec_v2">
+      <trans-unit id="tests.maCollec.v2">
         <source>tests.maCollec.v2</source>
         <target>
 
         </target>
       </trans-unit>
 
-      <trans-unit id="title_workoutManager">
+      <trans-unit id="title.workoutManager">
         <source>title.workoutManager</source>
         <target>Workout Manager</target>
       </trans-unit>
-      <trans-unit id="subtitle_workoutManager">
+      <trans-unit id="subtitle.workoutManager">
         <source>subtitle.workoutManager</source>
         <target>Application de gestion d'entraînements (musculation / course / vélo).</target>
       </trans-unit>
-      <trans-unit id="description_workoutManager">
+      <trans-unit id="description.workoutManager">
         <source>description.workoutManager</source>
         <target>Le projet consiste à créer un traceur d’activité physique (marche / course à pied et vélo). L’application permet d’enregistrer son parcours, ainsi que diverses données de performances réalisés tout le long de celui-ci (tel que la vitesse, de dénivelé positif et négatif, la durée et la distance du parcours, etc.). Toutes ces informations peuvent ensuite être enregistrées sur une base de données (en local sur le smartphone), permettant à l’utilisateur de visualiser son évolution.</target>
       </trans-unit>
-      <trans-unit id="app_workoutManager_v1">
+      <trans-unit id="app.workoutManager.v1">
         <source>app.workoutManager.v1</source>
         <target>(vélo / course à pied)</target>
       </trans-unit>
-      <trans-unit id="developpement_workoutManager_v1">
+      <trans-unit id="developpement.workoutManager.v1">
         <source>developpement.workoutManager.v1</source>
         <target>
             • Développement du système permettant de récupérer les données GPS<![CDATA[<br />]]>
@@ -289,18 +400,18 @@
             • Développement du système du système de graphiques d’évolutions de la vitesse et du dénivelé durant un parcours
         </target>
       </trans-unit>
-      <trans-unit id="tests_workoutManager_v1">
+      <trans-unit id="tests.workoutManager.v1">
         <source>tests.workoutManager.v1</source>
         <target>
             • Tests unitaires<![CDATA[<br />]]>
             • Tests d’utilisations
         </target>
       </trans-unit>
-      <trans-unit id="app_workoutManager_v2">
+      <trans-unit id="app.workoutManager.v2">
         <source>app.workoutManager.v2</source>
         <target>(musculation)</target>
       </trans-unit>
-      <trans-unit id="description_workoutManager_v2">
+      <trans-unit id="description.workoutManager.v2">
         <source>description.workoutManager.v2</source>
         <target>
             Le projet consiste à développer une application permettant d’accompagner un sportif dans son entrainement de musculation ou même de vélo (d’appartement ou d’extérieur).<![CDATA[<br /><br />]]>
@@ -309,7 +420,7 @@
             Les deux modes permettent de visualiser sa fréquence cardiaque en temps réel, ainsi que son évolution dans le temps (à condition de connecter un capteur de fréquence cardiaque).
         </target>
       </trans-unit>
-      <trans-unit id="developpement_workoutManager_v2">
+      <trans-unit id="developpement.workoutManager.v2">
         <source>developpement.workoutManager.v2</source>
         <target>
             • Développement du système de connexion et récupération des données des différents capteurs (Bluetooth Smart 4.0)<![CDATA[<br />]]>
@@ -320,44 +431,44 @@
             • Développement de la connexion et de la synchronisation avec l’application tournant sur la SmartWatch<![CDATA[<br />]]>
         </target>
       </trans-unit>
-      <trans-unit id="tests_workoutManager_v2">
+      <trans-unit id="tests.workoutManager.v2">
         <source>tests.workoutManager.v2</source>
         <target>
             • Tests d’utilisations
         </target>
       </trans-unit>
-      <trans-unit id="app_workoutManager_v3">
+      <trans-unit id="app.workoutManager.v3">
         <source>app.workoutManager.v3</source>
         <target>(musculation / vélo / course à pied)</target>
       </trans-unit>
-      <trans-unit id="description_workoutManager_v3">
+      <trans-unit id="description.workoutManager.v3">
         <source>description.workoutManager.v3</source>
         <target>
 
         </target>
       </trans-unit>
-      <trans-unit id="developpement_workoutManager_v3">
+      <trans-unit id="developpement.workoutManager.v3">
         <source>developpement.workoutManager.v3</source>
         <target>
 
         </target>
       </trans-unit>
-      <trans-unit id="tests_workoutManager_v3">
+      <trans-unit id="tests.workoutManager.v3">
         <source>tests.workoutManager.v3</source>
         <target>
 
         </target>
       </trans-unit>
 
-      <trans-unit id="title_casteCrashers">
+      <trans-unit id="title.casteCrashers">
         <source>title.casteCrashers</source>
         <target>Castle Crashers</target>
       </trans-unit>
-      <trans-unit id="subtitle_casteCrashers">
+      <trans-unit id="subtitle.casteCrashers">
         <source>subtitle.casteCrashers</source>
         <target>Petit jeu d'Action-RPG en ligne.</target>
       </trans-unit>
-      <trans-unit id="description_casteCrashers">
+      <trans-unit id="description.casteCrashers">
         <source>description.casteCrashers</source>
         <target>
             Le projet consiste à créer un petit jeu en ligne. Le but du jeu est d’augmenter la puissance d’un personnage pour qu’il devienne le meilleur du serveur. Pour cela, il peut :<![CDATA[<br />]]>
@@ -366,13 +477,13 @@
             <![CDATA[<i>PS : Le jeu ce base (et reprend le nom) sur l’univers « Castle Crashers ».</i>]]>
         </target>
       </trans-unit>
-      <trans-unit id="dataBase_casteCrashers.v1">
+      <trans-unit id="dataBase.casteCrashers.v1">
         <source>dataBase.casteCrashers.v1</source>
         <target>
             • Création de la base de données du jeu
         </target>
       </trans-unit>
-      <trans-unit id="developpement_casteCrashers.v1">
+      <trans-unit id="developpement.casteCrashers.v1">
         <source>developpement.casteCrashers.v1</source>
         <target>
             • Conception de l’interface de gestion du personnage<![CDATA[<br />]]>
@@ -382,11 +493,11 @@
             • Conception d’un magasin d’objets et d’armes
         </target>
       </trans-unit>
-      <trans-unit id="description_casteCrashers.v2">
+      <trans-unit id="description.casteCrashers.v2">
         <source>description.casteCrashers.v2</source>
         <target>La deuxieme version du jeu est une refonte total du sytème de combats. En effet, il est désormais possible de voir son personnage se battre contre un ou plusieurs monstre(s) via une « animation » Flash.</target>
       </trans-unit>
-      <trans-unit id="developpement_casteCrashers.v2">
+      <trans-unit id="developpement.casteCrashers.v2">
         <source>developpement.casteCrashers.v2</source>
         <target>
             • Refonte du site en Flash<![CDATA[<br />]]>
@@ -396,38 +507,38 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_curriculumVitae">
+      <trans-unit id="title.curriculumVitae">
         <source>title.curriculumVitae</source>
         <target>CV - Sylvain DEPARTE</target>
       </trans-unit>
-      <trans-unit id="subtitle_curriculumVitae">
+      <trans-unit id="subtitle.curriculumVitae">
         <source>subtitle.curriculumVitae</source>
         <target>Site vitrine de mes projets informatiques et graphiques.</target>
       </trans-unit>
-      <trans-unit id="description_curriculumVitae">
+      <trans-unit id="description.curriculumVitae">
         <source>description.curriculumVitae</source>
         <target>Ce site internet n’est autre que mon Curriculum Vitae en ligne. Il me permet de mettre en avant mes compétences, mes différentes réalisations, ainsi que les articles de presse dans lesquels mon travail apparait. </target>
       </trans-unit>
-      <trans-unit id="design_curriculumVitaes.v1">
+      <trans-unit id="design.curriculumVitaes.v1">
         <source>design.curriculumVitae.v1</source>
         <target>
             • Création des croquis du design du site
         </target>
       </trans-unit>
-      <trans-unit id="developpement_curriculumVitae.v1">
+      <trans-unit id="developpement.curriculumVitae.v1">
         <source>developpement.curriculumVitae.v1</source>
         <target>
             • Développement du site<![CDATA[<br />]]>
             • Développement d’un système de téléchargement de fichier avec aperçu du contenu
         </target>
       </trans-unit>
-      <trans-unit id="design_curriculumVitae.v2">
+      <trans-unit id="design.curriculumVitae.v2">
         <source>design.curriculumVitae.v2</source>
         <target>
             • Création des croquis du nouveau design du site
         </target>
       </trans-unit>
-      <trans-unit id="developpement_curriculumVitae.v2">
+      <trans-unit id="developpement.curriculumVitae.v2">
         <source>developpement.curriculumVitae.v2</source>
         <target>
             • Mise à jour du site avec le nouveau design<![CDATA[<br />]]>
@@ -435,26 +546,26 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_libertySocial">
+      <trans-unit id="title.libertySocial">
         <source>title.libertySocial</source>
         <target>Liberty Social</target>
       </trans-unit>
-      <trans-unit id="subtitle_libertySocial">
+      <trans-unit id="subtitle.libertySocial">
         <source>subtitle.libertySocial</source>
         <target>Agrégateur de réseaux sociaux (Facebook, Instagram, Twitter, Tumblr, Google+).</target>
       </trans-unit>
-      <trans-unit id="description_libertySocial">
+      <trans-unit id="description.libertySocial">
         <source>description.libertySocial</source>
         <target>Le principe du projet est de permettre aux utilisateurs de réunir leurs réseaux sociaux (Facebook, Twitter, Google+, Tumblr et Instagram) en un seul et même site. Pour l’utiliser, il suffit d’autoriser l’application sur les différents réseaux qu’ils veulent intégrer.</target>
       </trans-unit>
-      <trans-unit id="developpement_analyse">
+      <trans-unit id="developpement.analyse">
         <source>analyse.libertySocial</source>
         <target>
             • Récupération des documentations des API des différents réseaux sociaux<![CDATA[<br />]]>
             • Créations d’un module par réseau social permettant d’apprendre à utiliser leurs API
         </target>
       </trans-unit>
-      <trans-unit id="developpement_libertySocial">
+      <trans-unit id="developpement.libertySocial">
         <source>developpement.libertySocial</source>
         <target>
             • Développement de la page de gestion de comptes (connexion aux différents réseaux, changement de mot de passe, changement du fond d’écran du site et bug tracker)<![CDATA[<br />]]>
@@ -468,26 +579,26 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_japanCulture">
+      <trans-unit id="title.japanCulture">
         <source>title.japanCulture</source>
         <target>Japan'Culture</target>
       </trans-unit>
-      <trans-unit id="subtitle_japanCulture">
+      <trans-unit id="subtitle.japanCulture">
         <source>subtitle.japanCulture</source>
         <target>Organition de l'évenement / Création des éléments de communications (Logo, Flyers et Site web).</target>
       </trans-unit>
-      <trans-unit id="description_japanCulture">
+      <trans-unit id="description.japanCulture">
         <source>description.japanCulture</source>
         <target>Le festival Japan’Culture est un salon consacré à la culture japonaise. Il a eu lieu les 25 et 26 mai 2013 dans la ville de Vizille. En tant que bénévole avec l’association « Leucémie Espoir 38 », mon rôle consiste à organiser le festival (gérer les exposants, les animations, etc.), créer le logo, les affiches publicitaires, le site internet.</target>
       </trans-unit>
-      <trans-unit id="analyse_japanCulture">
+      <trans-unit id="analyse.japanCulture">
         <source>analyse.japanCulture</source>
         <target>
             • Définition des budgets, des coûts (salle, matériel, etc.) et des tarifs (billet d’entrée, stands exposants, etc.)<![CDATA[<br />]]>
             • Rédaction du Cahier des Charges de l’évènement (nécessaire à certaines démarches administratives)
         </target>
       </trans-unit>
-      <trans-unit id="conception_graphiques_japanCulture">
+      <trans-unit id="conception.graphiques.japanCulture">
         <source>conceptions.graphiques.japanCulture</source>
         <target>
             • Création d’une charte graphique<![CDATA[<br />]]>
@@ -495,7 +606,7 @@
             • Création des affiches publicitaires
         </target>
       </trans-unit>
-      <trans-unit id="developpement_japanCulture">
+      <trans-unit id="developpement.japanCulture">
         <source>developpement.japanCulture</source>
         <target>
             • Développement du site web<![CDATA[<br />]]>
@@ -503,34 +614,34 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_prescribMe">
+      <trans-unit id="title.prescribMe">
         <source>title.prescribMe</source>
         <target>Prescrib'Me</target>
       </trans-unit>
-      <trans-unit id="subtitle_prescribMe">
+      <trans-unit id="subtitle.prescribMe">
         <source>subtitle.prescribMe</source>
         <target>Application permettant aux kinésithérapeutes de générer des PDF de prescriptions d'exercices.</target>
       </trans-unit>
 
-      <trans-unit id="title_erp">
+      <trans-unit id="title.erp">
         <source>title.erp</source>
         <target>Progiciel de Gestion Intégrée (PGI)</target>
       </trans-unit>
-      <trans-unit id="subtitle_erp">
+      <trans-unit id="subtitle.erp">
         <source>subtitle.erp</source>
         <target>Application web de gestion d'entreprise (comptabilité, factures clients, commandes fournisseurs, colaborateurs, etc.).</target>
       </trans-unit>
-      <trans-unit id="description_erp">
+      <trans-unit id="description.erp">
         <source>description.erp</source>
         <target>Cette application web est un Progiciel de gestion Intégrée (PMI) à destination des PME. Il permet à ces dernières de gérer leur comptabilité, leurs clients, leurs fournisseurs, ainsi que leurs colaborateurs.</target>
       </trans-unit>
-      <trans-unit id="dataBase_erp">
+      <trans-unit id="dataBase.erp">
         <source>dataBase.erp</source>
         <target>
             • Création de la base de données
         </target>
       </trans-unit>
-      <trans-unit id="developpement_erp">
+      <trans-unit id="developpement.erp">
         <source>developpement.erp</source>
         <target>
             • Développement du système de droit d’accès<![CDATA[<br />]]>
@@ -548,43 +659,43 @@
             • Développement du système de messagerie interne
         </target>
       </trans-unit>
-      <trans-unit id="tests_erp">
+      <trans-unit id="tests.erp">
         <source>tests.erp</source>
         <target>
             • Tests unitaires
         </target>
       </trans-unit>
-      <trans-unit id="documentation_erp">
+      <trans-unit id="documentation.erp">
         <source>documentation.erp</source>
         <target>
             • Rédaction d’une notice utilisateur
         </target>
       </trans-unit>
 
-      <trans-unit id="title_currentView">
+      <trans-unit id="title.currentView">
         <source>title.currentView</source>
         <target>Current View</target>
       </trans-unit>
-      <trans-unit id="subtitle_currentView">
+      <trans-unit id="subtitle.currentView">
         <source>subtitle.currentView</source>
         <target>Application bureautique et mobile de visualisation de consomation énergetique.</target>
       </trans-unit>
-      <trans-unit id="description_currentView">
+      <trans-unit id="description.currentView">
         <source>description.currentView</source>
         <target>Le projet consiste à récupérer les informations de consommation électrique d’une habitation. Pour cela, l’application utilise un appareil (vendu dans le commerce) nommé « Current-Cost » qui permet de lire une consommation électrique via des sondes ampérométriques.</target>
       </trans-unit>
-      <trans-unit id="description_currentView_standAlone">
+      <trans-unit id="description.currentView.standAlone">
         <source>description.currentView.standAlone</source>
         <target>Cette application était initialement le projet à réaliser en fin de dernière année de BTS, que je poursuivi par la suite. Elle permet de récupérer la consommation en temps réel de l’habitation, mais aussi de récuppérer l’historique de commation électrique depuis l’installation de l’appareil.</target>
       </trans-unit>
-      <trans-unit id="analyse_currentView_standAlone">
+      <trans-unit id="analyse.currentView.standAlone">
         <source>analyse.currentView.standAlone</source>
         <target>
             • Analyse des besoins<![CDATA[<br />]]>
             • Rédaction du Cahier des Charges du projet
         </target>
       </trans-unit>
-      <trans-unit id="developpement_currentView_standAlone">
+      <trans-unit id="developpement.currentView.standAlone">
         <source>developpement.currentView.standAlone</source>
         <target>
             • Développement du système d’acquisition des données en temps réel<![CDATA[<br />]]>
@@ -592,19 +703,19 @@
             • Développement du système de créations de graphiques (graphiques de consommation en temps réel / graphique d’historique de consommation)
         </target>
       </trans-unit>
-      <trans-unit id="tests_currentView_standAlone">
+      <trans-unit id="tests.currentView.standAlone">
         <source>tests.currentView.standAlone</source>
         <target>
             • Tests unitaires
         </target>
       </trans-unit>
-      <trans-unit id="documentation_currentView_standAlone">
+      <trans-unit id="documentation.currentView.standAlone">
         <source>documentation.currentView.standAlone</source>
         <target>
             • Création d’un Wiki d’installation et d’utilisation
         </target>
       </trans-unit>
-      <trans-unit id="description_currentView_mobile">
+      <trans-unit id="description.currentView.mobile">
         <source>description.currentView.mobile</source>
         <target>
             Ce projet consiste à reprendre l’application precédante pour la séparrer en deux.<![CDATA[<br /><br />]]>
@@ -614,13 +725,13 @@
             • « Quel température fait-il ? »
         </target>
       </trans-unit>
-      <trans-unit id="analyse_currentView_mobile">
+      <trans-unit id="analyse.currentView.mobile">
         <source>analyse.currentView.mobile</source>
         <target>
             • Analyse des différentes pages web (pour cibler les données utiles)
         </target>
       </trans-unit>
-      <trans-unit id="developpement_currentView_mobile">
+      <trans-unit id="developpement.currentView.mobile">
         <source>developpement.currentView.mobile</source>
         <target>
             • Développement du système de connexion sur le site (permet de créer une SESSION sur le serveur du site)<![CDATA[<br />]]>
@@ -628,29 +739,29 @@
             • Développement du système de recherche du livre sur le site
         </target>
       </trans-unit>
-      <trans-unit id="tests_currentView_mobile">
+      <trans-unit id="tests.currentView.mobile">
         <source>tests.currentView.mobile</source>
         <target>
             • Tests unitaires
         </target>
       </trans-unit>
 
-      <trans-unit id="title_ausyUniversity">
+      <trans-unit id="title.ausyUniversity">
         <source>title.ausyUniversity</source>
         <target>Ausy University</target>
       </trans-unit>
-      <trans-unit id="subtitle_ausyUniversity">
+      <trans-unit id="subtitle.ausyUniversity">
         <source>subtitle.ausyUniversity</source>
         <target>Site permettant à l'entreprise la création de questionnaires pour tester les compétences des collaborateurs.</target>
       </trans-unit>
-      <trans-unit id="description_ausyUniversity">
+      <trans-unit id="description.ausyUniversity">
         <source>description.ausyUniversity</source>
         <target>
             Ce site permet à la société de vérifier les compétences d’un futur collaborateur (candidat) via la création de questionnaires. Ce dernier peut ensuite répondre aux différentes questions (qui peuvent être aussi bien des QCM que des réponses libres) pendant un temps impartie.<![CDATA[<br /><br />]]>
             Une fois terminé, un mail est envoyé aux manager ayant assigné le questionnaire au candidat, ainsi qu’au différents créateurs du questionnaire. Ces derniers pourront ensuite vérifier si les réponses sont correctes ou non (dans le cas des questions à choix multiples, l’exactitude de la réponse est faite de manière automatique).
         </target>
       </trans-unit>
-      <trans-unit id="analyse_ausyUniversity">
+      <trans-unit id="analyse.ausyUniversity">
         <source>analyse.ausyUniversity</source>
         <target>
             • Analyse du cahier des charges<![CDATA[<br />]]>
@@ -658,7 +769,7 @@
             • Conception d’un diagramme des entités du projet
         </target>
       </trans-unit>
-      <trans-unit id="developpement_ausyUniversity">
+      <trans-unit id="developpement.ausyUniversity">
         <source>developpement.ausyUniversity</source>
         <target>
             • Développement du système de création de candidats<![CDATA[<br />]]>
@@ -669,35 +780,35 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_myWish">
+      <trans-unit id="title.myWish">
         <source>title.myWish</source>
         <target>My Wish</target>
       </trans-unit>
-      <trans-unit id="subtitle_myWish">
+      <trans-unit id="subtitle.myWish">
         <source>subtitle.myWish</source>
         <target>Site web permettant le partage de vos liste de souhait avec vos proches.</target>
       </trans-unit>
 
-      <trans-unit id="title_nxtProject">
+      <trans-unit id="title.nxtProject">
         <source>title.nxtProject</source>
         <target>NXT Project</target>
       </trans-unit>
-      <trans-unit id="subtitle_nxtProject">
+      <trans-unit id="subtitle.nxtProject">
         <source>subtitle.nxtProject</source>
         <target>Application de pilotage de robot NXT avec le gyroscope du smartphone.</target>
       </trans-unit>
-      <trans-unit id="description_nxtProject">
+      <trans-unit id="description.nxtProject">
         <source>description.nxtProject</source>
         <target>Cette application n’est autre que le projet à réaliser en fin d’année de Licence Profesionnel. Elle permet de controler un robot « Lego Mindstorm » avec un smartphone Android, à l’instar d’une voiture téléguidé.</target>
       </trans-unit>
-      <trans-unit id="analyse_nxtProject">
+      <trans-unit id="analyse.nxtProject">
         <source>analyse.nxtProject</source>
         <target>
             • Analyse des besoins<![CDATA[<br />]]>
             • Rédaction du Cahier des Charges du projet
         </target>
       </trans-unit>
-      <trans-unit id="developpement_nxtProject">
+      <trans-unit id="developpement.nxtProject">
         <source>developpement.nxtProject</source>
         <target>
             • Développement du système de connexion Bluetooth<![CDATA[<br />]]>
@@ -709,28 +820,28 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_mangaNews">
+      <trans-unit id="title.mangaNews">
         <source>title.mangaNews</source>
         <target>Manga News Mobile</target>
       </trans-unit>
-      <trans-unit id="subtitle_mangaNews">
+      <trans-unit id="subtitle.mangaNews">
         <source>subtitle.mangaNews</source>
         <target>Application mobile permettant de gérer une collection de mangas (bandes dessinés japonaises) en utilisant le site "manganews.com".</target>
       </trans-unit>
-      <trans-unit id="description_mangaNews">
+      <trans-unit id="description.mangaNews">
         <source>description.mangaNews</source>
         <target>
             Le projet consiste à développer une application permettant de gérer une collection de mangas (bandes dessinés japonaises) en utilisant le site « manganew.com ». Il est possible de scanner le code-barres d’un livre pour récupérer des informations sur ce dernier, mais aussi d’être informé si vous possédez ou non ce dernier.<![CDATA[<br /><br />]]>
             L’application lie directement dans le code source de différentes pages web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
         </target>
       </trans-unit>
-      <trans-unit id="analyse_mangaNews">
+      <trans-unit id="analyse.mangaNews">
         <source>analyse.mangaNews</source>
         <target>
             • Analyse des différentes pages web (pour cibler les données utiles)
         </target>
       </trans-unit>
-      <trans-unit id="developpement_mangaNews">
+      <trans-unit id="developpement.mangaNews">
         <source>developpement.mangaNews</source>
         <target>
             • Développement du système de connexion sur le site (permet de créer une SESSION sur le serveur du site)<![CDATA[<br />]]>
@@ -741,34 +852,34 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_milleniumServer">
+      <trans-unit id="title.milleniumServer">
         <source>title.milleniumServer</source>
         <target>Millenium Server Tools</target>
       </trans-unit>
-      <trans-unit id="subtitle_milleniumServer">
+      <trans-unit id="subtitle.milleniumServer">
         <source>subtitle.milleniumServer</source>
         <target>Deux applications mobile permettant de récupérer des informations diverses d’un serveur privée du jeu "World Of Warcraft".</target>
       </trans-unit>
-      <trans-unit id="description_milleniumServer">
+      <trans-unit id="description.milleniumServer">
         <source>description.milleniumServer</source>
         <target>
             Ce projet consiste à créer deux outils permettant de récupérer des informations diverses d’un serveur privée (intitulé « Millenum Server ») du jeu « World Of Warcraft ».
         </target>
       </trans-unit>
-      <trans-unit id="description_milleniumServer.v1">
+      <trans-unit id="description.milleniumServer.v1">
         <source>description.milleniumServer.v1</source>
         <target>
             La première application permet de récupérer l’état des différents royaumes du serveurs, ainsi que leurs population. Pour ensuite calculer la charge totale d’utilisation du serveur.<![CDATA[<br /><br />]]>
             L’application lie directement dans le code source d’une page web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
         </target>
       </trans-unit>
-      <trans-unit id="analyse_milleniumServer.v1">
+      <trans-unit id="analyse.milleniumServer.v1">
         <source>analyse.milleniumServer.v1</source>
         <target>
             • Analyse de la page web en question (pour cibler les données utiles)
         </target>
       </trans-unit>
-      <trans-unit id="developpement_milleniumServer.v1">
+      <trans-unit id="developpement.milleniumServer.v1">
         <source>developpement.milleniumServer.v1</source>
         <target>
             • Développement du système de récupération de la page web<![CDATA[<br />]]>
@@ -776,20 +887,20 @@
             • Calcule de la charge totale du serveur
         </target>
       </trans-unit>
-      <trans-unit id="description_milleniumServer.v2">
+      <trans-unit id="description.milleniumServer.v2">
         <source>description.milleniumServer.v2</source>
         <target>
             La seconde application permet de récupérer la plupart des informations sur un personnage rencontré en jeu.<![CDATA[<br />]]>
             L’application lie directement dans le code source de différentes pages web en utilisant l’API DOM (Document Object Model : parseur XML permettant d’extraire différentes informations).
         </target>
       </trans-unit>
-      <trans-unit id="analyse_milleniumServer.v2">
+      <trans-unit id="analyse.milleniumServer.v2">
         <source>analyse.milleniumServer.v2</source>
         <target>
             • Analyse des différentes pages web (pour cibler les données utiles)
         </target>
       </trans-unit>
-      <trans-unit id="developpement_milleniumServer.v2">
+      <trans-unit id="developpement.milleniumServer.v2">
         <source>developpement.milleniumServer.v2</source>
         <target>
             • Développement du système de recherche de personnages (sur chacun des royaumes du serveur)<![CDATA[<br />]]>
@@ -797,26 +908,26 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_ticketLib">
+      <trans-unit id="title.ticketLib">
         <source>title.ticketLib</source>
         <target>TicketLib</target>
       </trans-unit>
-      <trans-unit id="subtitle_ticketLib">
+      <trans-unit id="subtitle.ticketLib">
         <source>subtitle.ticketLib</source>
         <target>Application de vérification de tickets.</target>
       </trans-unit>
-      <trans-unit id="description_ticketLib">
+      <trans-unit id="description.ticketLib">
         <source>description.ticketLib</source>
         <target>Cette application mobile est un système de vérification de validité de e-billets (notamment pour entrer au salon « Japan'Culture »). En association avec la billetterie en ligne « TicketLib », j’ai développé cette application Android permettant de scanner le QR-Code d'un e-billet, vérifier si celui-ci est valide, pour ensuite la sauvegarder dans une base de données (la sauvegarde permet de gérer les potentielles copies de e-billets).</target>
       </trans-unit>
-      <trans-unit id="contact_analyse_ticketLib">
+      <trans-unit id="contact.analyse.ticketLib">
         <source>contact.analyse.ticketLib</source>
         <target>
             • Prise de contact avec la société TicketLib<![CDATA[<br />]]>
             • Récupération de leur API et de sa documentation
         </target>
       </trans-unit>
-      <trans-unit id="developpement_ticketLib">
+      <trans-unit id="developpement.ticketLib">
         <source>developpement.ticketLib</source>
         <target>
             • Création d’une base de données sur mon serveur personnel<![CDATA[<br />]]>
@@ -826,28 +937,28 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_universalRemote">
+      <trans-unit id="title.universalRemote">
         <source>title.universalRemote</source>
         <target>Universal Remote</target>
       </trans-unit>
-      <trans-unit id="subtitle_universalRemote">
+      <trans-unit id="subtitle.universalRemote">
         <source>subtitle.universalRemote</source>
         <target>Application (accompagnée d'un module Arduino) permettant de remplacer toutes vos télécommandes infra-rouges.</target>
       </trans-unit>
-      <trans-unit id="description_universalRemote">
+      <trans-unit id="description.universalRemote">
         <source>description.universalRemote</source>
         <target>
             Ce projet consiste à créer un système de « télécommande universelle ». Pour se faire, ce dernier est composé d’une plateforme Arduino (embarquant un module Bluetooth, un récepteur et un émetteur Infrorouge) et d’une application Android permettant le contrôle de la plateforme.<![CDATA[<br /><br />]]>
             Pour être utilisé, il suffit à l’utilisateur d’apprendre ses différentes télécommandes au système (les données sont sauvegardées sur une base de données localement sur le smartphone), pour que ce dernier reproduise l’envoi des données Infrarouge à vos appareils.
         </target>
       </trans-unit>
-      <trans-unit id="recherche_cablage_universalRemote">
+      <trans-unit id="recherche.cablage.universalRemote">
         <source>recherche.cablage.universalRemote</source>
         <target>
             • Recherche et câblage des différents éléments sur la plateforme Arduino
         </target>
       </trans-unit>
-      <trans-unit id="developpement_universalRemote">
+      <trans-unit id="developpement.universalRemote">
         <source>developpement.universalRemote</source>
         <target>
             • Développement de l’application Arduino<![CDATA[<br />]]>
@@ -858,50 +969,50 @@
             • Création de plusieurs modèles de télécommandes (avec certains boutons pouvant être renommé)<![CDATA[<br />]]>
         </target>
       </trans-unit>
-      <trans-unit id="tests_universalRemote">
+      <trans-unit id="tests.universalRemote">
         <source>tests.universalRemote</source>
         <target>
             • Tests unitaires
         </target>
       </trans-unit>
 
-      <trans-unit id="title_beautifulSmile">
+      <trans-unit id="title.beautifulSmile">
         <source>title.beautifulSmile</source>
         <target>Beautiful Smile</target>
       </trans-unit>
-      <trans-unit id="subtitle_beautifulSmile">
+      <trans-unit id="subtitle.beautifulSmile">
         <source>subtitle.beautifulSmile</source>
         <target>Création d'un flyer de communication pour la société "BEAUTIFUL SMILE".</target>
       </trans-unit>
 
-      <trans-unit id="title_dreamLand">
+      <trans-unit id="title.dreamLand">
         <source>title.dreamLand</source>
         <target>Illustration - DreamLand</target>
       </trans-unit>
-      <trans-unit id="subtitle_dreamLand">
+      <trans-unit id="subtitle.dreamLand">
         <source>subtitle.dreamLand</source>
         <target>Illustrations vectorielles (amateur) des personnages principaux du manga "DREAMLAND".</target>
       </trans-unit>
 
-      <trans-unit id="title_elpmis">
+      <trans-unit id="title.elpmis">
         <source>title.elpmis</source>
         <target>Elpmis</target>
       </trans-unit>
-      <trans-unit id="subtitle_elpmis">
+      <trans-unit id="subtitle.elpmis">
         <source>subtitle.elpmis</source>
         <target>CMS permettant de créer un site web rapidement et simplement.</target>
       </trans-unit>
-      <trans-unit id="description_elpmis">
+      <trans-unit id="description.elpmis">
         <source>description.elpmis</source>
         <target>Ce projet consiste à créer un CMS<![CDATA[<sup>(1)</sup>]]> très simple d’utilisation. Basé sur le design de la première version de mon Curriculum Vitae, celui-ci permet créer et gérer un petit site internet. Il est possible de gérer les couleurs des différents éléments, les différents contenus à afficher, etc. via un système d’administration complet, mais qui reste très simple d’utilisation.</target>
       </trans-unit>
-      <trans-unit id="dataBase_elpmis">
+      <trans-unit id="dataBase.elpmis">
         <source>dataBase.elpmis</source>
         <target>
             • Création de la base de données du CMS
         </target>
       </trans-unit>
-      <trans-unit id="creation_elpmis">
+      <trans-unit id="creation.elpmis">
         <source>creation.elpmis</source>
         <target>
             • Création de plusieurs thèmes<![CDATA[<br />]]>
@@ -909,30 +1020,30 @@
             • Création d’aides permettant la compréhension de l’effet  de chaque élément du système d’administration sur le site
         </target>
       </trans-unit>
-      <trans-unit id="developpement_elpmis">
+      <trans-unit id="developpement.elpmis">
         <source>developpement.elpmis</source>
         <target>
             • Développement du système d’administration complet
         </target>
       </trans-unit>
-      <trans-unit id="legende_elpmis">
+      <trans-unit id="legende.elpmis">
         <source>legende.elpmis</source>
         <target><![CDATA[<i><sup>(1)</sup> : CMS signifie Content Management system. Ce qui, transcrit en français, signifie « Système de gestion de contenu ». Ils sont destinés concevoir et à mettre à jour dynamiquement des sites Web ou des applications multimédia.</i>]]></target>
       </trans-unit>
 
-      <trans-unit id="title_cRouvidant">
+      <trans-unit id="title.cRouvidant">
         <source>title.cRouvidant</source>
         <target>Christian ROUVIDANT</target>
       </trans-unit>
-      <trans-unit id="subtitle_cRouvidant">
+      <trans-unit id="subtitle.cRouvidant">
         <source>subtitle.cRouvidant</source>
         <target>Site vitrine permettant au peintre Christian ROUVIDANT de mettre en avant ces toiles.</target>
       </trans-unit>
-      <trans-unit id="description_cRouvidant">
+      <trans-unit id="description.cRouvidant">
         <source>description.cRouvidant</source>
         <target>Le site internet du peintre Christian ROUVIDANT consistait à le présenter lui, ainsi que ces œuvres. Il désirait aussi afficher les articles de presse dans lequel il apparaissait et mettre un livre d’or à disposition des utilisateurs du site.</target>
       </trans-unit>
-      <trans-unit id="developpement_cRouvidant">
+      <trans-unit id="developpement.cRouvidant">
         <source>developpement.cRouvidant</source>
         <target>
             • Conception du site web<![CDATA[<br />]]>
@@ -943,46 +1054,46 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_laLogeDeLilly">
+      <trans-unit id="title.laLogeDeLilly">
         <source>title.laLogeDeLilly</source>
         <target>La Loge de Lilly</target>
       </trans-unit>
-      <trans-unit id="subtitle_laLogeDeLilly">
+      <trans-unit id="subtitle.laLogeDeLilly">
         <source>subtitle.laLogeDeLilly</source>
         <target>Création d'un flyer de communication pour l'atelier de couture "La Loge de Lilly".</target>
       </trans-unit>
 
-      <trans-unit id="title_sRouvidant">
+      <trans-unit id="title.sRouvidant">
         <source>title.sRouvidant</source>
         <target>Stephane ROUVIDANT</target>
       </trans-unit>
-      <trans-unit id="subtitle_sRouvidant">
+      <trans-unit id="subtitle.sRouvidant">
         <source>subtitle.sRouvidant</source>
         <target>Création du logo de la société de l'EURL "ROUVIDANT STEPHANE".</target>
       </trans-unit>
 
-      <trans-unit id="title_sdCreative">
+      <trans-unit id="title.sdCreative">
         <source>title.sdCreative</source>
         <target>SD - Créative</target>
       </trans-unit>
-      <trans-unit id="subtitle_sdCreative">
+      <trans-unit id="subtitle.sdCreative">
         <source>subtitle.sdCreative</source>
         <target>Site en flash montrant mes différentes réalisations et mettant à disposition un accès FTP web.</target>
       </trans-unit>
 
-      <trans-unit id="title_taxeConsultant">
+      <trans-unit id="title.taxeConsultant">
         <source>title.taxeConsultant</source>
         <target>Taxe Consultant</target>
       </trans-unit>
-      <trans-unit id="subtitle_taxeConsultant">
+      <trans-unit id="subtitle.taxeConsultant">
         <source>subtitle.taxeConsultant</source>
         <target>Site vitrine pour une société d’audit de taxes internationales</target>
       </trans-unit>
-      <trans-unit id="description_taxeConsultant">
+      <trans-unit id="description.taxeConsultant">
         <source>description.taxeConsultant</source>
         <target>Ce projet consiste à concevoir un site « vitrine » pour une société d’audit de taxes internationales. Ce dernier doit permettre à la société de montrer son travail et aux utilisateurs du site de prendre contact avec la société.</target>
       </trans-unit>
-      <trans-unit id="developpement_taxeConsultant">
+      <trans-unit id="developpement.taxeConsultant">
         <source>developpement.taxeConsultant</source>
         <target>
             • Création d’un menu en Flash<![CDATA[<br />]]>
@@ -991,25 +1102,25 @@
         </target>
       </trans-unit>
 
-      <trans-unit id="title_domoFit">
+      <trans-unit id="title.domoFit">
         <source>title.domoFit</source>
         <target>Domo'Fit</target>
       </trans-unit>
-      <trans-unit id="subtitle_domoFit">
+      <trans-unit id="subtitle.domoFit">
         <source>subtitle.domoFit</source>
         <target>Application permettant de controller, via le bluetooth du smartphone, l'éclairage et le home cinéma de ma salle de sport.</target>
       </trans-unit>
-      <trans-unit id="description_domoFit">
+      <trans-unit id="description.domoFit">
         <source>description.domoFit</source>
         <target>Ce projet consiste à développer un système de domotique pour ma salle de sport personnel. Le système permet de gérer l’éclairage (détection de mouvement, forcer l’éclairage pendant un durée voulue et gérer l’intensité lumineuse de LED), mais aussi de gérer le home cinéma Bluetooth via l’envoi de données Infrarouges (intégration d’une partie du code du projet Universal Remote).</target>
       </trans-unit>
-      <trans-unit id="recherche_cablage_domoFit">
+      <trans-unit id="recherche.cablage.domoFit">
         <source>recherche.cablage.domoFit</source>
         <target>
             • Recherche et câblage des différents éléments sur la plateforme Arduino
         </target>
       </trans-unit>
-      <trans-unit id="developpement_domoFit">
+      <trans-unit id="developpement.domoFit">
         <source>developpement.domoFit</source>
         <target>
             • Développement de l’application Arduino<![CDATA[<br />]]>
@@ -1018,65 +1129,39 @@
             • Intégration du code permettant de contrôler un appareil via Infrarouge (projet Universal Remote)
         </target>
       </trans-unit>
-      <trans-unit id="tests_domoFit">
+      <trans-unit id="tests.domoFit">
         <source>tests.domoFit</source>
         <target>
             • Tests unitaires
         </target>
       </trans-unit>
 
-      <trans-unit id="title_onigamiT">
+      <trans-unit id="title.onigamiT">
         <source>title.onigamiT</source>
         <target>Onigami Team</target>
       </trans-unit>
-      <trans-unit id="subtitle_onigamiT">
+      <trans-unit id="subtitle.onigamiT">
         <source>subtitle.onigamiT</source>
         <target>Site de partage de Scan-Trad de chapitres de mangas.</target>
       </trans-unit>
-      <trans-unit id="description_onigamiT">
+      <trans-unit id="description.onigamiT">
         <source>description.onigamiT</source>
         <target>Pour une équipe de traduction de chapitres (scannés) de mangas, dont je faisais partie, j’ai créé le site internet permettant le téléchargement de notre travail, ainsi que la présentation des membres de l’équipe.</target>
       </trans-unit>
-      <trans-unit id="developpement_onigamiT">
+      <trans-unit id="developpement.onigamiT">
         <source>developpement.onigamiT</source>
         <target>
             • Conception du site web
         </target>
       </trans-unit>
 
-      <trans-unit id="title_mariageSylMel">
+      <trans-unit id="title.mariageSylMel">
         <source>title.mariageSylMel</source>
         <target>Mariage Sylvain et Mélanie</target>
       </trans-unit>
-      <trans-unit id="subtitle_mariageSylMel">
+      <trans-unit id="subtitle.mariageSylMel">
         <source>subtitle.mariageSylMel</source>
         <target>Création du faire part de mon mariage avec ma femme.</target>
-      </trans-unit>
-
-      <trans-unit id="title_curriculum">
-        <source>title.curriculum</source>
-        <target>Curriculum</target>
-      </trans-unit>
-
-      <trans-unit id="title_etudes_experience">
-        <source>title.etudes_experiences</source>
-        <target>Education and Experience</target>
-      </trans-unit>
-      <trans-unit id="title_etudes">
-        <source>title.etudes</source>
-        <target>Education</target>
-      </trans-unit>
-      <trans-unit id="title_experience">
-        <source>title.experiences</source>
-        <target>Experience</target>
-      </trans-unit>
-      <trans-unit id="title_competences">
-        <source>title.competences</source>
-        <target>Skills</target>
-      </trans-unit>
-      <trans-unit id="title_hobbys">
-        <source>title.hobbys</source>
-        <target>Hobbies</target>
       </trans-unit>
     </body>
   </file>

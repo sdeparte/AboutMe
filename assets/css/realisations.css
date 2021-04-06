@@ -25,9 +25,9 @@
     cursor: pointer;
     margin: 5px 10px;
 
-    -webkit-transition: all .25s linear;
-    -moz-transition: all .25s linear;
-    transition: all .25s linear;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    transition: all .15s ease;
 }
 
 #searchbar .big-type.selected {
@@ -36,9 +36,14 @@
 }
 
 #searchbar .big-type:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
     background-color: #fff;
     color: #bc3838;
+
+    -webkit-transform:translateY(-1px);
+    transform:translateY(-1px);
+
+    -webkit-box-shadow: 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
 }
 
 .padding-searchbar {

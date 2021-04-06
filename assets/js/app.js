@@ -3,6 +3,7 @@ import './menu';
 import '../css/app.css';
 
 import $ from 'jquery';
+import 'bootstrap';
 
 $(document).ready(function() {
     $("a[href*=\\#]:not([href=\\#])").click(function() {

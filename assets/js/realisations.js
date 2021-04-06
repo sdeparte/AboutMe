@@ -1,6 +1,3 @@
-import './app';
-import './ariane';
-
 import '../css/realisations.css';
 
 import $ from 'jquery';

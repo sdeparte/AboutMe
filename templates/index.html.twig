@@ -5,6 +5,7 @@
 {% block stylesheets %}
     {{ parent() }}
 
+    {{ encore_entry_link_tags('bubbles') }}
     {{ encore_entry_link_tags('homepage') }}
 {% endblock %}
 
@@ -12,6 +13,8 @@
     {{ parent() }}
 
     {{ encore_entry_script_tags('homepage') }}
+    {{ encore_entry_script_tags('bubbles') }}
+
     {{ encore_entry_script_tags('computer') }}
     {{ encore_entry_script_tags('smartphone') }}
 
@@ -64,24 +67,10 @@
 
             <div class="overflow-hidden p-5">
                 <div class="animation-element from-right">
-                    <div class="pt-4 sd-section-title text-center">
-                        &lt;{{ 'title.presentation'|trans }} /&gt;
-                    </div>
-                    <p>
-                        Sylvain DEPARTE, diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisé dans la programmation des « Systèmes Embarqués ».
-                        Actuellement en poste au sein de la société ALPROBOTIC en tant que informaticien industriel depuis 2013.
-                    </p>
-
-                    <p>
-                        Je suis passionné par le développement et le design informatique.
-                        J’ai donc suivi une formation très orientée sur la programmation, qui m'a permis de connaitre une grande variété de langages de programmations (C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript, ActionScript, etc.).
-                        Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, embarquées (sous Android) et des sites internet.
-                        De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités : depuis la définition des besoins du clients jusqu’aux tests finaux, en passant bien entendu par sa création et son développement.
-                    </p>
-
-                    <p>
-                        En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
-                    </p>
+                    <div class="pt-4 sd-section-title text-center">&lt;{{ 'title.presentation'|trans }} /&gt;</div>
+                    <p>{{ 'text.presentation.p1'|trans }}</p>
+                    <p>{{ 'text.presentation.p2'|trans }}</p>
+                    <p>{{ 'text.presentation.p3'|trans }}</p>
                 </div>
             </div>
         </div>
@@ -100,7 +89,7 @@
                             <div class="sd-section-title">
                                 &lt;{{ 'title.technologies'|trans }} /&gt;
                             </div>
-                            <a href="technologies.html" class="sd-button sd-button-default">
+                            <a href="{{ path('technologies') }}" class="sd-button sd-button-default">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-eye fa-w-18 fa-1-5x"><g class="fa-group"><path fill="currentColor" d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288.14 400H288a143.93 143.93 0 1 1 .14 0z" class="fa-secondary"></path><path fill="currentColor" d="M380.66 280.87a95.78 95.78 0 1 1-184.87-50.18 47.85 47.85 0 0 0 66.9-66.9 95.3 95.3 0 0 1 118 117.08z" class="fa-primary"></path></g></svg>
                                 {{ 'btn.en.savoir.plus'|trans }}
                             </a>
@@ -209,9 +198,9 @@
                 <div class="pt-4 sd-section-title text-center">
                     &lt;{{ 'title.realisations'|trans }} /&gt;
                 </div>
-                <div class="row sd-section">
+                <div class="row sd-section mb-4">
                     {% for bigType in listBigTypes %}
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-6 col-md-12 mb-4">
                             <div class="content">
                                 <div class="sd-circle float-left m-2 mr-4">
                                     {{ bigType.svg.svgHtml|raw }}
@@ -222,9 +211,11 @@
                                     </h5>
                                 </div>
 
+                                <p class="pl-2 pr-2 pb-2">{{ bigType.descriptionKey|trans|raw }}</p>
+
                                 <a href="{{ path('realisations', { bigTypesToShow: bigType.id }) }}" class="sd-button sd-button-default float-right">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-eye fa-w-18 fa-1-5x"><g class="fa-group"><path fill="currentColor" d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288.14 400H288a143.93 143.93 0 1 1 .14 0z" class="fa-secondary"></path><path fill="currentColor" d="M380.66 280.87a95.78 95.78 0 1 1-184.87-50.18 47.85 47.85 0 0 0 66.9-66.9 95.3 95.3 0 0 1 118 117.08z" class="fa-primary"></path></g></svg>
-                                    {{ 'btn.voir.les.realisations'|trans }}
+                                    {{ 'btn.voir.les.x.realisations'|trans({'%count%': bigType.creations|length}) }}
                                 </a>
                             </div>
                         </div>

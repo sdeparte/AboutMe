@@ -319,10 +319,6 @@
 }
 
 @media (max-width: 991.98px) {
-    #timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right){
-        left: inherit;
-    }
-
     .animation-element.in-view.delay-2,
     .animation-element.in-view.delay-3,
     .animation-element.in-view.delay-4,

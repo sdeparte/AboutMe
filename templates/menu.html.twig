@@ -27,7 +27,7 @@
                     <span class="indicator"></span>
                 </a>
                 <ul class="sub-menu">
-                    <div class="row sd-section">
+                    <div class="row sd-section justify-content-md-center">
                         <div class="col-lg-6 col-md-6">
                             <a href="{{ path('technologies', {'_fragment': 'languages'}) }}" class="no-underline">
                                 <div class="content">
@@ -103,7 +103,7 @@
                     <span class="indicator"></span>
                 </a>
                 <ul class="sub-menu">
-                    <div class="row sd-section">
+                    <div class="row sd-section justify-content-md-center">
                         {% for bigType in listBigTypes %}
                             <div class="col-lg-3 col-md-6">
                                 <a href="{{ path('realisations', { bigTypesToShow: bigType.id }) }}" class="no-underline">
@@ -117,7 +117,7 @@
                                             </h5>
 
                                             <div class="text-center">
-                                                {{ 'txt.x.realisation'|trans({'%count%': bigType.creations|length}) }}
+                                                {{ 'text.x.realisation'|trans({'%count%': bigType.creations|length}) }}
                                             </div>
                                         </div>
                                     </div>

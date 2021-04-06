@@ -5,12 +5,14 @@
 {% block stylesheets %}
     {{ parent() }}
 
+    {{ encore_entry_link_tags('ariane') }}
     {{ encore_entry_link_tags('technologies') }}
 {% endblock %}
 
 {% block javascripts %}
     {{ parent() }}
 
+    {{ encore_entry_script_tags('ariane') }}
     {{ encore_entry_script_tags('technologies') }}
 {% endblock %}
 
