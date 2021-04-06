@@ -90,6 +90,10 @@
         <source>btn.en.savoir.plus</source>
         <target>See more</target>
       </trans-unit>
+      <trans-unit id="btn.voir.toutes.les.realisations">
+        <source>btn.voir.toutes.les.realisations</source>
+        <target>See all creations</target>
+      </trans-unit>
       <trans-unit id="btn.voir.les.x.realisations">
         <source>btn.voir.les.x.realisations</source>
         <target>See the creation|See the %count% creations</target>
@@ -204,6 +208,284 @@
       <trans-unit id="title.hobbys">
         <source>title.hobbys</source>
         <target>Hobbies</target>
+      </trans-unit>
+
+      <trans-unit id="texte.pont.de.claix">
+        <source>texte.pont.de.claix</source>
+        <target>Pont de Claix</target>
+      </trans-unit>
+      <trans-unit id="texte.grenoble">
+        <source>texte.grenoble</source>
+        <target>Grenoble</target>
+      </trans-unit>
+      <trans-unit id="texte.seyssinet.pariset">
+        <source>texte.seyssinet.pariset</source>
+        <target>Seyssinet-Pariset</target>
+      </trans-unit>
+      <trans-unit id="texte.moirans">
+        <source>texte.moirans</source>
+        <target>Moirans</target>
+      </trans-unit>
+      <trans-unit id="texte.vizille">
+        <source>texte.vizille</source>
+        <target>Vizille</target>
+      </trans-unit>
+      <trans-unit id="texte.le.versoud">
+        <source>texte.le.versoud</source>
+        <target>Le Versoud</target>
+      </trans-unit>
+      <trans-unit id="texte.montbonnot.saint.martin">
+        <source>texte.montbonnot.saint.martin</source>
+        <target>Montbonnot-Saint-Martin</target>
+      </trans-unit>
+      <trans-unit id="texte.saint.martin.d.heres">
+        <source>texte.saint.martin.d.heres</source>
+        <target>Saint-Martin-d'Hères</target>
+      </trans-unit>
+      <trans-unit id="texte.monestier.de.clermont">
+        <source>texte.monestier.de.clermont</source>
+        <target>Monestier-de-Clermont</target>
+      </trans-unit>
+      <trans-unit id="texte.lte.vizille">
+        <source>texte.lte.vizille</source>
+        <target>LTE Vizille</target>
+      </trans-unit>
+      <trans-unit id="texte.lgm.meylan">
+        <source>texte.lgm.meylan</source>
+        <target>LGM Meylan</target>
+      </trans-unit>
+      <trans-unit id="texte.ujf.grenoble">
+        <source>texte.ujf.grenoble</source>
+        <target>UJF Grenoble</target>
+      </trans-unit>
+
+      <trans-unit id="texte.afpa.title">
+        <source>texte.afpa.title</source>
+        <target>Stagiaire en maintenance informatique à l’AFPA</target>
+      </trans-unit>
+      <trans-unit id="texte.afpa.dates">
+        <source>texte.afpa.dates</source>
+        <target>(05/12/2005 - 16/12/2005)</target>
+      </trans-unit>
+      <trans-unit id="texte.afpa.description">
+        <source>texte.afpa.description</source>
+        <target>Réparation de postes informatiques, installations de systèmes d’exploitation (Windows / Linux).</target>
+      </trans-unit>
+
+      <trans-unit id="texte.sever.system.title">
+        <source>texte.sever.system.title</source>
+        <target>Webdesigner pour la société d’infographie « Sever-Système »</target>
+      </trans-unit>
+      <trans-unit id="texte.sever.system.dates">
+        <source>texte.sever.system.dates</source>
+        <target>(Juillet 2007)</target>
+      </trans-unit>
+      <trans-unit id="texte.sever.system.description">
+        <source>texte.sever.system.description</source>
+        <target>Créations de sites internet avec un infographiste grenoblois.</target>
+      </trans-unit>
+
+      <trans-unit id="texte.bac.title">
+        <source>texte.bac.title</source>
+        <target>Baccalauréat - « STI Génie Electrotechnique »</target>
+      </trans-unit>
+      <trans-unit id="texte.bac.dates">
+        <source>texte.bac.dates</source>
+        <target>(2007 - 2009)</target>
+      </trans-unit>
+      <trans-unit id="texte.bac.description">
+        <source>texte.bac.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.com6.title">
+        <source>texte.com6.title</source>
+        <target>Stagiaire en réseau informatique au sein de la société « COM6 »</target>
+      </trans-unit>
+      <trans-unit id="texte.com6.dates">
+        <source>texte.com6.dates</source>
+        <target>(24/05/2010 - 04/08/2010)</target>
+      </trans-unit>
+      <trans-unit id="texte.com6.description">
+        <source>texte.com6.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.bts.title">
+        <source>texte.bts.title</source>
+        <target>BTS - « Informatique et Réseaux pour les Industrie et les Services »</target>
+      </trans-unit>
+      <trans-unit id="texte.bts.dates">
+        <source>texte.bts.dates</source>
+        <target>(2009 - 2011)</target>
+      </trans-unit>
+      <trans-unit id="texte.bts.description">
+        <source>texte.bts.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.licence.title">
+        <source>texte.licence.title</source>
+        <target>Licence Professionnelle - « Systèmes embarqués »</target>
+      </trans-unit>
+      <trans-unit id="texte.licence.dates">
+        <source>texte.licence.dates</source>
+        <target>(2011 - 2012)</target>
+      </trans-unit>
+      <trans-unit id="texte.licence.description">
+        <source>texte.licence.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.trixell.title">
+        <source>texte.trixell.title</source>
+        <target>Développeur informatique en alternance au sein de l’entreprise « Trixell »</target>
+      </trans-unit>
+      <trans-unit id="texte.trixell.dates">
+        <source>texte.trixell.dates</source>
+        <target>(04/09/2011 - 30/05/2012)</target>
+      </trans-unit>
+      <trans-unit id="texte.trixell.description">
+        <source>texte.trixell.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.cqpm.title">
+        <source>texte.cqpm.title</source>
+        <target>Certificat de Qualification Paritaire de la Métallurgie</target>
+      </trans-unit>
+      <trans-unit id="texte.cqpm.dates">
+        <source>texte.cqpm.dates</source>
+        <target>(2011 - 2012)</target>
+      </trans-unit>
+      <trans-unit id="texte.cqpm.description">
+        <source>texte.cqpm.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.japan.culture.title">
+        <source>texte.japan.culture.title</source>
+        <target>Organisateur du festival Japan’Culture (sur la culture japonaise et le manga)</target>
+      </trans-unit>
+      <trans-unit id="texte.japan.culture.dates">
+        <source>texte.japan.culture.dates</source>
+        <target>(25/05/2013 - 26/05/2013)</target>
+      </trans-unit>
+      <trans-unit id="texte.japan.culture.description">
+        <source>texte.japan.culture.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.alprobotic.title">
+        <source>texte.alprobotic.title</source>
+        <target>Informaticien industriel au sein de la société « Alprobotic »</target>
+      </trans-unit>
+      <trans-unit id="texte.alprobotic.dates">
+        <source>texte.alprobotic.dates</source>
+        <target>(04/07/2013 - 26/05/2017)</target>
+      </trans-unit>
+      <trans-unit id="texte.alprobotic.description">
+        <source>texte.alprobotic.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.sst.title">
+        <source>texte.sst.title</source>
+        <target>Formation de « Sauveteur Secouriste du Travail »</target>
+      </trans-unit>
+      <trans-unit id="texte.sst.dates">
+        <source>texte.sst.dates</source>
+        <target>(2014)</target>
+      </trans-unit>
+      <trans-unit id="texte.sst.description">
+        <source>texte.sst.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.ausy.title">
+        <source>texte.ausy.title</source>
+        <target>Developpeur au sein de la société de prestation « AUSY »</target>
+      </trans-unit>
+      <trans-unit id="texte.ausy.dates">
+        <source>texte.ausy.dates</source>
+        <target>(27/05/2017 - 31/07/2018)</target>
+      </trans-unit>
+      <trans-unit id="texte.ausy.description">
+        <source>texte.ausy.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.prowebce.title">
+        <source>texte.prowebce.title</source>
+        <target>Développeur WEB au sein de la société « ProwebCE »</target>
+      </trans-unit>
+      <trans-unit id="texte.prowebce.dates">
+        <source>texte.prowebce.dates</source>
+        <target>(01/08/2018 - EN POSTE)</target>
+      </trans-unit>
+      <trans-unit id="texte.prowebce.description">
+        <source>texte.prowebce.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.auto.entrepreneur.prowebce.title">
+        <source>texte.auto.entrepreneur.prowebce.title</source>
+        <target>Développeur Auto-Entrepreneur // Développeur WEB au sein de la société « ProwebCE »</target>
+      </trans-unit>
+      <trans-unit id="texte.auto.entrepreneur.prowebce.dates">
+        <source>texte.auto.entrepreneur.prowebce.dates</source>
+        <target>(01/08/2019 - EN POSTE)</target>
+      </trans-unit>
+      <trans-unit id="texte.auto.entrepreneur.prowebce.description">
+        <source>texte.auto.entrepreneur.prowebce.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.premiere.pro.title">
+        <source>texte.premiere.pro.title</source>
+        <target>Certificat Adobe - « Digital Video using Premiere Pro CC 2015 »</target>
+      </trans-unit>
+      <trans-unit id="texte.premiere.pro.dates">
+        <source>texte.premiere.pro.dates</source>
+        <target>(24/02/2020)</target>
+      </trans-unit>
+      <trans-unit id="texte.premiere.pro.description">
+        <source>texte.premiere.pro.description</source>
+        <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.dev.web">
+        <source>texte.dev.web</source>
+        <target>WEB development</target>
+      </trans-unit>
+      <trans-unit id="texte.dev.bureautique">
+        <source>texte.dev.bureautique</source>
+        <target>Office Development</target>
+      </trans-unit>
+      <trans-unit id="texte.dev.mobile">
+        <source>texte.dev.mobile</source>
+        <target>Mobile development</target>
+      </trans-unit>
+      <trans-unit id="texte.graphisme">
+        <source>texte.graphisme</source>
+        <target>Graphics</target>
+      </trans-unit>
+
+      <trans-unit id="texte.informatique.dev">
+        <source>texte.informatique.dev</source>
+        <target>IT / Development</target>
+      </trans-unit>
+      <trans-unit id="texte.muscu.fitness">
+        <source>texte.muscu.fitness</source>
+        <target>Bodybuilding / Fitness</target>
+      </trans-unit>
+      <trans-unit id="texte.manga.japon">
+        <source>texte.manga.japon</source>
+        <target>Mangas / Japanese culture</target>
+      </trans-unit>
+      <trans-unit id="texte.photographie">
+        <source>texte.photographie</source>
+        <target>Photography</target>
       </trans-unit>
 
 

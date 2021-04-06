@@ -90,6 +90,10 @@
         <source>btn.en.savoir.plus</source>
         <target>En savoir plus</target>
       </trans-unit>
+      <trans-unit id="btn.voir.toutes.les.realisations">
+        <source>btn.voir.toutes.les.realisations</source>
+        <target>Voir toutes les réalisations</target>
+      </trans-unit>
       <trans-unit id="btn.voir.les.x.realisations">
         <source>btn.voir.les.x.realisations</source>
         <target>Voir la réalisation|Voir les %count% réalisations</target>
@@ -468,6 +472,40 @@
       <trans-unit id="texte.premiere.pro.description">
         <source>texte.premiere.pro.description</source>
         <target>À remplir</target>
+      </trans-unit>
+
+      <trans-unit id="texte.dev.web">
+        <source>texte.dev.web</source>
+        <target>Développement WEB</target>
+      </trans-unit>
+      <trans-unit id="texte.dev.bureautique">
+        <source>texte.dev.bureautique</source>
+        <target>Développement Bureautique</target>
+      </trans-unit>
+      <trans-unit id="texte.dev.mobile">
+        <source>texte.dev.mobile</source>
+        <target>Développement Mobile</target>
+      </trans-unit>
+      <trans-unit id="texte.graphisme">
+        <source>texte.graphisme</source>
+        <target>Graphisme</target>
+      </trans-unit>
+
+      <trans-unit id="texte.informatique.dev">
+        <source>texte.informatique.dev</source>
+        <target>Informatique / Développement</target>
+      </trans-unit>
+      <trans-unit id="texte.muscu.fitness">
+        <source>texte.muscu.fitness</source>
+        <target>Musculation / Fitness</target>
+      </trans-unit>
+      <trans-unit id="texte.manga.japon">
+        <source>texte.manga.japon</source>
+        <target>Mangas / Culture japonaise</target>
+      </trans-unit>
+      <trans-unit id="texte.photographie">
+        <source>texte.photographie</source>
+        <target>Photographie</target>
       </trans-unit>
 
 
