@@ -40,15 +40,6 @@
     padding: 0px 12px;
 }
 
-#presentation > .sprite {
-    margin-top: -10%;
-}
-
-#presentation > .sd-rubrique p {
-    text-align: justify;
-    text-justify: auto;
-}
-
 #computer_animation_handler {
     float: right;
     position: relative;
@@ -129,8 +120,17 @@
     display: block;
 }
 
-#presentation.sd-rubrique {
-    z-index: initial;
+#presentation > .sprite {
+    margin-top: -10%;
+}
+
+#presentation > .sd-rubrique p {
+    text-align: justify;
+    text-justify: auto;
+}
+
+#realisations .sd-section .content {
+    height: 100%;
 }
 
 @media (max-width: 1199.98px) {

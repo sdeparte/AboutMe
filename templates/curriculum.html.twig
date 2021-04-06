@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}{{ 'text.prenom.nom'|trans }} - {{ 'title.curriculum'|trans }}{% endblock %}
 
 {% block stylesheets %}
     {{ parent() }}
@@ -101,28 +101,22 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Certificat Adobe - « Digital Video using Premiere Pro CC 2015 »
-                            </h5>
-                            <span class="sd-subtitle">Moirans</span>
-                            <span class="sd-subtitle float-right">(24/02/2020)</span>
+                            <h5>{{ 'texte.premiere.pro.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.moirans'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.premiere.pro.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.premiere.pro.description'|trans }}</p>
                     </div>
                     <div class="timeline-content right animation-element from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Auto-Entrepreneur // « ProwebCE »
-                            </h5>
-                            <span class="sd-subtitle">Monestier-de-Clermont</span>
-                            <span class="sd-subtitle float-right">(01/08/2019 - EN POSTE)</span>
+                            <h5>{{ 'texte.auto.entrepreneur.prowebce.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.monestier.de.clermont'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.auto.entrepreneur.prowebce.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.auto.entrepreneur.prowebce.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -135,16 +129,11 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                « ProwebCE »
-                            </h5>
-                            <span class="sd-subtitle">Saint-Martin-d'Hères</span>
-                            <span class="sd-subtitle float-right">(01/08/2018 - EN POSTE)</span>
+                            <h5>{{ 'texte.prowebce.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.saint.martin.d.heres'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.prowebce.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.prowebce.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -157,16 +146,11 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                « AUSY »
-                            </h5>
-                            <span class="sd-subtitle">Montbonnot-Saint-Martin</span>
-                            <span class="sd-subtitle float-right">(27/05/2017 - 31/07/2018)</span>
+                            <h5>{{ 'texte.ausy.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.montbonnot.saint.martin'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.ausy.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.ausy.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -182,28 +166,22 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Formation de « Sauveteur Secouriste du Travail »
-                            </h5>
-                            <span class="sd-subtitle">Grenoble</span>
-                            <span class="sd-subtitle float-right">(2014)</span>
+                            <h5>{{ 'texte.sst.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.grenoble'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.sst.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.sst.description'|trans }}</p>
                     </div>
                     <div class="timeline-content right animation-element from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Informaticien industriel au sein de la société « Alprobotic »
-                            </h5>
-                            <span class="sd-subtitle">Le Versoud</span>
-                            <span class="sd-subtitle float-right">(04/07/2013 - 26/05/2017)</span>
+                            <h5>{{ 'texte.alprobotic.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.le.versoud'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.alprobotic.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.alprobotic.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -216,16 +194,11 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Organisateur du festival Japan’Culture (sur la culture japonaise et le manga)
-                            </h5>
-                            <span class="sd-subtitle">Vizille</span>
-                            <span class="sd-subtitle float-right">(25/05/2013 - 26/05/2013)</span>
+                            <h5>{{ 'texte.japan.culture.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.vizille'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.japan.culture.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.japan.culture.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -238,28 +211,22 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Certificat de Qualification Paritaire de la Métallurgie
-                            </h5>
-                            <span class="sd-subtitle">UJF Grenoble</span>
-                            <span class="sd-subtitle float-right">(2011 - 2012)</span>
+                            <h5>{{ 'texte.cqpm.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.ujf.grenoble'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.cqpm.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.cqpm.description'|trans }}</p>
                     </div>
                     <div class="timeline-content right animation-element from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Développeur informatique en alternance au sein de l’entreprise « Trixell »
-                            </h5>
-                            <span class="sd-subtitle">Moirans</span>
-                            <span class="sd-subtitle float-right">(04/09/2011 - 30/05/2012)</span>
+                            <h5>{{ 'texte.trixell.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.moirans'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.trixell.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.trixell.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -270,12 +237,11 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Licence Professionnelle - « Systèmes embarqués »
-                            </h5>
-                            <span class="sd-subtitle">UJF Grenoble</span>
-                            <span class="sd-subtitle float-right">(2011 - 2012)</span>
+                            <h5>{{ 'texte.licence.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.ujf.grenoble'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.licence.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.licence.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -291,28 +257,22 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                BTS - « Informatique et Réseaux pour les Industrie et les Services »
-                            </h5>
-                            <span class="sd-subtitle">LGM Meylan</span>
-                            <span class="sd-subtitle float-right">(2009 - 2011)</span>
+                            <h5>{{ 'texte.bts.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.lgm.meylan'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.bts.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.bts.description'|trans }}</p>
                     </div>
                     <div class="timeline-content right animation-element from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Stagiaire en réseau informatique au sein de la société « COM6 »
-                            </h5>
-                            <span class="sd-subtitle">Seyssinet-Pariset</span>
-                            <span class="sd-subtitle float-right">(24/05/2010 - 04/08/2010)</span>
+                            <h5>{{ 'texte.com6.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.seyssinet.pariset'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.com6.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.com6.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -328,27 +288,22 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Baccalauréat - « STI Génie Electrotechnique »
-                            </h5>
-                            <span class="sd-subtitle">LTE Vizille</span>
-                            <span class="sd-subtitle float-right">(2007 - 2009)</span>
+                            <h5>{{ 'texte.bac.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.lte.vizille'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.bac.dates'|trans }}</span>
                         </div>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.bac.description'|trans }}</p>
                     </div>
                     <div class="timeline-content right animation-element from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Webdesigner pour la société d’infographie « Sever-Système »
-                            </h5>
-                            <span class="sd-subtitle">Grenoble</span>
-                            <span class="sd-subtitle float-right">(Juillet 2007)</span>
+                            <h5>{{ 'texte.sever.system.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.grenoble'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.sever.system.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Créations de sites internet avec un infographiste grenoblois.
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.sever.system.description'|trans }}</p>
                     </div>
                 </div>
 
@@ -361,15 +316,11 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
                         <div class="sd-title">
-                            <h5>
-                                Stagiaire en maintenance informatique à l’AFPA
-                            </h5>
-                            <span class="sd-subtitle">Pont de Claix</span>
-                            <span class="sd-subtitle float-right">(05/12/2005 - 16/12/2005)</span>
+                            <h5>{{ 'texte.afpa.title'|trans }}</h5>
+                            <span class="sd-subtitle">{{ 'texte.pont.de.claix'|trans }}</span>
+                            <span class="sd-subtitle float-right">{{ 'texte.afpa.dates'|trans }}</span>
                         </div>
-                        <p class="pl-3 pr-3 text-justify">
-                            Réparation de postes informatiques, installations de systèmes d’exploitation (Windows / Linux).
-                        </p>
+                        <p class="pl-3 pr-3 text-justify">{{ 'texte.afpa.description'|trans }}</p>
                     </div>
                 </div>
 

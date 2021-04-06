@@ -147,7 +147,7 @@
 
       <trans-unit id="title.curriculum">
         <source>title.curriculum</source>
-        <target>Curriculum</target>
+        <target>Curriculum vitæ</target>
       </trans-unit>
 
       <trans-unit id="text.prenom.nom">
