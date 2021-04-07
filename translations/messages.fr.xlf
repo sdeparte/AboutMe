@@ -103,68 +103,62 @@
       <trans-unit id="text.presentation.p1">
         <source>text.presentation.p1</source>
         <target>
-            Sylvain DEPARTE, diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisé dans la programmation des « Systèmes Embarqués ».
-            Actuellement en poste au sein de la société ProwebCE en tant que « Développeur PHP » depuis 2018.
+            Je me nomme Sylvain DEPARTE, je suis diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisé dans la programmation des « Systèmes Embarqués ».
+            Actuellement Développeur en Auto-Entreprise en parallèle d'un poste des « Développeur PHP » au sein de la société ProwebCE.
         </target>
       </trans-unit>
       <trans-unit id="text.presentation.p2">
         <source>text.presentation.p2</source>
         <target>
-            Je suis passionné par le développement et le design informatique.
-            J’ai donc suivi une formation très orientée sur la programmation, qui m'a permis de connaitre une grande variété de langages de programmations (C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript, ActionScript, etc.).
-            Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, embarquées (sous Android) et des sites internet.
-            De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités : depuis la définition des besoins du clients jusqu’aux tests finaux, en passant bien entendu par sa création et son développement.
+            Je suis passionné depuis l'enfance par le développement et plus particulièrement par le développement de sites internet, j’ai donc suivi une formation très orientée sur la programmation.
+            Cela m'a permis de connaitre une grande variété de langages de développements : C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript et bien d'autres.
+            Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, mobiles (sous Android) et des sites internet.
+            De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités, depuis la définition des besoins jusqu’à la livraison au client.
         </target>
       </trans-unit>
       <trans-unit id="text.presentation.p3">
         <source>text.presentation.p3</source>
         <target>
-            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux logiciels, sites internet et créations graphiques.
+            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux projets personnels tel que : des sites internet, des applications mobiles, ainsi que des créations graphiques.
         </target>
       </trans-unit>
 
       <trans-unit id="text.bigType.description.appBureautiques">
         <source>text.bigType.description.appBureautiques</source>
         <target>
-            Une application bureautique est un programme pouvant être exécuté sur un ordinateur de manière autonome (sans utiliser un logiciel tiers tel qu'un naviguateur Web).<![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            Une application bureautique est un programme pouvant être exécuté sur un ordinateur de manière autonome (sans utiliser un logiciel tiers tel qu'un naviguateur Web).<![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Systèmes d'exploitations cibles :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Windows et Linux<![CDATA[</span>]]><![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Windows et Linux<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Languages utilisés :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Java, VB.net ou C#<![CDATA[</span>]]><![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Java, VB.net ou C#<![CDATA[</span>]]>
         </target>
       </trans-unit>
       <trans-unit id="text.bigType.description.appMobiles">
         <source>text.bigType.description.appMobiles</source>
         <target>
-            Une application mobile est un programme pouvant être exécuté sur un smartphone, une tablette ou smartwatch.<![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            Une application mobile est un programme pouvant être exécuté sur un smartphone, une tablette ou smartwatch.<![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Systèmes d'exploitations cibles :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Android et iOS<![CDATA[</span>]]><![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Android et iOS<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Languages utilisés :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Java, Kotlin ou Flutter<![CDATA[</span>]]><![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Java, Kotlin ou Flutter<![CDATA[</span>]]>
         </target>
       </trans-unit>
       <trans-unit id="text.bigType.description.appSiteWebs">
         <source>text.bigType.description.appSiteWebs</source>
         <target>
             <![CDATA[<b>]]>Types de sites webs :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Portfolio, site d'entreprise, etc.<![CDATA[</span>]]><![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Portfolio, site d'entreprise, etc.<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Languages utilisés :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• PHP (Framework : Symfony), HTML, JS et CSS<![CDATA[</span>]]><![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• PHP (Framework : Symfony), HTML, JS et CSS<![CDATA[</span>]]>
         </target>
       </trans-unit>
       <trans-unit id="text.bigType.description.creaGraphiques">
         <source>text.bigType.description.creaGraphiques</source>
         <target>
             <![CDATA[<b>]]>Types de créations :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Logos, affiches, flyers, carte de visites, etc.<![CDATA[</span>]]><![CDATA[<br />]]>
-            <![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Logos, affiches, flyers, carte de visites, etc.<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Formats de livraisons :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Image Bitmap ou Vectoriel<![CDATA[</span>]]><![CDATA[<br />]]>
+            <![CDATA[<span class="pl-2">]]>• Image Bitmap ou Vectoriel<![CDATA[</span>]]>
         </target>
       </trans-unit>
 
@@ -289,7 +283,15 @@
       </trans-unit>
       <trans-unit id="texte.afpa.description">
         <source>texte.afpa.description</source>
-        <target>Réparation de postes informatiques, installations de systèmes d’exploitation (Windows / Linux).</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ce stage de 2 semaines a été effectuer en fin de 3<![CDATA[<sup>]]>e<![CDATA[</sup>]]>.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Lors de ce stage, j'ai effectué des réparation de postes informatiques, ainsi que différentes installations de systèmes d’exploitation (Windows / Linux).
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.sever.system.title">
@@ -302,7 +304,15 @@
       </trans-unit>
       <trans-unit id="texte.sever.system.description">
         <source>texte.sever.system.description</source>
-        <target>Créations de sites internet avec un infographiste grenoblois.</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ce court stage a été réalisé hors du cadre scolaire.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Lors de ce dernier, j'ai assisté un infographiste Grenoblois à concevoire / designer un site internet.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.bac.title">
@@ -315,7 +325,14 @@
       </trans-unit>
       <trans-unit id="texte.bac.description">
         <source>texte.bac.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Baccalauréat technologique avec spécialisation électrotechnique.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Matières dominantes : la Mécanique, l'Automatisme, l'Informatique industrielle, l'Électrotechnique, ainsi que les Mathématiques.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.com6.title">
@@ -328,7 +345,15 @@
       </trans-unit>
       <trans-unit id="texte.com6.description">
         <source>texte.com6.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ce stage de 2 mois a été effectuer en fin de première année de BTS.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Lors de ce dernier, j'ai effectué des installations des parcs informatiques à destination de collectivités locales, ainsi que de l'administration réseau (sous Windows Server).
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.bts.title">
@@ -341,7 +366,15 @@
       </trans-unit>
       <trans-unit id="texte.bts.description">
         <source>texte.bts.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ce BTS forme à créer et gérer des applications et des systèmes informatiques.
+                Depuis la conception matérielle et logicielle de systèmes informatiques à l'installation, maintenance et suivi des installations informatiques.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Ce Matières dominantes : le Développement, l'Administration Réseau, la Physique Appliquée, ainsi que les Mathématiques.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.licence.title">
@@ -354,7 +387,15 @@
       </trans-unit>
       <trans-unit id="texte.licence.description">
         <source>texte.licence.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Cette licence permet d'être former dans les domaines de la programmation et de l’intégration des systèmes embarqués.
+                Sous des aspects logiciels (cibles, langages et applications, méthodologies), mais aussi sous des aspects matériels (choix, instruments, approche systémique, autonomie en énergie).
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Matières dominantes : l'Électronique et le Développement.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.trixell.title">
@@ -367,7 +408,15 @@
       </trans-unit>
       <trans-unit id="texte.trixell.description">
         <source>texte.trixell.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ma mission pricipale consistait à créer une application permettant de valider le protocole de communication utilisé par l’entreprise pour comminiquer avec leurs détecteurs médiacles à Rayons-X.
+                En parallèle, je devais effectuer les corrections des anomalies remontées par les différents services.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : C / C++.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.cqpm.title">
@@ -380,7 +429,12 @@
       </trans-unit>
       <trans-unit id="texte.cqpm.description">
         <source>texte.cqpm.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Le CQPM certifie les compétences professionnelles acquises lors de la Licence Professionnelle précédente.
+                Il assure une reconnaissance professionnelle et sociale au plan national par les entreprises de la branche métallurgie.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.japan.culture.title">
@@ -393,7 +447,19 @@
       </trans-unit>
       <trans-unit id="texte.japan.culture.description">
         <source>texte.japan.culture.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Pendant la phase de communication, j'ai été en chage de la création du site web, des affiches, des flyers et du logo.
+                Mais aussi la création du cahier des charges prévisionnel pour les demandes de financements / partenariats.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : PHP / HTML / CSS / JS.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Pendant les deux jours où se tenait l'évenement, mes missions était de gérer les bénévoles, les invités, les exposants et les activités.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.alprobotic.title">
@@ -406,7 +472,19 @@
       </trans-unit>
       <trans-unit id="texte.alprobotic.description">
         <source>texte.alprobotic.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Lors de cette expérience professionnel, j'ai pour mission de développer différentes applications d'IHM de cellules robotisées et de supervisions de lignes de productions.
+                Ainsi que la conception et l'administration du site web de la société.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : VB.Net / C# / PHP / HTML / CSS / JS.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                J'ai aussi eu les casquettes de chef de projet des cellules robotisées de types « Rayons-X », d'administrateur du réseau informatique et de référent sécurité de la société.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.sst.title">
@@ -419,7 +497,11 @@
       </trans-unit>
       <trans-unit id="texte.sst.description">
         <source>texte.sst.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Le rôle du « SST » est de porter les premiers secours à toute victime d'un accident du travail ou d'un malaise, mais aussi d’être acteur de la prévention dans son entreprise.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.ausy.title">
@@ -432,7 +514,22 @@
       </trans-unit>
       <trans-unit id="texte.ausy.description">
         <source>texte.ausy.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ma première mission était de developper un plugin pour le logiciel « MICROSOFT - VISIO ».
+                Ce plugin permet à la société « SIEMENS » de réaliser de manière automatique des plan de coupure à partir d'un schéma électrique existant.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : VBA.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Ma seconde mission constait à faire partie de l'équipe TMA (équipe en charge des corrections d'anomalies) pour la société « ProwebCE ».
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.prowebce.title">
@@ -445,12 +542,30 @@
       </trans-unit>
       <trans-unit id="texte.prowebce.description">
         <source>texte.prowebce.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                En tant que « Lead Dev » d'une petite équipe, ma mission constite à assister celle-ci dans les différents développementes évolutions et corrections d'une application web à destination des CSE et des collectivités locales.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Je suis aussi en charge de certains développements sur les applications mobiles (Android et iOS) de la société.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : Java / Kotlin / Swift.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Pour finir, je suis aussi responsable de version pour l'application web sur laquel mon équipe travail.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.auto.entrepreneur.prowebce.title">
         <source>texte.auto.entrepreneur.prowebce.title</source>
-        <target>Développeur Auto-Entrepreneur // Développeur WEB au sein de la société « ProwebCE »</target>
+        <target>Développeur en Auto-Entreprise // Développeur WEB au sein de la société « ProwebCE »</target>
       </trans-unit>
       <trans-unit id="texte.auto.entrepreneur.prowebce.dates">
         <source>texte.auto.entrepreneur.prowebce.dates</source>
@@ -458,7 +573,21 @@
       </trans-unit>
       <trans-unit id="texte.auto.entrepreneur.prowebce.description">
         <source>texte.auto.entrepreneur.prowebce.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Je conçois des sites et d'applications web pour les commercialiser ou directement pour des clients finaux.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+            <![CDATA[</p>]]>
+            <![CDATA[<hr class="m-3" />]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Je conçois des applications mobiles (Android et/ou iOS) pour les commercialiser ou directement pour des clients finaux.
+            <![CDATA[</p>]]>
+            <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
+                Langages de développement utilisés : Java / Flutter.
+            <![CDATA[</p>]]>
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.premiere.pro.title">
@@ -471,7 +600,9 @@
       </trans-unit>
       <trans-unit id="texte.premiere.pro.description">
         <source>texte.premiere.pro.description</source>
-        <target>À remplir</target>
+        <target>
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>Formation sur le logiciel de montage vidéo intitulé « Adobe - Premiere Pro », résultant sur une certification « ADOBE CERTIFIED ASSOCIATE® ».
+        </target>
       </trans-unit>
 
       <trans-unit id="texte.dev.web">

@@ -149,13 +149,13 @@
     border-right: 10px solid #bc3838;
 }
 
-#timeline > .timeline-item > .timeline-content .sd-title{
-    margin-bottom: -25px;
+#timeline > .timeline-item > .timeline-content .sd-title {
+    position: relative;
 }
 
-#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle{
-    position: relative;
-    top: -42px;
+#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle {
+    position: absolute;
+    bottom: -25px;
     font-style: italic;
     font-size: 80%;
 
@@ -166,12 +166,15 @@
     transition: all .3s ease;
 }
 
-#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right){
-    top: -45px;
-    left: 100px;
+#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle:not(.float-right) {
+    left: 112px;
 }
 
-#timeline > .timeline-item > .timeline-content:hover .sd-title > h5{
+#timeline > .timeline-item > .timeline-content .sd-title > .sd-subtitle.float-right {
+    right: 15px;
+}
+
+#timeline > .timeline-item > .timeline-content:hover .sd-title > h5 {
     color: #bc3838;
     border-bottom: 1px solid #bc3838;
 }
@@ -180,7 +183,7 @@
     overflow: hidden;
 }
 
-#timeline > .timeline-item > .timeline-content:hover .sd-circle{
+#timeline > .timeline-item > .timeline-content:hover .sd-circle {
     color: #fff;
     background-color: #bc3838;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
@@ -193,7 +196,7 @@
 
 #skills,
 #cursus,
-#hobbies{
+#hobbies {
     position: relative;
     z-index: 3;
 }
