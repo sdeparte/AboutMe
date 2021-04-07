@@ -1,0 +1,38 @@
+.sd-section .content .technologie {
+    display: flex;
+    align-items: center;
+}
+
+.sd-section .content .technologie > .dev-plugin {
+    flex: none;
+    margin: 20px;
+}
+
+.sd-section .content .technologie > .text-justify {
+    margin: 0 30px;
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .sd-section .content .technologie {
+        display: block;
+        align-items: initial;
+    }
+
+    .sd-section .content .technologie > .dev-plugin.float-left {
+        float: initial !important;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+}

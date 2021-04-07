@@ -183,7 +183,7 @@ img {
 }
 
 .dev-plugin.big-circle {
-    width: 80px;
+    width: 120px;
 }
 
 .dev-plugin.more-padding {
@@ -191,7 +191,7 @@ img {
 }
 
 .dev-plugin.big-circle.more-padding {
-    padding: 17px;
+    padding: 25px;
 }
 
 .dev-plugin.no-padding,

@@ -111,7 +111,7 @@
         <source>text.presentation.p2</source>
         <target>
             Je suis passionné depuis l'enfance par le développement et plus particulièrement par le développement de sites internet, j’ai donc suivi une formation très orientée sur la programmation.
-            Cela m'a permis de connaitre une grande variété de langages de développements : C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript et bien d'autres.
+            Cela m'a permis de connaitre une grande variété de langages de programmation : C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript et bien d'autres.
             Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, mobiles (sous Android) et des sites internet.
             De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités, depuis la définition des besoins jusqu’à la livraison au client.
         </target>
@@ -146,7 +146,7 @@
       <trans-unit id="text.bigType.description.appSiteWebs">
         <source>text.bigType.description.appSiteWebs</source>
         <target>
-            <![CDATA[<b>]]>Types de sites webs :<![CDATA[</b>]]><![CDATA[<br />]]>
+            <![CDATA[<b>]]>Types de sites web :<![CDATA[</b>]]><![CDATA[<br />]]>
             <![CDATA[<span class="pl-2">]]>• Portfolio, site d'entreprise, etc.<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Languages utilisés :<![CDATA[</b>]]><![CDATA[<br />]]>
             <![CDATA[<span class="pl-2">]]>• PHP (Framework : Symfony), HTML, JS et CSS<![CDATA[</span>]]>
@@ -414,7 +414,7 @@
                 En parallèle, je devais effectuer les corrections des anomalies remontées par les différents services.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : C / C++.
+                Langages de programmation utilisés : C / C++.
             <![CDATA[</p>]]>
         </target>
       </trans-unit>
@@ -453,7 +453,7 @@
                 Mais aussi la création du cahier des charges prévisionnel pour les demandes de financements / partenariats.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : PHP / HTML / CSS / JS.
+                Langages de programmation utilisés : PHP / HTML / CSS / JS.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
@@ -478,7 +478,7 @@
                 Ainsi que la conception et l'administration du site web de la société.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : VB.Net / C# / PHP / HTML / CSS / JS.
+                Langages de programmation utilisés : VB.Net / C# / PHP / HTML / CSS / JS.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
@@ -520,14 +520,14 @@
                 Ce plugin permet à la société « SIEMENS » de réaliser de manière automatique des plan de coupure à partir d'un schéma électrique existant.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : VBA.
+                Langages de programmation utilisés : VBA.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
                 Ma seconde mission constait à faire partie de l'équipe TMA (équipe en charge des corrections d'anomalies) pour la société « ProwebCE ».
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+                Langages de programmation utilisés : PHP (Symfony) / HTML / CSS / JS.
             <![CDATA[</p>]]>
         </target>
       </trans-unit>
@@ -547,14 +547,14 @@
                 En tant que « Lead Dev » d'une petite équipe, ma mission constite à assister celle-ci dans les différents développementes évolutions et corrections d'une application web à destination des CSE et des collectivités locales.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+                Langages de programmation utilisés : PHP (Symfony) / HTML / CSS / JS.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
                 Je suis aussi en charge de certains développements sur les applications mobiles (Android et iOS) de la société.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : Java / Kotlin / Swift.
+                Langages de programmation utilisés : Java / Kotlin / Swift.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
@@ -578,14 +578,14 @@
                 Je conçois des sites et d'applications web pour les commercialiser ou directement pour des clients finaux.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : PHP (Symfony) / HTML / CSS / JS.
+                Langages de programmation utilisés : PHP (Symfony) / HTML / CSS / JS.
             <![CDATA[</p>]]>
             <![CDATA[<hr class="m-3" />]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
                 Je conçois des applications mobiles (Android et/ou iOS) pour les commercialiser ou directement pour des clients finaux.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Langages de développement utilisés : Java / Flutter.
+                Langages de programmation utilisés : Java / Flutter.
             <![CDATA[</p>]]>
         </target>
       </trans-unit>
@@ -601,7 +601,9 @@
       <trans-unit id="texte.premiere.pro.description">
         <source>texte.premiere.pro.description</source>
         <target>
-            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>Formation sur le logiciel de montage vidéo intitulé « Adobe - Premiere Pro », résultant sur une certification « ADOBE CERTIFIED ASSOCIATE® ».
+            <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
+                Formation sur le logiciel de montage vidéo intitulé « Adobe - Premiere Pro », résultant sur une certification « ADOBE CERTIFIED ASSOCIATE® ».
+            <![CDATA[</p>]]>
         </target>
       </trans-unit>
 
@@ -637,6 +639,191 @@
       <trans-unit id="texte.photographie">
         <source>texte.photographie</source>
         <target>Photographie</target>
+      </trans-unit>
+
+
+      <trans-unit id="texte.technology.php.title">
+        <source>texte.technology.php.title</source>
+        <target>PHP</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.php.description">
+        <source>texte.technology.php.description</source>
+        <target>
+            Ce langage de programmation est principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale.<![CDATA[<br />]]>
+            PHP est un langage impératif orienté objet qui a permis la création d'un grand nombre de sites web célèbres.<![CDATA[<br />]]>
+            Il est considéré comme une des bases de la création de sites web dits dynamiques mais également des applications web.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.symfony.title">
+        <source>texte.technology.symfony.title</source>
+        <target>SYMFONY</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.symfony.description">
+        <source>texte.technology.symfony.description</source>
+        <target>
+            Symfony est un ensemble de composants PHP ainsi qu'un framework libre de type « Requête / Réponse ».
+            <![CDATA[<br />]]>
+            Il fournit un ensemble de composants PHP modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.html.css.js.title">
+        <source>texte.technology.html.css.js.title</source>
+        <target>HTML / CSS / JS</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.html.css.js.description">
+        <source>texte.technology.html.css.js.description</source>
+        <target>
+            Ces trois langages sont interprétés par un navigateur (Google Chrome, Firefox, ...) pour produire une interface utilisateur. Ils sont très souvent utilisés conjointement pour toutes créations de pages web.<![CDATA[<br />]]>
+            <![CDATA[<p class="pl-2">]]>
+                • Le HTML est le langage de balisage conçu pour représenter les pages web.<![CDATA[<br />]]>
+                • Le CSS décrit la présentation (style) des différentes pages web.<![CDATA[<br />]]>
+                • Le JavaScript est un langage orienté objet permettant d'exécuter du code directement sur le navigateur client.
+            <![CDATA[</p>]]>
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.mysql.title">
+        <source>texte.technology.mysql.title</source>
+        <target>MYSQL</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.mysql.description">
+        <source>texte.technology.mysql.description</source>
+        <target>
+             Ce langage informatique normalisé permet d'exploiter des bases de données relationnelles.<![CDATA[<br />]]>
+            <![CDATA[<p class="pl-2">]]>
+                • Le « langage de définition des données » permet de créer et de modifier l'organisation des données dans la base de données.<![CDATA[<br />]]>
+                • Le « langage de contrôle de transaction » permet de commencer et de terminer des transactions.<![CDATA[<br />]]>
+                • Le « langage de contrôle des données » permet d'autoriser ou d'interdire l'accès à certaines données à certaines personnes.
+            <![CDATA[</p>]]>
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.java.title">
+        <source>texte.technology.java.title</source>
+        <target>JAVA</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.java.description">
+        <source>texte.technology.java.description</source>
+        <target>
+            Ce langage orienté objet ayant pour particularité que les logiciels écrits dans ce langage sont compilés vers une représentation binaire intermédiaire qui peut être exécutée dans une machine virtuelle Java (JVM) en faisant abstraction du système d'exploitation.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.flutter.title">
+        <source>texte.technology.flutter.title</source>
+        <target>FLUTTER</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.flutter.description">
+        <source>texte.technology.flutter.description</source>
+        <target>
+             Ce kit de développement de logiciel (SDK) d'interface utilisateur open-source est utilisé pour développer des applications pour Android, iOS, Linux, Mac, Windows, Google Fuchsia et le web à partir d'une seule base de code.<![CDATA[<br />]]>
+             Les applications Flutter sont écrites en Dart et utilisent de nombreuses fonctionnalités plus avancées du langage.
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.dot.net.title">
+        <source>texte.technology.dot.net.title</source>
+        <target>VB.NET / C#</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.dot.net.description">
+        <source>texte.technology.dot.net.description</source>
+        <target>
+            Ces deux langages de programmation orientées objet sont destinés à développer sur la plateforme Microsoft « .NET ».<![CDATA[<br />]]>
+            <![CDATA[<p class="pl-2">]]>
+                • Le « VB.NET » est un langage de programmation à la syntaxe similaire à celle de Visual Basic 6.<![CDATA[<br />]]>
+                • Le « C# » est, quand à lui, dérivé du C++ et très proche du Java dont il reprend la syntaxe générale ainsi que les concepts.
+            <![CDATA[</p>]]>
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.windows.title">
+        <source>texte.technology.windows.title</source>
+        <target>WINDOWS</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.windows.description">
+        <source>texte.technology.windows.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.linux.title">
+        <source>texte.technology.linux.title</source>
+        <target>LINUX</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.linux.description">
+        <source>texte.technology.linux.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.android.title">
+        <source>texte.technology.android.title</source>
+        <target>ANDROID</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.android.description">
+        <source>texte.technology.android.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.ios.title">
+        <source>texte.technology.ios.title</source>
+        <target>IOS</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.ios.description">
+        <source>texte.technology.ios.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.intelliJ.title">
+        <source>texte.technology.intelliJ.title</source>
+        <target>SUITE INTELLI-J</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.intelliJ.description">
+        <source>texte.technology.intelliJ.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.androidStudio.title">
+        <source>texte.technology.androidStudio.title</source>
+        <target>ANDROID STUDIO</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.androidStudio.description">
+        <source>texte.technology.androidStudio.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.git.title">
+        <source>texte.technology.git.title</source>
+        <target>GIT</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.git.description">
+        <source>texte.technology.git.description</source>
+        <target>
+            À remplir
+        </target>
+      </trans-unit>
+
+      <trans-unit id="texte.technology.adobe.title">
+        <source>texte.technology.adobe.title</source>
+        <target>SUITE ADOBE</target>
+      </trans-unit>
+      <trans-unit id="texte.technology.adobe.description">
+        <source>texte.technology.adobe.description</source>
+        <target>
+            À remplir
+        </target>
       </trans-unit>
 
 
