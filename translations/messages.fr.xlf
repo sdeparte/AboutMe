@@ -158,7 +158,7 @@
             <![CDATA[<b>]]>Types de créations :<![CDATA[</b>]]><![CDATA[<br />]]>
             <![CDATA[<span class="pl-2">]]>• Logos, affiches, flyers, carte de visites, etc.<![CDATA[</span>]]><![CDATA[<br /><br />]]>
             <![CDATA[<b>]]>Formats de livraisons :<![CDATA[</b>]]><![CDATA[<br />]]>
-            <![CDATA[<span class="pl-2">]]>• Image Bitmap ou Vectoriel<![CDATA[</span>]]>
+            <![CDATA[<span class="pl-2">]]>• Image matriciel ou Vectoriel<![CDATA[</span>]]>
         </target>
       </trans-unit>
 
@@ -642,6 +642,11 @@
       </trans-unit>
 
 
+      <trans-unit id="text.voir.page.wikipedia">
+        <source>text.voir.page.wikipedia</source>
+        <target>Voir la page wikipedia</target>
+      </trans-unit>
+
       <trans-unit id="texte.technology.php.title">
         <source>texte.technology.php.title</source>
         <target>PHP</target>
@@ -835,7 +840,7 @@
             Pour mes créations graphiques, j'utlise la suite Adobe qui fournis un grand nombre d’applications et de services pour la création graphique, le web, l’UX design ou encore la vidéo et la photographie.<![CDATA[<br />]]>
             J'utilise principalement les logiciels suivants :
             <![CDATA[<p class="pl-2">]]>
-                • « Illustrator » pour les créations de types images vectorielles et « Photoshop » pour les créations de types images bitmap.<![CDATA[<br />]]>
+                • « Illustrator » pour les créations de types images vectorielles et « Photoshop » pour les créations de types images matriciel.<![CDATA[<br />]]>
                 • « Animate » pour mes différentes animations web (tel que celles présentes sur ce site).<![CDATA[<br />]]>
                 • « Lightroom » pour mes retouches photos et « Premiere Pro » pour mes montages vidéos.
             <![CDATA[</p>]]>

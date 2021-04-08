@@ -137,18 +137,18 @@ img {
 }
 
 .shadow {
-    -webkit-box-shadow:0 0 20px rgba(0, 0, 0, .1);
-    box-shadow:0 0 20px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
 }
 
 .shadow-top {
-    -webkit-box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
-    box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, .1);
+    box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, .1);
 }
 
 .shadow-bottom {
-    -webkit-box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
-    box-shadow:0 -20px 20px -20px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, .1);
+    box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, .1);
 }
 
 .sprite.bg-gray {
@@ -246,10 +246,10 @@ img {
 }
 
 .sd-title > h5 {
-    color:#2c3e50;
-    border-bottom:1px solid #ccc;
-    padding-bottom:10px;
-    margin-bottom:45px;
+    color: #2c3e50;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
 
     -webkit-transition: all .25s linear;
     -moz-transition: all .25s linear;
@@ -259,19 +259,19 @@ img {
 }
 
 .sd-section .content:hover .sd-title > h5 {
-    color:#bc3838;
-    border-bottom:1px solid #bc3838;
+    color: #bc3838;
+    border-bottom: 1px solid #bc3838;
 }
 
 .sd-circle {
-    color:#2c3e50;
-    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .05);
-    box-shadow:0 0 10px rgba(0, 0, 0, .05);
-    position:relative;
-    background-color:#fff;
-    border-radius:100px;
-    height:80px;
-    width:80px;
+    color: #2c3e50;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    position: relative;
+    background-color: #fff;
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
 
     z-index: 1;
 
@@ -283,19 +283,19 @@ img {
 }
 
 .sd-section .content:hover .sd-circle {
-    color:#fff;
-    background-color:#bc3838;
-    -webkit-box-shadow:0 0 20px rgba(0, 0, 0, .1);
-    box-shadow:0 0 20px rgba(0, 0, 0, .1);
+    color: #fff;
+    background-color: #bc3838;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
 }
 
 .sd-circle > svg {
-    position:absolute;
-    top:50%;
-    left:50%;
-    right:50%;
-    bottom:50%;
-    transform:translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -319,61 +319,59 @@ img {
     transition: all .15s ease;
 }
 .sd-button:focus {
-    outline:none;
+    outline: none;
     -webkit-box-shadow: 0 0 0 1.5px hsla(0,0%,100%,.75),0 0 0 1.25px rgba(82,95,127,.5) inset,0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
     box-shadow: 0 0 0 1.5px hsla(0,0%,100%,.75),inset 0 0 0 1.25px rgba(82,95,127,.5),0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
 }
 
 .sd-button:focus,.sd-button:hover {
-    color:#7795f8;
-    -webkit-transform:translateY(-1px);
-    transform:translateY(-1px);
-    -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    color: #7795f8;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
     -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
     box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
 }
 
 .sd-button:active {
-    color:#555abf;
-    background-color:#f6f9fc;
-    -webkit-transform:translateY(1px);
-    transform:translateY(1px);
-    -webkit-box-shadow:0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3);
-    box-shadow:0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3)
+    color: #555abf;
+    background-color: #f6f9fc;
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    -webkit-box-shadow: 0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3);
+    box-shadow: 0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3)
 }
 
 .sd-button-default {
-    color:#2c3e50;
-    background-color:#fcf9f9;
+    color: #2c3e50;
+    background-color: #fcf9f9;
 }
 
 .sd-button-default:focus,
 .sd-button-default:hover,
 .sd-button-default:active {
-    color:#bc3838;
-    background-color:#fff;
+    color: #bc3838;
+    background-color: #fff;
 }
 
 .sd-button-disabled {
-    color:#fff;
-    background:#aab7c4;
-    pointer-events:none;
+    color: #fff;
+    background: #aab7c4;
+    pointer-events: none;
 }
 
-.sd-button>svg.fa-1-5x {
-    margin-bottom:-3px;
-    margin-right:8px;
+.sd-button > svg.fa-1-5x {
+    margin-bottom: -3px;
+    margin-right: 8px;
 }
 
 .sd-section .content:not(:hover) .sd-button-default {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .sd-section .content:not(:hover) .sd-button-default:focus,
 .sd-section .content:not(:hover) .sd-button-default:hover,
 .sd-section .content:not(:hover) .sd-button-default:active {
-    background-color:#fcf9f9;
+    background-color: #fcf9f9;
 }
 
 .fa-1-5x {

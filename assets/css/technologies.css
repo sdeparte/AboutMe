@@ -1,6 +1,55 @@
 .sd-section .content .technologie {
+    position: relative;
     display: flex;
     align-items: center;
+}
+
+.sd-section .content .technologie > a.sd-button {
+    overflow: hidden;
+    font-weight: initial;
+    text-transform: initial;
+    bottom: initial;
+    top: 5px;
+    right: 0px;
+    height: 28px;
+    line-height: 30px;
+    padding: 0 7px;
+}
+
+.sd-section .content .technologie > a.sd-button:hover {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.sd-section .content .technologie > a.sd-button > svg.fa-1-5x {
+    padding: 0 5px 0 5px;
+    border-right: 1px solid transparent;
+    margin-right: 0px;
+
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.sd-section .content .technologie > a.sd-button:hover > svg.fa-1-5x {
+    padding: 0 8px 0 2px;
+    border-right: 1px solid #cccccc;
+    margin-right: 5px;
+}
+
+.sd-section .content .technologie > a.sd-button > div {
+    display: inline-block;
+    margin-left: -5px;
+    max-width: 0px;
+    opacity: 0;
+
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.sd-section .content .technologie > a.sd-button:hover > div {
+    max-width: 1000px;
+    margin-left: 0px;
+    opacity: 1;
 }
 
 .sd-section .content .technologie > .dev-plugin {
@@ -9,7 +58,7 @@
 }
 
 .sd-section .content .technologie > .text-justify {
-    margin: 0 30px;
+    margin-left: 30px;
 }
 
 @media (max-width: 1199.98px) {
