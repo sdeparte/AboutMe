@@ -1,3 +1,7 @@
+body {
+    background-color: #fff;
+}
+
 .sd-section .content .technologie {
     position: relative;
     display: flex;

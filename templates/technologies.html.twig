@@ -21,8 +21,8 @@
 
     <div class="sd-rubrique bg-white pt-4 pb-4">
         <div class="row sd-section">
-            <div class="col-md-12">
-                <div id="languages" class="content show-in-ariane">
+            <div id="languages" class="col-md-12">
+                <div class="content show-in-ariane">
                     <div class="sd-circle float-left m-2 mr-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="laptop" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-laptop fa-w-20 fa-2-5x"><g class="fa-group"><path fill="currentColor" d="M528 0H112a48.14 48.14 0 0 0-48 48v336h512V48a48.14 48.14 0 0 0-48-48zm-16 320H128V64h384z" class="fa-secondary"></path><path fill="currentColor" d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33-17.47-32.77-32H16a16 16 0 0 0-16 16v16a64.19 64.19 0 0 0 64 64h512a64.19 64.19 0 0 0 64-64v-16a16 16 0 0 0-16-16zM512 64H128v256h384zM289 250.34l-11.31 11.31a16 16 0 0 1-22.63 0l-58.35-58.34a16 16 0 0 1 0-22.63L255 122.34a16 16 0 0 1 22.63 0L289 133.65a16 16 0 0 1 0 22.63L253.25 192 289 227.71a16 16 0 0 1 0 22.63zm154.35-47L385 261.66a16 16 0 0 1-22.63 0L351 250.35a16 16 0 0 1 0-22.63L386.75 192 351 156.29a16 16 0 0 1 0-22.63l11.31-11.31a16 16 0 0 1 22.63 0l58.34 58.34a16 16 0 0 1 .04 22.63z" class="fa-primary"></path></g></svg>
                     </div>
@@ -31,7 +31,7 @@
                             {{ 'title.languages.de.developpements'|trans }}
                         </h5>
 
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -42,7 +42,7 @@
                                 {{ 'texte.technology.php.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Symfony" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -53,7 +53,7 @@
                                 {{ 'texte.technology.symfony.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Programmation_web" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -64,7 +64,7 @@
                                 {{ 'texte.technology.html.css.js.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/MySQL" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -75,7 +75,7 @@
                                 {{ 'texte.technology.mysql.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Java_(langage)" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -86,7 +86,7 @@
                                 {{ 'texte.technology.java.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Flutter_(logiciel)" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -97,7 +97,7 @@
                                 {{ 'texte.technology.flutter.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix p-3">
+                        <div class="technologie clearfix p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Microsoft_.NET" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -121,7 +121,7 @@
                             {{ 'title.environnements.systemes.expoitations'|trans }}
                         </h5>
 
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Microsoft_Windows" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -132,7 +132,7 @@
                                 {{ 'texte.technology.windows.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Ubuntu_(syst%C3%A8me_d%27exploitation)" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -143,7 +143,7 @@
                                 {{ 'texte.technology.linux.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Android" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -154,7 +154,7 @@
                                 {{ 'texte.technology.android.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix p-3">
+                        <div class="technologie clearfix p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/IOS" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -178,7 +178,7 @@
                             {{ 'title.tools.softwares'|trans }}
                         </h5>
 
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/JetBrains" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -189,7 +189,7 @@
                                 {{ 'texte.technology.intelliJ.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Android_Studio" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -200,7 +200,7 @@
                                 {{ 'texte.technology.androidStudio.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix gray-border-bottom p-3">
+                        <div class="technologie clearfix gray-border-bottom p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/GitHub" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
@@ -211,7 +211,7 @@
                                 {{ 'texte.technology.git.description'|trans|raw }}
                             </div>
                         </div>
-                        <div class="technologie clearfix p-3">
+                        <div class="technologie clearfix p-3 animation-element from-bottom">
                             <a href="https://fr.wikipedia.org/wiki/Adobe" target="_blank" class="sd-button sd-button-default float-right">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="wikipedia-w" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-wikipedia-w fa-w-20 fa-1-5x"><path fill="currentColor" d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" class=""></path></svg>
                                 <div>{{ 'text.voir.page.wikipedia'|trans }}</div>
