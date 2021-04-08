@@ -745,7 +745,8 @@
       <trans-unit id="texte.technology.windows.description">
         <source>texte.technology.windows.description</source>
         <target>
-            À remplir
+            Pour ma société d'Auto-Entreprise, j'utilise mon ordinateur personnel qui est sous le système d'éxploitation « Windows 10 ».<![CDATA[<br />]]>
+            Les systèmes d'exploitations Windows sont les plus utilisés dans les entreprises Françaises.
         </target>
       </trans-unit>
 
@@ -756,7 +757,8 @@
       <trans-unit id="texte.technology.linux.description">
         <source>texte.technology.linux.description</source>
         <target>
-            À remplir
+            Au sein de la société ProwebCE, j'utilise un ordinateur portable faisant tourner le système d'éxploitation « Ubuntu », la distribution Linux la plus utilisé dans le monde.<![CDATA[<br />]]>
+            L'un des grands avantages de ce dernier réside dans ses version de « support à long terme » (LTS), plus particulièrement optimisées, stables et supportées durant cinq ans.
         </target>
       </trans-unit>
 
@@ -767,7 +769,8 @@
       <trans-unit id="texte.technology.android.description">
         <source>texte.technology.android.description</source>
         <target>
-            À remplir
+            Ce système d'éxploitation mobile, fondé sur le noyau Linux et développé par Google est le système d'exploitation mobile le plus utilisé dans le monde, avec plus de 80 % de parts de marché dans les smartphones.<![CDATA[<br />]]>
+            Il possède l'avantage d'être bien plus ouvert que son concurant iOS, étant donnée que son code est Open source.
         </target>
       </trans-unit>
 
@@ -778,18 +781,23 @@
       <trans-unit id="texte.technology.ios.description">
         <source>texte.technology.ios.description</source>
         <target>
-            À remplir
+            Ce système d'éxploitation mobile est dérivé de macOS et développé par Apple destiné à plusieurs de ses appareils (notamment les iPhones et iPads).<![CDATA[<br />]]>
+            Bien que plus fermé que son concurant Android, il est néanmoins plus optimisé du fait qu'il ne soit destiné que pour les appareils de la firme.
         </target>
       </trans-unit>
 
       <trans-unit id="texte.technology.intelliJ.title">
         <source>texte.technology.intelliJ.title</source>
-        <target>SUITE INTELLI-J</target>
+        <target>SUITE JETBRAINS</target>
       </trans-unit>
       <trans-unit id="texte.technology.intelliJ.description">
         <source>texte.technology.intelliJ.description</source>
         <target>
-            À remplir
+            J'utilise les EDI de la suite JetBrains pour développer, ils sont conçu de façon à optimiser la productivité des développeurs.
+            <![CDATA[<p class="pl-2">]]>
+                • J'utilise l'EDI « PphStorm » pour développer mes sites web PHP / Symfony.<![CDATA[<br />]]>
+                • Le « IntelliJ IDEA » pour développer mes applications en Java (uniquement bureautique).
+            <![CDATA[</p>]]>
         </target>
       </trans-unit>
 
@@ -800,7 +808,8 @@
       <trans-unit id="texte.technology.androidStudio.description">
         <source>texte.technology.androidStudio.description</source>
         <target>
-            À remplir
+            J'utilise cette EDI conçu en association entre Google et JetBrains pour développer mes applications mobiles quels soit codés en Java (Android uniquement) ou bien en Flutter (Multi-Plateforme).<![CDATA[<br />]]>
+            Il a l'avantage interface très similaire à celle des autres EDI de la suite JetBrains que j'utilise pour mes autres projets web et bureautiques.
         </target>
       </trans-unit>
 
@@ -811,7 +820,8 @@
       <trans-unit id="texte.technology.git.description">
         <source>texte.technology.git.description</source>
         <target>
-            À remplir
+            Pour gérer mes versions lors de mes développements, j'utilise le service d'hébergement et de gestion de développement de logiciels intitulé « GitHub » conjointement avec le logiciel de gestion de versions « Git ».<![CDATA[<br />]]>
+            Il me permet aussi simplifier mes déploiements en production, ainsi que mes livraisons de codes.
         </target>
       </trans-unit>
 
@@ -822,7 +832,13 @@
       <trans-unit id="texte.technology.adobe.description">
         <source>texte.technology.adobe.description</source>
         <target>
-            À remplir
+            Pour mes créations graphiques, j'utlise la suite Adobe qui fournis un grand nombre d’applications et de services pour la création graphique, le web, l’UX design ou encore la vidéo et la photographie.<![CDATA[<br />]]>
+            J'utilise principalement les logiciels suivants :
+            <![CDATA[<p class="pl-2">]]>
+                • « Illustrator » pour les créations de types images vectorielles et « Photoshop » pour les créations de types images bitmap.<![CDATA[<br />]]>
+                • « Animate » pour mes différentes animations web (tel que celles présentes sur ce site).<![CDATA[<br />]]>
+                • « Lightroom » pour mes retouches photos et « Premiere Pro » pour mes montages vidéos.
+            <![CDATA[</p>]]>
         </target>
       </trans-unit>
 
