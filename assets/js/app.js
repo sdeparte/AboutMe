@@ -26,6 +26,8 @@ $(document).ready(function() {
         }
     });
 
+    showWhenInView();
+
     $(window).scroll(function() {
         showWhenInView();
     });
@@ -35,7 +37,9 @@ $(document).ready(function() {
         showWhenInView();
     });
 
-    showWhenInView();
+    $('#navbarSupportedContent').on('hidden.bs.collapse', function() {
+        calculeNavBarHeight();
+    });
 });
 
 function calculeNavBarHeight() {

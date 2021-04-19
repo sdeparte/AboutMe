@@ -45,13 +45,15 @@ img {
 }
 
 .animation-element {
-    opacity: 0;
+    -webkit-transition: opacity .25s linear, transform .25s linear;
+    -moz-transition: opacity .25s linear, transform .25s linear;
+    -ms-transition: opacity .25s linear, transform .25s linear;
+    -o-transition: opacity .25s linear, transform .25s linear;
+    transition: opacity .25s linear, transform .25s linear;
+}
 
-    -webkit-transition: all .25s linear;
-    -moz-transition: all .25s linear;
-    -ms-transition: all .25s linear;
-    -o-transition: all .25s linear;
-    transition: all .25s linear;
+.animation-element.in-view.parallax-6 {
+    transition-delay: .5s;
 }
 
 .animation-element.in-view.delay-2 {
@@ -72,6 +74,10 @@ img {
 
 .animation-element.in-view.delay-6 {
     transition-delay: .5s;
+}
+
+.animation-element.opacity {
+    opacity: 0;
 }
 
 .animation-element.from-right {

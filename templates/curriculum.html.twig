@@ -17,11 +17,11 @@
 {% endblock %}
 
 {% block content %}
-    <div id="me" class="bg-binary overflow-x-hidden">
-        <div class="sd-rubrique clearfix text-white">
+    <div id="me" class="bg-binary overflow-hidden">
+        <div id="me-global" class="sd-rubrique clearfix text-white">
             <div class="row p-4">
-                <div class="col-sm-12 col-md-6 col-lg-3 p-3 text-center">
-                    <div class="rounded-animation animation-element from-bottom">
+                <div id="me-head" class="col-sm-12 col-md-6 col-lg-3 p-3 text-center">
+                    <div class="rounded-animation animation-element opacity from-bottom once">
                         <div id="me360_animation_container">
                             <canvas id="me360_canvas"></canvas>
                             <div id="me360_dom_overlay_container"></div>
@@ -30,11 +30,11 @@
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-9 p-2 text-justify">
-                    <div class="sd-section-title text-white text-center animation-element from-bottom">
+                    <div id="me-name" class="sd-section-title text-white text-center animation-element opacity from-bottom once position-relative">
                         &lt;{{ 'text.prenom.nom'|trans }} /&gt;
                     </div>
 
-                    <div class="row row-infos animation-element from-bottom m-2 p-2">
+                    <div id="me-infos" class="row row-infos animation-element opacity from-bottom once m-2 p-2 position-relative">
                         <div class="col-md-12 col-lg-6 p-2">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="birthday-cake" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-birthday-cake fa-w-14 fa-1x mr-1"><g class="fa-group"><path fill="currentColor" d="M373.5 384c-28 0-31.39 32-74.75 32-43.55 0-46.6-32-74.75-32-27.28 0-31.66 32-74.5 32-43.5 0-46.8-32-74.75-32S43.36 416 0 416v96h448v-96c-43.25 0-47-32-74.5-32zM96 96c17.75 0 32-13.5 32-40S108 0 96 0c0 41-32 33-32 64a31.9 31.9 0 0 0 32 32zm128 0c17.75 0 32-13.5 32-40S236 0 224 0c0 41-32 33-32 64a31.9 31.9 0 0 0 32 32zm128 0c17.75 0 32-13.5 32-40S364 0 352 0c0 41-32 33-32 64a31.9 31.9 0 0 0 32 32z" class="fa-secondary"></path><path fill="currentColor" d="M448 384c-28 0-31.26-32-74.5-32-43.43 0-46.83 32-74.75 32-27.7 0-31.45-32-74.75-32-42.84 0-47.22 32-74.5 32-28.15 0-31.2-32-74.75-32S28.1 384 0 384v-80a48 48 0 0 1 48-48h16V112h64v144h64V112h64v144h64V112h64v144h16a48 48 0 0 1 48 48z" class="fa-primary"></path></g></svg>
                             : {{ 'text.date.naissance'|trans }}
@@ -53,7 +53,7 @@
                         </div>
                     </div>
 
-                    <div class="row p-4 animation-element from-bottom">
+                    <div id="me-text" class="row p-4 animation-element opacity from-bottom once position-relative">
                         <p>{{ 'text.description.p1'|trans }}</p>
                         <p>{{ 'text.description.p2'|trans }}</p>
                         <p>{{ 'text.description.p3'|trans }}</p>
@@ -63,27 +63,27 @@
         </div>
     </div>
 
-    <div class="sprite large shadow-top bg-white"></div>
+    <div id="top-sprite" class="sprite large shadow-top bg-white"></div>
 
     <div id="cursus">
         <div class="sprite reverse shadow-top bg-white"></div>
         <div class="clearfix sd-rubrique bg-white overflow-x-hidden">
-            <div id="timeline" class="animation-element from-bottom">
+            <div id="timeline" class="animation-element opacity from-bottom">
                 <div class="timeline-item timeline-small clearfix">
                     <div class="timeline-icon"></div>
 
                     <div class="d-none d-md-block timeline-title">
-                        <div class="pt-4 sd-section-title text-center animation-element from-left">
+                        <div class="pt-4 sd-section-title text-center animation-element opacity from-left">
                             &lt;{{ 'title.etudes'|trans }} /&gt;
                         </div>
 
-                        <div class="pt-4 right sd-section-title text-center animation-element from-right">
+                        <div class="pt-4 right sd-section-title text-center animation-element opacity from-right">
                             &lt;{{ 'title.experiences'|trans }} /&gt;
                         </div>
                     </div>
 
                     <div class="d-block d-md-none timeline-title">
-                        <div class="pt-4 sd-section-title text-center animation-element from-left">
+                        <div class="pt-4 sd-section-title text-center animation-element opacity from-left">
                             &lt;{{ 'title.etudes.experiences'|trans }} /&gt;
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             <div class="timeline-date-bottom">2019</div>
                         </div>
                     </div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -107,7 +107,7 @@
                         </div>
                         {{ 'texte.premiere.pro.description'|trans|raw }}
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -121,10 +121,10 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">2018</div>
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -138,10 +138,10 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">2017</div>
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -155,13 +155,13 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">
                             <div class="timeline-date-top">2014</div>
                             <div class="timeline-date-bottom">2013</div>
                         </div>
                     </div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -172,7 +172,7 @@
                         </div>
                         {{ 'texte.sst.description'|trans|raw }}
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -186,10 +186,10 @@
                 </div>
 
                 <div class="timeline-item timeline-small clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date"></div>
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -203,10 +203,10 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">2012</div>
                     </div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -217,7 +217,7 @@
                         </div>
                         {{ 'texte.cqpm.description'|trans|raw }}
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -231,8 +231,8 @@
                 </div>
 
                 <div class="timeline-item timeline-small clearfix">
-                    <div class="timeline-icon animation-element from-bottom"></div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-icon animation-element opacity from-bottom"></div>
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -246,13 +246,13 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">
                             <div class="timeline-date-top">2011</div>
                             <div class="timeline-date-bottom">2010</div>
                         </div>
                     </div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -263,7 +263,7 @@
                         </div>
                         {{ 'texte.bts.description'|trans|raw }}
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -277,13 +277,13 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">
                             <div class="timeline-date-top">2009</div>
                             <div class="timeline-date-bottom">2007</div>
                         </div>
                     </div>
-                    <div class="timeline-content animation-element from-left">
+                    <div class="timeline-content animation-element opacity from-left">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-graduate fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M351.75 168a128 128 0 0 1-255.5 0z" class="fa-secondary"></path><path fill="currentColor" d="M13.6 79.83l6.4 1.5v58.4c-7 4.19-12 11.5-12 20.27 0 8.4 4.6 15.4 11.1 19.71L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.27C51.4 175.42 56 168.42 56 160c0-8.79-5-16.1-12-20.29V87.12l52 12.53V136h256V99.65l82.3-19.82c18.2-4.41 18.2-27.1 0-31.5l-190.4-46a85.9 85.9 0 0 0-39.7 0L13.6 48.23c-18.1 4.39-18.1 27.19 0 31.6zm305.8 240.79L224 416l-95.4-95.4C57.1 323.73 0 382.23 0 454.42V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-9.6c0-72.17-57.1-130.67-128.6-133.78z" class="fa-primary"></path></g></svg>
                         </div>
@@ -294,7 +294,7 @@
                         </div>
                         {{ 'texte.bac.description'|trans|raw }}
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -308,10 +308,10 @@
                 </div>
 
                 <div class="timeline-item clearfix">
-                    <div class="timeline-icon animation-element from-bottom">
+                    <div class="timeline-icon animation-element opacity from-bottom">
                         <div class="timeline-date">2005</div>
                     </div>
-                    <div class="timeline-content right animation-element from-right">
+                    <div class="timeline-content right animation-element opacity from-right">
                         <div class="sd-circle float-left m-2 mr-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user-tie fa-w-14 fa-4x"><g class="fa-group"><path fill="currentColor" d="M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z" class="fa-secondary"></path><path fill="currentColor" d="M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" class="fa-primary"></path></g></svg>
                         </div>
@@ -334,12 +334,12 @@
     <div id="skills">
         <div class="sprite reverse shadow-top bg-flat"></div>
         <div class="sd-rubrique clearfix bg-flat text-white overflow-x-hidden">
-            <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
+            <div class="pt-4 sd-section-title text-white text-center animation-element opacity from-bottom">
                 &lt;{{ 'title.competences'|trans }} /&gt;
             </div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-right delay-2">
+                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element opacity from-right delay-2">
                     <svg viewBox="0 0 36 36" class="circular-chart">
                         <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
                         <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
@@ -348,7 +348,7 @@
                     <div class="chart-title">{{ 'texte.dev.web'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-right delay-3">
+                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element opacity from-right delay-3">
                     <svg viewBox="0 0 36 36" class="circular-chart">
                         <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
                         <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
@@ -357,7 +357,7 @@
                     <div class="chart-title">{{ 'texte.dev.bureautique'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-right delay-4">
+                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element opacity from-right delay-4">
                     <svg viewBox="0 0 36 36" class="circular-chart">
                         <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
                         <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
@@ -366,7 +366,7 @@
                     <div class="chart-title">{{ 'texte.dev.mobile'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element from-right delay-5">
+                <div class="col-sm-12 col-md-6 col-lg-3 single-chart animation-element opacity from-right delay-5">
                     <svg viewBox="0 0 36 36" class="circular-chart">
                         <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
                         <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
@@ -381,27 +381,27 @@
     <div id="hobbies">
         <div class="sprite shadow-top bg-flater"></div>
         <div class="sd-rubrique clearfix p-4 bg-flater text-white overflow-x-hidden">
-            <div class="pt-4 sd-section-title text-white text-center animation-element from-bottom">
+            <div class="pt-4 sd-section-title text-white text-center animation-element opacity from-bottom">
                 &lt;{{ 'title.hobbys'|trans }} /&gt;
             </div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-right delay-2">
+                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element opacity from-right delay-2">
                     <img src="{{ asset('hobbies/info.jpg') }}" alt="">
                     <div class="rounded-img-title">{{ 'texte.informatique.dev'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-right delay-3">
+                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element opacity from-right delay-3">
                     <img src="{{ asset('hobbies/fitness.jpg') }}" alt="">
                     <div class="rounded-img-title">{{ 'texte.muscu.fitness'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-right delay-4">
+                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element opacity from-right delay-4">
                     <img src="{{ asset('hobbies/mangas.jpg') }}" alt="">
                     <div class="rounded-img-title">{{ 'texte.manga.japon'|trans }}</div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element from-right delay-5">
+                <div class="col-sm-12 col-md-6 col-lg-3 p-2 rounded-img text-center animation-element opacity from-right delay-5">
                     <img src="{{ asset('hobbies/photo.jpg') }}" alt="">
                     <div class="rounded-img-title">{{ 'texte.photographie'|trans }}</div>
                 </div>
