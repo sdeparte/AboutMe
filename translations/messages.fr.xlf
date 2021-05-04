@@ -103,7 +103,7 @@
       <trans-unit id="text.presentation.p1">
         <source>text.presentation.p1</source>
         <target>
-            Je me nomme Sylvain DEPARTE, je suis diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisé dans la programmation des « Systèmes Embarqués ».
+            Je me nomme Sylvain DEPARTE, je suis diplômé d’un BTS IRIS (Informatique et Réseau pour les Industries et les Services) et d'une Licence Professionnelle (en alternance) spécialisée dans la programmation des « Systèmes Embarqués ».
             Actuellement Développeur en Auto-Entreprise en parallèle d'un poste des « Développeur PHP » au sein de la société ProwebCE.
         </target>
       </trans-unit>
@@ -112,14 +112,14 @@
         <target>
             Je suis passionné depuis l'enfance par le développement et plus particulièrement par le développement de sites internet, j’ai donc suivi une formation très orientée sur la programmation.
             Cela m'a permis de connaitre une grande variété de langages de programmation : C, C++, C#.NET, VB.NET, Java, Basic, Html, Css, PHP, JavaScript et bien d'autres.
-            Ces formations m’ont amené à réaliser de nombreux projets tel que des applications bureautiques, mobiles (sous Android) et des sites internet.
+            Ces formations m’ont amené à réaliser de nombreux projets tels que des applications bureautiques, mobiles (sous Android) et des sites internet.
             De plus, mon expérience professionnelle acquise en entreprise me permet de réaliser des projets complexes dans leurs globalités, depuis la définition des besoins jusqu’à la livraison au client.
         </target>
       </trans-unit>
       <trans-unit id="text.presentation.p3">
         <source>text.presentation.p3</source>
         <target>
-            En parallèle à mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux projets personnels tel que : des sites internet, des applications mobiles, ainsi que des créations graphiques.
+            En parallèle de mes études et ma vie professionnel, j’ai réalisé sur mon temps libre de nombreux projets personnels tels que : des sites internet, des applications mobiles, ainsi que des créations graphiques.
         </target>
       </trans-unit>
 
@@ -372,7 +372,7 @@
                 Depuis la conception matérielle et logicielle de systèmes informatiques à l'installation, maintenance et suivi des installations informatiques.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
-                Ce Matières dominantes : le Développement, l'Administration Réseau, la Physique Appliquée, ainsi que les Mathématiques.
+                Matières dominantes : le Développement, l'Administration Réseau, la Physique Appliquée, ainsi que les Mathématiques.
             <![CDATA[</p>]]>
         </target>
       </trans-unit>
@@ -517,7 +517,7 @@
         <target>
             <![CDATA[<p class="pl-3 pr-3 text-justify">]]>
                 Ma première mission était de developper un plugin pour le logiciel « MICROSOFT - VISIO ».
-                Ce plugin permet à la société « SIEMENS » de réaliser de manière automatique des plan de coupure à partir d'un schéma électrique existant.
+                Ce plugin permet à la société « SIEMENS » de réaliser de manière automatique des plans de coupure à partir d'un schéma électrique existant.
             <![CDATA[</p>]]>
             <![CDATA[<p class="pl-3 pr-3 text-justify small">]]>
                 Langages de programmation utilisés : VBA.
