@@ -3,9 +3,11 @@
 namespace App\Controller;
 
 use App\Entity\BigType;
+use App\Services\MenuCreator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class HomeController extends AbstractController
 {
@@ -17,7 +19,7 @@ class HomeController extends AbstractController
      *     requirements={"_locale": "en|fr"}
      * )
      */
-    public function index()
+    public function index(MenuCreator $menuCreator)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -26,7 +28,10 @@ class HomeController extends AbstractController
 
         return $this->render(
             'index.html.twig',
-            ['listBigTypes' => $listBigTypes]
+            [
+                'menu' => $menuCreator->generateMenu($listBigTypes),
+                'listBigTypes' => $listBigTypes,
+            ]
         );
     }
 
@@ -38,7 +43,7 @@ class HomeController extends AbstractController
      *     requirements={"_locale": "en|fr"}
      * )
      */
-    public function technologies()
+    public function technologies(MenuCreator $menuCreator)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -47,7 +52,10 @@ class HomeController extends AbstractController
 
         return $this->render(
             'technologies.html.twig',
-            ['listBigTypes' => $listBigTypes]
+            [
+                'menu' => $menuCreator->generateMenu($listBigTypes),
+                'listBigTypes' => $listBigTypes,
+            ]
         );
     }
 
@@ -59,7 +67,7 @@ class HomeController extends AbstractController
      *     requirements={"_locale": "en|fr"}
      * )
      */
-    public function realisations(Request $request)
+    public function realisations(MenuCreator $menuCreator, Request $request)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -85,6 +93,7 @@ class HomeController extends AbstractController
         return $this->render(
             'realisations.html.twig',
             [
+                'menu' => $menuCreator->generateMenu($listBigTypes),
                 'listCreations' => $listCreations,
                 'listBigTypes' => $listBigTypes,
             ]
@@ -99,7 +108,7 @@ class HomeController extends AbstractController
      *     requirements={"_locale": "en|fr"}
      * )
      */
-    public function curriculum()
+    public function curriculum(MenuCreator $menuCreator)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -108,7 +117,10 @@ class HomeController extends AbstractController
 
         return $this->render(
             'curriculum.html.twig',
-            ['listBigTypes' => $listBigTypes]
+            [
+                'menu' => $menuCreator->generateMenu($listBigTypes),
+                'listBigTypes' => $listBigTypes,
+            ]
         );
     }
 }

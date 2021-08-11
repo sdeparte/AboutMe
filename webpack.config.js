@@ -13,26 +13,28 @@ Encore
     // @ToDo: remove in prod
     .setPublicPath('/build')
     .setManifestKeyPrefix('build')
-    .addEntry('menu', './assets/js/menu.js')
-    .addEntry('ariane', './assets/js/ariane.js')
     .addEntry('app', './assets/js/app.js')
     .addEntry('homepage', './assets/js/homepage.js')
     .addEntry('technologies', './assets/js/technologies.js')
     .addEntry('realisations', './assets/js/realisations.js')
     .addEntry('curriculum', './assets/js/curriculum.js')
     .addEntry('bubbles', './assets/js/bubbles.js')
-    .addEntry('computer', './assets/js/computer.js')
-    .addEntry('smartphone', './assets/js/smartphone.js')
-    .addEntry('me360', './assets/js/me360.js')
     .addEntry('fontawesome', './assets/css/fontawesome/fontawesome.css')
     .addEntry('bootstrap', './assets/css/bootstrap/bootstrap.min.css')
+    .addEntry('computer', './assets/js/classes/ComputerAnimation.js')
+    .addEntry('smartphone', './assets/js/classes/SmartphoneAnimation.js')
+    .addEntry('me360', './assets/js/classes/Me360Animation.js')
     .splitEntryChunks()
+    .enableVueLoader()
     .enableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()
     .enableBuildNotifications()
     .autoProvidejQuery()
     .enableSourceMaps(!Encore.isProduction())
     .enableVersioning(Encore.isProduction())
+    .configureBabel((config) => {
+        config.plugins.push('@babel/plugin-proposal-class-properties');
+    })
     .configureBabelPresetEnv((config) => {
         config.useBuiltIns = 'usage';
         config.corejs = 3;

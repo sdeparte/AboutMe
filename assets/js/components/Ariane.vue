@@ -1,0 +1,135 @@
+<template>
+  <div>
+    <div id="ariane">
+      <nav class="ariane-bar" v-bind:class="{ active: isActive }">
+        <span class="sd-ariane-title">
+          <span class="sd-text"> {{ selected }} </span>
+          <span class="sd-icon"></span>
+        </span>
+        <ul id="ariane-menu">
+          <li v-for="item in JSON.parse(titles)">
+            <a v-bind:href="item.id">
+              {{ item.title }}
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="padding-ariane"></div>
+  </div>
+</template>
+
+<script>
+import $ from "jquery";
+import Statics from "../classes/Statics";
+
+export default {
+  name: "ariane",
+  props: ['titles'],
+  data() {
+    return {selected: '', isActive: false}
+  },
+  mounted() {
+    this.init();
+  },
+  methods: {
+    init() {
+      this.selected = JSON.parse(this.titles)[0].title;
+
+      $('#ariane > .ariane-bar').click(function(){
+        this.isActive = !this.isActive;
+      }.bind(this));
+
+      this.onScroll();
+
+      $(window).on('scroll', this.onScroll);
+    },
+    onScroll() {
+      $.each($('.show-in-ariane').toArray().reverse(), function (index, element) {
+        if (Statics.isShowInView(element)) {
+          this.selected = $('.sd-title > h5', $(element)).html();
+        }
+      }.bind(this));
+    },
+  }
+}
+</script>
+
+<style scoped>
+  #ariane{
+    position: fixed;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background-color: #34495e;
+    color: #fff;
+    height: 50px;
+    padding: 12px 20px;
+    z-index: 4;
+  }
+
+  #ariane>.ariane-bar>.sd-ariane-title{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  #ariane>.ariane-bar>.sd-ariane-title>.sd-icon{
+    display: block;
+    width: 13px;
+    height: 18px;
+    background: url('../../imgs/down-arrow-white.svg') no-repeat center center/13px 18px;
+    margin: 0 10px;
+    transition: .3s transform;
+  }
+
+  #ariane>.ariane-bar.active>.sd-ariane-title>.sd-icon{
+    transform: rotate(180deg);
+  }
+
+  #ariane>.ariane-bar>ul{
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .25);
+    box-shadow:0 0 10px rgba(0, 0, 0, .25);
+    background-color: #fff;
+    color: #2c3e50;
+
+    list-style-type: none;
+
+    padding: 0;
+    position: absolute;
+    top: calc(100% - 10px);
+    left: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: .3s opacity,.3s transform,0s visibility .3s;
+  }
+
+  #ariane>.ariane-bar.active>ul{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-1px);
+    transition-delay: 0s;
+  }
+
+  #ariane>.ariane-bar>ul>li{
+    padding: 15px 25px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #ariane>.ariane-bar>ul>li:hover{
+    background-color: #fafafa;
+    color: #bc3838;
+  }
+
+  #ariane>.ariane-bar>ul>li:last-child{
+    border-bottom: 0px;
+  }
+
+  .padding-ariane{
+    padding-bottom: 50px;
+  }
+</style>

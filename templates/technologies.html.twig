@@ -5,19 +5,17 @@
 {% block stylesheets %}
     {{ parent() }}
 
-    {{ encore_entry_link_tags('ariane') }}
     {{ encore_entry_link_tags('technologies') }}
 {% endblock %}
 
 {% block javascripts %}
     {{ parent() }}
 
-    {{ encore_entry_script_tags('ariane') }}
     {{ encore_entry_script_tags('technologies') }}
 {% endblock %}
 
 {% block content %}
-    {% include 'ariane.html.twig' with {'titles': {'languages': 'title.languages.de.developpements'|trans, 'environnements': 'title.environnements.systemes.expoitations'|trans, 'softwares': 'title.tools.softwares'|trans }} %}
+    {% include 'ariane.html.twig' with {'titles': [{ 'id': '#languages', 'title': 'title.languages.de.developpements'|trans }, { 'id': '#environnements', 'title': 'title.environnements.systemes.expoitations'|trans }, {'id': '#softwares', 'title': 'title.tools.softwares'|trans }]} %}
 
     <div class="sd-rubrique bg-white pt-4 pb-4">
         <div class="row sd-section">

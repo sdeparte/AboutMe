@@ -1,11 +1,19 @@
-import './menu';
+import Vue from 'vue';
 
 import '../css/app.css';
 
 import $ from 'jquery';
 import 'bootstrap';
 
+import Ariane from "./components/Ariane";
+import Navbar from "./components/Navbar";
+
 $(document).ready(function() {
+    new Vue({
+        el: '#app',
+        components: {Ariane, Navbar}
+    });
+
     $("a[href*=\\#]:not([href=\\#])").click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -31,6 +39,8 @@ $(document).ready(function() {
     $(window).scroll(function() {
         showWhenInView();
     });
+
+    calculeNavBarHeight();
 
     $(window).resize(function() {
         calculeNavBarHeight();
@@ -70,14 +80,6 @@ function showWhenInView() {
             $(this).addClass('in-view');
         } else {
             $(this).removeClass('in-view');
-        }
-    });
-
-    var arianeItems = $('.show-in-ariane').toArray().reverse()
-
-    $.each(arianeItems, function () {
-        if (isShowInView(window, this)) {
-            $('#ariane > .ariane-bar > .sd-ariane-title > .sd-text').html($('.sd-title > h5', $(this)).html());
         }
     });
 }
