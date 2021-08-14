@@ -2,9 +2,6 @@ import '../css/bubbles.css';
 
 import $ from 'jquery';
 
-var sens = -1;
-var wait = 20;
-
 $( document ).ready(function() {
     $(window).scroll(function() {
         var a = $(".js-plugin-block");

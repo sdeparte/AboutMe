@@ -7,11 +7,14 @@ import 'bootstrap';
 
 import Ariane from "./components/Ariane";
 import Navbar from "./components/Navbar";
+import ComputerAnimation from "./components/ComputerAnimation";
+import SmartphoneAnimation from "./components/SmartphoneAnimation";
+import Me360Animation from "./components/Me360Animation";
 
 $(document).ready(function() {
     new Vue({
         el: '#app',
-        components: {Ariane, Navbar}
+        components: {Ariane, Navbar, ComputerAnimation, SmartphoneAnimation, Me360Animation}
     });
 
     $("a[href*=\\#]:not([href=\\#])").click(function() {

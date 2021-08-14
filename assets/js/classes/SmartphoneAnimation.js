@@ -502,10 +502,3 @@ export default class SmartphoneAnimation {
         }.bind(this), 250);
     }
 }
-
-let smartphone = new SmartphoneAnimation();
-
-$(document).ready(function() {
-    smartphone.initAnimation();
-});
-

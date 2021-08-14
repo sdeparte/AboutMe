@@ -4809,9 +4809,3 @@ export default class ComputerAnimation {
         }.bind(this), 250);
     }
 }
-
-var computer = new ComputerAnimation();
-
-$(document).ready(function() {
-    computer.initAnimation();
-});

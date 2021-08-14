@@ -6868,9 +6868,3 @@ export default class Me360Animation {
         }.bind(this), 250);
     }
 }
-
-let me360 = new Me360Animation();
-
-$(document).ready(function() {
-    me360.initAnimation();
-});
