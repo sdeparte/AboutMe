@@ -9,10 +9,10 @@ doctrine:
     dbal:
         charset: UTF8
         driver: pdo_mysql
-        dbname: about-me
-        host: localhost
-        user: root
-        password: null
+        url: '%env(resolve:DATABASE_URL)%'
+        # Declared so that Doctrine never has to connect to guess it
+        # (console commands run while building the Docker image, without a database).
+        server_version: 'mariadb-11.4.0'
     orm:
         auto_generate_proxy_classes: true
         naming_strategy: doctrine.orm.naming_strategy.underscore
