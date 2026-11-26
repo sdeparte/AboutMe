@@ -1,0 +1,45 @@
+# About Me: Symfony 4.2 site + its own MariaDB.
+# Required variables (in .env.local next to this file, or in Coolify):
+#   APP_SECRET, DB_PASSWORD, DB_ROOT_PASSWORD
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      APP_ENV: prod
+      APP_SECRET: ${APP_SECRET:?APP_SECRET is required}
+      DATABASE_URL: mysql://about-me:${DB_PASSWORD:?DB_PASSWORD is required}@db:3306/about-me
+      MAILER_URL: ${MAILER_URL:-null://localhost}
+      CORS_ALLOW_ORIGIN: ${CORS_ALLOW_ORIGIN:-^https?://(about-me\.)?sdeparte\.com$}
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-10.0.0.0/8,172.16.0.0/12,192.168.0.0/16}
+    ports:
+      - "127.0.0.1:${APP_PORT:-8081}:80"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: about-me
+      MARIADB_USER: about-me
+      MARIADB_PASSWORD: ${DB_PASSWORD:?DB_PASSWORD is required}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?DB_ROOT_PASSWORD is required}
+    # The database is under 1 MB: keep MariaDB's memory footprint small.
+    command:
+      - --innodb-buffer-pool-size=32M
+      - --innodb-log-buffer-size=4M
+      - --max-connections=30
+      - --performance-schema=OFF
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      start_period: 300s
+      retries: 5
+
+volumes:
+  db_data:

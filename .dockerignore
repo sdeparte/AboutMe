@@ -1,0 +1,11 @@
+.git
+.idea
+node_modules
+vendor
+var
+public/build
+public/bundles
+.env.local
+.env.*.local
+docker-compose.override.yml
+compose.override.yaml
